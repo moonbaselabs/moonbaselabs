@@ -1,10 +1,4 @@
-@extends('_layouts.base')
-
-@push('meta')
-<meta property="og:title" content="{{ $page->title }}" />
-<meta property="og:type" content="website" />
-<meta property="og:description" content="{{ $page->description }}" />
-@endpush
+@extends('_layouts.page')
 
 @section('content')
 <div class="py-12 px-4 sm:px-6 lg:py-16 lg:px-8">

@@ -1,4 +1,4 @@
-@extends('_layouts.base')
+@extends('_layouts.page')
 
 @section('content')
 <div class="relative overflow-hidden">

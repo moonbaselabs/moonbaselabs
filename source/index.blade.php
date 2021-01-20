@@ -1,4 +1,4 @@
-@extends('_layouts.base', ['nav' => false])
+@extends('_layouts.base')
 
 @section('content')
 <div class="relative -mb-6 bg-gradient-to-r from-black-400 overflow-hidden">

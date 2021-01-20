@@ -3,7 +3,7 @@ pagination:
   collection: posts
   perPage: 9
 ---
-@extends('_layouts.base')
+@extends('_layouts.page')
 
 @section('content')
 <div class="relative overflow-hidden">
