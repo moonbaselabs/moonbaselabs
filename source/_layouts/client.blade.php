@@ -7,14 +7,14 @@
       <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">
         {{ $page->title }}
       </h2>
-      <p class="mt-3 text-xl text-sliver-500 sm:mt-4">
+      <p class="mt-3 text-xl text-silver-500 sm:mt-4">
         @yield('content')
       </p>
     </div>
     <x-hr class="mt-6" />
     <div class="mt-6 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-      @foreach ($page->projects($projects) as $project)
-        <x-project :project="$project" />
+      @foreach ($page->caseStudies($case_studies) as $caseStudy)
+        <x-case-study :case-study="$caseStudy" />
       @endforeach
     </div>
   </div>

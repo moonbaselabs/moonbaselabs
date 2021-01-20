@@ -1,12 +1,12 @@
 ---
-extends: _layouts.project
+extends: _layouts.case-study
 title: SafetyPlans.com
 description: Putting 27 years of safety consulting experience to work online, through an always-on web platform.
 date: 2018-06-25
-services: [development]
 client: iSi Environmental
+industry: Environmental Health & Safety
 url: https://www.safetyplans.com/
-image: /assets/images/projects/safety-plans-1.jpg
+image: /assets/images/case-studies/safety-plans-1.jpg
 ---
 
 ## The Vision
@@ -17,7 +17,7 @@ In our very first meeting with iSi, we laid out a rough vision for how they coul
 
 Our focus on a minimum viable product and feature set ensured that iSi's goals for the platform were met while leaving time and flexibility for changes and iterations to be made along the way.
 
-![Safety Plans](/assets/images/projects/safety-plans-2.jpg)
+![Safety Plans](/assets/images/case-studies/safety-plans-2.jpg)
 
 After a few collaborative sessions together, we helped iSi's team to build the foundational plans for SafetyPlans.com. The web-based tool would allow anyone to create and manage a custom safety program for their company in minutes. Most importantly, this would create a brand new **revenue stream** and **lead generation** source for iSi Environmental to capture new customers that they otherwise may not have reached.
 

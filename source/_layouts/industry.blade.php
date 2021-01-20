@@ -13,8 +13,8 @@
     </div>
     <x-hr class="mt-6" />
     <div class="mt-6 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-      @foreach ($page->posts($posts) as $post)
-        <x-post :post="$post" />
+      @foreach ($page->caseStudies($case_studies) as $caseStudy)
+        <x-case-study :case-study="$caseStudy" />
       @endforeach
     </div>
   </div>

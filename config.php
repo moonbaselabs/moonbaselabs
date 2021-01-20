@@ -21,15 +21,23 @@ return [
                 });
             },
         ],
-        'projects' => [
+        'case_studies' => [
             'sort' => '-date',
             'path' => '/case-studies/{filename}',
         ],
-        'services' => [
-            'path' => '/case-studies/services/{filename}',
-            'projects' => function ($page, $projects) {
-                return $projects->filter(function ($project) use ($page) {
-                    return $project->services ? in_array($page->getFilename(), $project->services, true) : false;
+        'clients' => [
+            'path' => '/clients/{filename}',
+            'caseStudies' => function ($page, $caseStudies) {
+                return $caseStudies->filter(function ($caseStudy) use ($page) {
+                    return $caseStudy->client ? $page->title === $caseStudy->client : false;
+                });
+            },
+        ],
+        'industries' => [
+            'path' => '/industries/{filename}',
+            'caseStudies' => function ($page, $caseStudies) {
+                return $caseStudies->filter(function ($caseStudy) use ($page) {
+                    return $caseStudy->industry ? $page->title === $caseStudy->industry : false;
                 });
             },
         ],

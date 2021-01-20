@@ -19,7 +19,7 @@ pagination:
         <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">
           The Blog
         </h2>
-        <p class="mt-3 text-xl text-sliver-500 sm:mt-4">
+        <p class="mt-3 text-xl text-silver-500 sm:mt-4">
           Transmissions from the moonbase.
         </p>
       </div>

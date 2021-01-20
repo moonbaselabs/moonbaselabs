@@ -12,7 +12,7 @@
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
         <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">Meet the Crew</h2>
-        <p class="text-xl text-sliver-500">We are explorers, tinkerers, painters, and poets.</p>
+        <p class="text-xl text-silver-500">We are explorers, tinkerers, painters, and poets.</p>
       </div>
       <ul class="mt-12 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
         <li class="py-10 px-6 bg-onyx-400 text-center rounded-lg xl:px-10 xl:text-left">
@@ -130,5 +130,5 @@
     </div>
   </div>
 </div>
-<x-cta.case-studies :projects="$projects" />
+<x-cta.case-studies :case-studies="$case_studies" />
 @endsection

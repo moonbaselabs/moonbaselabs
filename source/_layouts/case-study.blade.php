@@ -6,9 +6,14 @@
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
       <x-star-dust class="absolute bottom-0 left-1/2 transform -translate-y-32" />
       <div class="mx-auto text-base max-w-prose lg:max-w-none">
-        <h1 class="mt-2 mb-8 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">{{ $page->title }}</h1>
+        <div class="flex items-baseline space-x-2 text-navy-500 uppercase tracking-widest text-xs"><dt>Mission:</dt><dd>MLB#{{ substr(md5($page->getFilename()), 0, 5) }}</dd></div>
+        <h1 class="mt-2 text-3xl font-display font-extrabold tracking-tight text-white sm:text-4xl">{{ $page->title }}</h1>
+        <dl class="mt-4 space-y-2">
+          <div class="flex items-baseline space-x-2 text-silver-700 uppercase tracking-widest text-xs"><dt class="text-gray-700">Client:</dt><dd><a href="{{ '/industries/'.\Illuminate\Support\Str::slug($caseStudy->client) }}">{{ $page->client }}</a></dd></div>
+          <div class="flex items-baseline space-x-2 text-silver-700 uppercase tracking-widest text-xs"><dt class="text-gray-700">Industry:</dt><dd><a href="{{ '/industries/'.\Illuminate\Support\Str::slug($caseStudy->industry) }}">{{ $page->industry }}</a></dd></div>
+        </dl>
       </div>
-      <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+      <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
         <div class="relative mb-8 lg:mb-0 lg:row-start-1 lg:col-start-2">
           <x-orbit class="hidden lg:block absolute top-0 right-0 transform -translate-y-1/4 translate-x-1/2" width="404" height="404" />
           <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
@@ -21,7 +26,7 @@
         </div>
         <div class="relative">
           <div class="text-base max-w-prose mx-auto lg:max-w-none">
-            <p class="text-lg text-sliver-500 mb-5">{{ $page->description }}</p>
+            <p class="text-lg text-silver-500 mb-5">{{ $page->description }}</p>
           </div>
           <div class="prose mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
             @yield('content')

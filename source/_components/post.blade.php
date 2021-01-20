@@ -14,7 +14,7 @@
     <h3 class="mt-4 text-xl font-display font-semibold text-blue-300">
       {{ $post->title }}
     </h3>
-    <p class="mt-3 text-base text-sliver-700">
+    <p class="mt-3 text-base text-silver-700">
       {!! $post->getExcerpt(140) !!}
     </p>
   </a>
@@ -26,7 +26,7 @@
       <p class="text-sm font-medium text-white">
         {{ $post->author }}
       </p>
-      <div class="flex text-sm text-sliver-700">
+      <div class="flex text-sm text-silver-700">
         <time datetime="{{ $post->getDate()->format(DATE_W3C) }}">
           {{ $post->getDate()->format('M j, Y') }}
         </time>

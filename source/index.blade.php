@@ -48,7 +48,7 @@
           <br class="xl:hidden">
           <span class="text-orange-500">you in space.</span>
         </h2>
-        <p class="mt-3 max-w-md mx-auto text-base text-sliver-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        <p class="mt-3 max-w-md mx-auto text-base text-silver-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           Whoops, I made another a website this weekend, so that the team could get an idea of how a statically generated blog might look and feel.
         </p>
         <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
@@ -71,7 +71,7 @@
   <div class="relative max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl font-display font-extrabold text-white">All-in-one platform</h2>
-      <p class="mt-4 text-lg font-display text-sliver-600">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+      <p class="mt-4 text-lg font-display text-silver-600">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
     </div>
     <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
       <div class="flex space-x-3">
@@ -82,7 +82,7 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">Invite team members</dt>
           <dd class="flex space-x-3 lg:py-0 lg:pb-4">
-            <span class="text-base text-sliver-600">Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.</span>
+            <span class="text-base text-silver-600">Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.</span>
           </dd>
         </div>
       </div>
@@ -94,7 +94,7 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">Notifications</dt>
           <dd class="flex space-x-3">
-            <span class="text-base text-sliver-600">Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.</span>
+            <span class="text-base text-silver-600">Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.</span>
           </dd>
         </div>
       </div>
@@ -106,7 +106,7 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">List view</dt>
           <dd class="flex space-x-3">
-            <span class="text-base text-sliver-600">Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.</span>
+            <span class="text-base text-silver-600">Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.</span>
           </dd>
         </div>
       </div>
@@ -118,7 +118,7 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">Boards</dt>
           <dd class="flex space-x-3">
-            <span class="text-base text-sliver-600">Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.</span>
+            <span class="text-base text-silver-600">Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.</span>
           </dd>
         </div>
       </div>
@@ -130,7 +130,7 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">Keyboard shortcuts</dt>
           <dd class="flex space-x-3">
-            <span class="text-base text-sliver-600">Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.</span>
+            <span class="text-base text-silver-600">Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.</span>
           </dd>
         </div>
       </div>
@@ -142,7 +142,7 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">Reporting</dt>
           <dd class="flex space-x-3 lg:border-t-0 lg:py-0 lg:pb-4">
-            <span class="text-base text-sliver-600">Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.</span>
+            <span class="text-base text-silver-600">Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.</span>
           </dd>
         </div>
       </div>
@@ -154,7 +154,7 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">Calendars</dt>
           <dd class="flex space-x-3">
-            <span class="text-base text-sliver-600">Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.</span>
+            <span class="text-base text-silver-600">Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.</span>
           </dd>
         </div>
       </div>
@@ -166,12 +166,12 @@
         <div class="space-y-2">
           <dt class="text-lg font-medium text-white">Mobile app</dt>
           <dd class="flex space-x-3">
-            <span class="text-base text-sliver-600">Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.</span>
+            <span class="text-base text-silver-600">Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.</span>
           </dd>
         </div>
       </div>
     </dl>
   </div>
 </div>
-<x-cta.case-studies :projects="$projects" />
+<x-cta.case-studies :case-studies="$case_studies" />
 @endsection

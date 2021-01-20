@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="prose prose-lg text-sliver-500 mx-auto">
+    <div class="prose prose-lg text-silver-500 mx-auto">
       @yield('content')
     </div>
   </div>

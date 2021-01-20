@@ -1,12 +1,12 @@
 ---
-extends: _layouts.project
+extends: _layouts.case-study
 title: Essential CEU Institute
 description: Energizing an unstable software product and growing its user base by 10 times in one year.
 date: 2019-08-25
-services: [development]
 client: Essential CEU Institute
+industry: Health & Human Services
 url: http://www.essentialceu.institute/
-image: /assets/images/projects/essential-ceu-1.jpg
+image: /assets/images/case-studies/essential-ceu-1.jpg
 ---
 
 ## The Vision

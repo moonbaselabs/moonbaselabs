@@ -1,8 +1,3 @@
----
-pagination:
-  collection: projects
-  perPage: 9
----
 @extends('_layouts.page')
 
 @section('content')
@@ -19,14 +14,14 @@ pagination:
         <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">
           Case Studies
         </h2>
-        <p class="mt-3 text-xl text-sliver-500 sm:mt-4">
+        <p class="mt-3 text-xl text-silver-500 sm:mt-4">
           Successful journeys with current clients.
         </p>
       </div>
       <x-hr class="mt-12" />
       <div class="mt-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
-        @foreach ($pagination->items as $project)
-          <x-project :project="$project" />
+        @foreach ($case_studies as $caseStudy)
+          <x-case-study :case-study="$caseStudy" />
         @endforeach
       </div>
     </div>
