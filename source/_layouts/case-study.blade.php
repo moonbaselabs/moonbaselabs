@@ -9,8 +9,8 @@
         <div class="flex items-baseline space-x-2 text-navy-500 uppercase tracking-widest text-xs"><dt>Mission:</dt><dd>MLB#{{ substr(md5($page->getFilename()), 0, 5) }}</dd></div>
         <h1 class="mt-2 text-3xl font-display font-extrabold tracking-tight text-white sm:text-4xl">{{ $page->title }}</h1>
         <dl class="mt-4 space-y-2">
-          <div class="flex items-baseline space-x-2 text-silver-700 uppercase tracking-widest text-xs"><dt class="text-gray-700">Client:</dt><dd><a href="{{ '/industries/'.\Illuminate\Support\Str::slug($caseStudy->client) }}">{{ $page->client }}</a></dd></div>
-          <div class="flex items-baseline space-x-2 text-silver-700 uppercase tracking-widest text-xs"><dt class="text-gray-700">Industry:</dt><dd><a href="{{ '/industries/'.\Illuminate\Support\Str::slug($caseStudy->industry) }}">{{ $page->industry }}</a></dd></div>
+          <div class="flex items-baseline space-x-2 text-silver-700 uppercase tracking-widest text-xs"><dt class="text-gray-700">Client:</dt><dd><a href="{{ '/clients/'.\Illuminate\Support\Str::slug($page->client) }}">{{ $page->client }}</a></dd></div>
+          <div class="flex items-baseline space-x-2 text-silver-700 uppercase tracking-widest text-xs"><dt class="text-gray-700">Industry:</dt><dd><a href="{{ '/industries/'.\Illuminate\Support\Str::slug($page->industry) }}">{{ $page->industry }}</a></dd></div>
         </dl>
       </div>
       <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
