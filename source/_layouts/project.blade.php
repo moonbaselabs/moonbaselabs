@@ -6,7 +6,7 @@
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
       <x-star-dust class="absolute bottom-0 left-1/2 transform -translate-y-32" />
       <div class="mx-auto text-base max-w-prose lg:max-w-none">
-        <h1 class="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">{{ $page->title }}</h1>
+        <h1 class="mt-2 mb-8 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">{{ $page->title }}</h1>
       </div>
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <div class="relative mb-8 lg:mb-0 lg:row-start-1 lg:col-start-2">
@@ -21,7 +21,7 @@
         </div>
         <div class="relative">
           <div class="text-base max-w-prose mx-auto lg:max-w-none">
-            <p class="text-lg leading-7 text-white-500 mb-5">{{ $page->description }}</p>
+            <p class="text-lg leading-7 text-sliver-500 mb-5">{{ $page->description }}</p>
           </div>
           <div class="prose mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
             @yield('content')
@@ -31,7 +31,7 @@
             <nav class="mt-12 sm:flex justify-between text-sm sm:text-base leading-tight">
                 <div class="mr-4 mb-4">
                     @if ($next = $page->getNext())
-                        <a class="hover:text-gray-900 flex justify-start items-center" href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
+                        <a class="hover:text-white flex justify-start items-center" href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
                             <span class="flex-none mr-2">&LeftArrow;</span>
                             <span>{{ $next->title }}</span>
                         </a>
@@ -40,7 +40,7 @@
 
                 <div class="ml-4 mb-4">
                     @if ($previous = $page->getPrevious())
-                        <a class="hover:text-gray-900 flex justify-end items-center text-right" href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
+                        <a class="hover:text-white flex justify-end items-center text-right" href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
                             <span>{{ $previous->title }}</span>
                             <span class="flex-none ml-2">&RightArrow;</span>
                         </a>

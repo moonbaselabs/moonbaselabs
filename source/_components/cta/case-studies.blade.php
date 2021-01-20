@@ -8,8 +8,8 @@
               <span class="block">Ready to dive in?</span>
               <span class="block">Start your free trial today.</span>
             </h2>
-            <p class="mt-4 text-lg leading-6 text-white-500">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
-            <a href="/case-studies" class="mt-8 bg-white-500 border border-transparent rounded-md shadow px-6 py-3 inline-flex items-center text-base leading-6 font-medium text-blue-600 hover:text-blue-500 hover:bg-white transition duration-150 ease-in-out">Case Studies</a>
+            <p class="mt-4 text-lg leading-6 text-sliver-500">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+            <a href="/case-studies" class="mt-8 bg-sliver-500 border border-transparent rounded-md shadow px-6 py-3 inline-flex items-center text-base leading-6 font-medium text-blue-600 hover:text-blue-500 hover:bg-white transition duration-150 ease-in-out">Case Studies</a>
           </div>
         </div>
         <div class="relative pb-3/5 -mt-6 md:pb-1/2">

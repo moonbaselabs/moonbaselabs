@@ -1,10 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: {
     content: [
       'source/**/*.html',
@@ -16,24 +12,20 @@ module.exports = {
   theme: {
     colors: {
       transparent: 'transparent',
+      white: '#FFFFFF',
+      black: '#000000',
       gold: {
           300: '#DBC779',
           400: '#C2AF6B',
           500: '#A9995D',
           600: '#8F814F',
       },
-      'dark-blue': {
-          300: '#6F859E',
-          400: '#5D7085',
-          500: '#4B5A6B',
-      },
-      black: {
+      onyx: {
           300: '#4A5769',
           400: '#38424F',
           500: '#262D36',
       },
-      white: {
-          default: '#FFFFFF',
+      silver: {
           500: '#EDEFF1',
           600: '#D5D7D9',
           700: '#BCBEBF',
@@ -46,14 +38,6 @@ module.exports = {
           600: '#90979E',
           700: '#797F85',
           800: '#62666B',
-      },
-      'cool-gray': {
-          300: '#99A9BD',
-          400: '#8493A3',
-          500: '#6F7B89',
-          600: '#5B6570',
-          700: '#464E57',
-          800: '#32373D',
       },
       orange: {
           300: '#FF925C',

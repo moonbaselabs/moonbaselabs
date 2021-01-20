@@ -16,10 +16,10 @@ pagination:
   <div class="py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
       <div>
-        <h2 class="text-3xl leading-9 font-display font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+        <h2 class="text-3xl leading-9 font-display font-extrabold text-white sm:text-4xl sm:leading-10">
           The Blog
         </h2>
-        <p class="mt-3 text-xl leading-7 text-white-500 sm:mt-4">
+        <p class="mt-3 text-xl leading-7 text-sliver-500 sm:mt-4">
           Transmissions from the moonbase.
         </p>
       </div>
