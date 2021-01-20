@@ -11,9 +11,10 @@ module.exports = {
   },
   theme: {
     colors: {
-      transparent: 'transparent',
-      white: '#FFFFFF',
-      black: '#000000',
+      current: defaultTheme.colors.current,
+      transparent: defaultTheme.colors.transparent,
+      white: defaultTheme.colors.white,
+      black: defaultTheme.colors.black,
       gold: {
           300: '#DBC779',
           400: '#C2AF6B',
@@ -64,43 +65,43 @@ module.exports = {
           800: '#0D4163',
       },
     },
-    typography: (theme) => ({
-      default: {
-        css: {
-          color: theme('colors.white.500'),
-          a: {
-            color: theme('colors.gold.300'),
-          },
-          strong: {
-            color: theme('colors.white'),
-          },
-          code: {
-            color: theme('colors.green.300'),
-          },
-          pre: {
-            backgroundColor: theme('colors.black.400'),
-          },
-          img: {
-            borderRadius: theme('borderRadius.lg'),
-            boxShadow: theme('boxShadow.lg'),
-          },
-          blockquote: {
-            color: theme('colors.white'),
-            borderColor: theme('colors.blue.300'),
-          },
-          'h1, h2, h3, h4, h5, h6': {
-            color: theme('colors.blue.300'),
-          },
-        },
-      },
-    }),
     extend: {
       fontFamily: {
         sans: ['Barlow', ...defaultTheme.fontFamily.sans],
         display: ['Archivo', ...defaultTheme.fontFamily.sans],
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.silver.500'),
+            a: {
+              color: theme('colors.gold.300'),
+            },
+            strong: {
+              color: theme('colors.white'),
+            },
+            code: {
+              color: theme('colors.green.300'),
+            },
+            pre: {
+              backgroundColor: theme('colors.black.400'),
+            },
+            img: {
+              borderRadius: theme('borderRadius.lg'),
+              boxShadow: theme('boxShadow.lg'),
+            },
+            blockquote: {
+              color: theme('colors.white'),
+              borderColor: theme('colors.blue.300'),
+            },
+            'h1, h2, h3, h4, h5, h6': {
+              color: theme('colors.blue.300'),
+            },
+          },
+        },
+      }),
     },
   },
   variants: {},
-  plugins: [require('@tailwindcss/ui')],
+  plugins: [require('@tailwindcss/typography')],
 }

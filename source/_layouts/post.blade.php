@@ -5,19 +5,19 @@
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto">
       <x-star-dust class="absolute top-12 left-full transform translate-x-32" />
-      <x-star-dust class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" />
+      <x-star-dust class="absolute top-1/4 right-full transform -translate-x-32" />
       <x-star-dust class="absolute bottom-12 left-full transform translate-x-32" />
     </div>
   </div>
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-lg max-w-prose mx-auto mb-6">
-      <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">{{ $page->title }}</h1>
+      <h1 class="mt-2 mb-8 text-3xl text-center font-extrabold tracking-tight text-white sm:text-4xl">{{ $page->title }}</h1>
       <div class="sm:flex justify-between items-start mt-4">
         <time class="my-2 inline-block mr-8 leading-none text-gray-600 text-xs uppercase tracking-wide" datetime="{{ $page->getDate()->format(DATE_W3C) }}">{{ date('F j, Y', $page->date) }}</time>
         <div>
           @foreach ($page->tags as $tag)
             <a href="{{ '/blog/tags/'.$tag }}" class="inline-block">
-              <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-blue-300 text-onyx-500">
+              <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-300 text-onyx-500">
                 {{ $tag }}
               </span>
             </a>

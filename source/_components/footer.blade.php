@@ -2,17 +2,17 @@
   <div class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden space-y-8 sm:px-6 lg:px-8">
     <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
       <div class="px-5 py-2">
-        <a href="/about" class="text-base leading-6 text-gray-300 hover:text-white">
+        <a href="/about" class="text-base text-gray-300 hover:text-white">
           About
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/case-studies" class="text-base leading-6 text-gray-300 hover:text-white">
+        <a href="/case-studies" class="text-base text-gray-300 hover:text-white">
           Case Studies
         </a>
       </div>
       <div class="px-5 py-2">
-        <a href="/blog" class="text-base leading-6 text-gray-300 hover:text-white">
+        <a href="/blog" class="text-base text-gray-300 hover:text-white">
           Blog
         </a>
       </div>
@@ -49,7 +49,7 @@
         </svg>
       </a>
     </div>
-    <p class="mt-8 text-center text-base leading-6 text-gray-400">
+    <p class="mt-8 text-center text-base text-gray-400">
       &copy; {{ date('Y') }} Moonbase Labs. All rights reserved.
     </p>
   </div>

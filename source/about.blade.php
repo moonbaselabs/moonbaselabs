@@ -4,22 +4,22 @@
 <div class="relative overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto">
-      <x-star-dust class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" />
+      <x-star-dust class="absolute top-0 right-full transform -translate-x-32" />
       <x-star-dust class="absolute bottom-0 left-full transform" />
     </div>
   </div>
   <div class="py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-        <h2 class="text-3xl leading-9 font-display font-extrabold text-white sm:text-4xl">Meet the Crew</h2>
-        <p class="text-xl leading-7 text-sliver-500">We are explorers, tinkerers, painters, and poets.</p>
+        <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">Meet the Crew</h2>
+        <p class="text-xl text-sliver-500">We are explorers, tinkerers, painters, and poets.</p>
       </div>
       <ul class="mt-12 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
         <li class="py-10 px-6 bg-onyx-400 text-center rounded-lg xl:px-10 xl:text-left">
           <div class="space-y-6 xl:space-y-10">
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/ted-kriwiel.jpg" alt="Ted Kriwiel">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-              <div class="font-medium text-lg leading-6 space-y-1">
+              <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Ted Kriwiel</h4>
                 <p class="text-gold-300">CEO</p>
               </div>
@@ -42,7 +42,7 @@
           <div class="space-y-6 xl:space-y-10">
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/nic-wentling.jpg" alt="Nic Wentling">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-              <div class="font-medium text-lg leading-6 space-y-1">
+              <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Nic Wentling</h4>
                 <p class="text-gold-300">Principal & CTO</p>
               </div>
@@ -65,7 +65,7 @@
           <div class="space-y-6 xl:space-y-10">
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/christian-taylor.jpg" alt="Christian Taylor">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-              <div class="font-medium text-lg leading-6 space-y-1">
+              <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Christian Taylor</h4>
                 <p class="text-gold-300">Senior Software Engineer</p>
               </div>
@@ -87,7 +87,7 @@
           <div class="space-y-6 xl:space-y-10">
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/benny-bowden.jpg" alt="Benny Bowden">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-              <div class="font-medium text-lg leading-6 space-y-1">
+              <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Benny Bowden</h4>
                 <p class="text-gold-300">Product Designer</p>
               </div>
@@ -109,7 +109,7 @@
           <div class="space-y-6 xl:space-y-10">
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/nick-thompson.jpg" alt="Nick Thompson">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-              <div class="font-medium text-lg leading-6 space-y-1">
+              <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Nick Thompson</h4>
                 <p class="text-gold-300">Data Analyst</p>
               </div>

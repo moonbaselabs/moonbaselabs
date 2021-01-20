@@ -23,17 +23,17 @@
           </a>
           <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
             <div class="px-5 py-2">
-              <a href="/about" class="text-base leading-6 {{ $page->isActive('/about') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
+              <a href="/about" class="text-base {{ $page->isActive('/about') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
                 About
               </a>
             </div>
             <div class="px-5 py-2">
-              <a href="/case-studies" class="text-base leading-6 {{ $page->isActive('/case-studies') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
+              <a href="/case-studies" class="text-base {{ $page->isActive('/case-studies') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
                 Case Studies
               </a>
             </div>
             <div class="px-5 py-2">
-              <a href="/blog" class="text-base leading-6 {{ $page->isActive('/blog') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
+              <a href="/blog" class="text-base {{ $page->isActive('/blog') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
                 Blog
               </a>
             </div>
@@ -53,12 +53,12 @@
         </p>
         <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div class="rounded-md shadow">
-            <a href="/about" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-500 hover:bg-green-400 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+            <a href="/about" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-400 focus:outline-none focus:border-blue-700 focus:ring-blue-500 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
               Meet the Crew
             </a>
           </div>
           <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <a href="/case-studies" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-400 bg-onyx-300 hover:text-gray-300 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+            <a href="/case-studies" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-400 bg-onyx-300 hover:text-gray-300 focus:outline-none focus:border-blue-300 focus:ring-blue-500 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
               Start a Mission
             </a>
           </div>
@@ -70,19 +70,19 @@
 <div class="bg-onyx-500">
   <div class="relative max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl leading-9 font-display font-extrabold text-white">All-in-one platform</h2>
-      <p class="mt-4 text-lg leading-7 font-display text-sliver-600">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+      <h2 class="text-3xl font-display font-extrabold text-white">All-in-one platform</h2>
+      <p class="mt-4 text-lg font-display text-sliver-600">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
     </div>
-    <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:col-gap-6 sm:row-gap-12 lg:grid-cols-4 lg:col-gap-8">
+    <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
       <div class="flex space-x-3">
         <!-- Heroicon name: check -->
         <svg class="flex-shrink-0 h-6 w-6 text-green-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">Invite team members</dt>
+          <dt class="text-lg font-medium text-white">Invite team members</dt>
           <dd class="flex space-x-3 lg:py-0 lg:pb-4">
-            <span class="text-base leading-6 text-sliver-600">Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.</span>
+            <span class="text-base text-sliver-600">Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.</span>
           </dd>
         </div>
       </div>
@@ -92,9 +92,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">Notifications</dt>
+          <dt class="text-lg font-medium text-white">Notifications</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-sliver-600">Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.</span>
+            <span class="text-base text-sliver-600">Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.</span>
           </dd>
         </div>
       </div>
@@ -104,9 +104,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">List view</dt>
+          <dt class="text-lg font-medium text-white">List view</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-sliver-600">Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.</span>
+            <span class="text-base text-sliver-600">Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.</span>
           </dd>
         </div>
       </div>
@@ -116,9 +116,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">Boards</dt>
+          <dt class="text-lg font-medium text-white">Boards</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-sliver-600">Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.</span>
+            <span class="text-base text-sliver-600">Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.</span>
           </dd>
         </div>
       </div>
@@ -128,9 +128,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">Keyboard shortcuts</dt>
+          <dt class="text-lg font-medium text-white">Keyboard shortcuts</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-sliver-600">Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.</span>
+            <span class="text-base text-sliver-600">Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.</span>
           </dd>
         </div>
       </div>
@@ -140,9 +140,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">Reporting</dt>
+          <dt class="text-lg font-medium text-white">Reporting</dt>
           <dd class="flex space-x-3 lg:border-t-0 lg:py-0 lg:pb-4">
-            <span class="text-base leading-6 text-sliver-600">Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.</span>
+            <span class="text-base text-sliver-600">Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.</span>
           </dd>
         </div>
       </div>
@@ -152,9 +152,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">Calendars</dt>
+          <dt class="text-lg font-medium text-white">Calendars</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-sliver-600">Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.</span>
+            <span class="text-base text-sliver-600">Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.</span>
           </dd>
         </div>
       </div>
@@ -164,9 +164,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
         </svg>
         <div class="space-y-2">
-          <dt class="text-lg leading-6 font-medium text-white">Mobile app</dt>
+          <dt class="text-lg font-medium text-white">Mobile app</dt>
           <dd class="flex space-x-3">
-            <span class="text-base leading-6 text-sliver-600">Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.</span>
+            <span class="text-base text-sliver-600">Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.</span>
           </dd>
         </div>
       </div>
