@@ -17,6 +17,8 @@
         <meta name="twitter:creator" content="@moonbaselabs">
         <meta name="twitter:image" content="">
         <meta name="twitter:image:alt" content="">
+        <link rel="webmention" href="https://webmention.io/www.moonbaselabs.com/webmention" />
+        <link rel="pingback" href="https://webmention.io/www.moonbaselabs.com/xmlrpc" />
         <x-custom-font src="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap" />
         <link rel="stylesheet" href="{{ mix('css/main.css') }}">
     </head>
