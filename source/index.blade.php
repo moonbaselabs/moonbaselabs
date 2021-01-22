@@ -6,7 +6,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  transform: rotate3d(1.25, 1, 1, 90deg);
+  transform: rotate3d(1, .1, 0, 75deg);
   transform-style: preserve-3d;
 }
 
@@ -43,7 +43,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.1);
+  border: 6px solid rgba(75, 90, 107, .2);
   border-radius: 50%;
   animation-name: orbit;
   animation-iteration-count: infinite;
@@ -70,22 +70,22 @@
   margin-left: -10em;
 }
 #venus.orbit {
-  width: 12em;
-  height: 12em;
-  margin-top: -6em;
-  margin-left: -6em;
+  width: 16em;
+  height: 16em;
+  margin-top: -8em;
+  margin-left: -8em;
 }
 #earth.orbit {
-  width: 12em;
-  height: 12em;
-  margin-top: -6em;
-  margin-left: -6em;
+  width: 20em;
+  height: 20em;
+  margin-top: -10em;
+  margin-left: -10em;
 }
 #mars.orbit {
-  width: 12em;
-  height: 12em;
-  margin-top: -6em;
-  margin-left: -6em;
+  width: 24em;
+  height: 24em;
+  margin-top: -12em;
+  margin-left: -12em;
 }
 
 /* Planet starting positions */
@@ -142,7 +142,7 @@
 }
 
 /* Planet shadow animations */
-{{-- #mercury .planet {
+#mercury .planet {
   animation-name: shadow-mercury;
   animation-duration: 4s;
 }
@@ -157,7 +157,7 @@
 #mars .planet {
   animation-name: shadow-mercury;
   animation-duration: 10s;
-} --}}
+}
 
 @keyframes shadow-mercury {
   0% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
@@ -168,84 +168,55 @@
   100% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
 }
 </style>
-<div class="relative bg-gradient-to-t from-onyx-500 overflow-hidden py-64">
-  <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
-    <div class="relative h-full max-w-screen-xl mx-auto">
-      <x-star-dust class="absolute top-0 left-full transform lg:-translate-x-1/2" />
-      <div id="universe" class="absolute left-0 top-1/2 ml-36 transform scale-150">
-        <div id="galaxy">
-          <div id="sun" class="bg-navy-500"></div>
-          <div id="mercury" class="orbit">
-            <div class="pos">
-              <div class="planet bg-orange-500"></div>
+<div class="relative bg-gradient-to-t from-onyx-500 overflow-hidden">
+  <div class="bg-repeat py-12 sm:py-32 lg:py-64" style="background-image: url(/assets/images/stars.png); background-size: 50%;">
+    <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
+      <div class="relative h-full max-w-screen-xl mx-auto">
+        <div id="universe" class="absolute left-1/2 top-1/2 -ml-24 transform scale-150">
+          <div id="galaxy">
+            <div id="sun" class="bg-onyx-500"></div>
+            <div id="mercury" class="orbit">
+              <div class="pos">
+                <div class="planet bg-orange-500"></div>
+              </div>
             </div>
-          </div>
-          <div id="venus" class="orbit">
-            <div class="pos">
-              <div class="planet bg-blue-500"></div>
+            <div id="venus" class="orbit">
+              <div class="pos">
+                <div class="planet bg-blue-500"></div>
+              </div>
             </div>
-          </div>
-          <div id="earth" class="orbit">
-            <div class="pos">
-              <div class="planet bg-green-500"></div>
+            <div id="earth" class="orbit">
+              <div class="pos">
+                <div class="planet bg-green-500"></div>
+              </div>
             </div>
-          </div>
-          <div id="mars" class="orbit">
-            <div class="pos">
-              <div class="planet bg-gold-500"></div>
+            <div id="mars" class="orbit">
+              <div class="pos">
+                <div class="planet bg-gold-500"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    {{-- <svg class="absolute top-0 left-0 w-full h-64 -mt-32 text-onyx-700 lg:-mt-24" fill="currentColor" preserveAspectRatio="false" xmlns="http://www.w3.org/2000/svg">
-      <ellipse cx="50%" cy="25%" rx="58%" ry="75%"></ellipse>
-    </svg>
-    <svg class="hidden absolute bottom-0 left-0 w-full h-64 -mb-20 text-onyx-700 md:block" fill="currentColor" preserveAspectRatio="false" xmlns="http://www.w3.org/2000/svg">
-      <ellipse cx="50%" cy="75%" rx="58%" ry="25%"></ellipse>
-    </svg> --}}
-  </div>
-  <div class="relative">
-    {{-- <div class="relative py-6 px-4 sm:px-6 lg:py-12 lg:px-8">
-      <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-        <div class="flex items-center justify-between">
-          <a href="/" title="{{ $page->siteName }} home">
-            <img class="h-12" height="48" src="/assets/svg/logo.svg" alt="Moonbase Labs">
-          </a>
-          <x-navigation :page="$page" />
-      </div>
-    </div> --}}
-    <div class="mx-auto max-w-screen-xl px-4 sm:px-6">
-      <div class="text-center">
-        <h2 class="text-4xl tracking-tight leading-10 font-display font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-          We help non-profits
-          <br class="xl:hidden">
-          <span class="text-orange-500">do the impossible.</span>
-        </h2>
-        <p class="mt-3 max-w-md mx-auto text-base text-silver-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Increasing impact requires you to do more with less.
-        </p>
-        {{-- <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-          <div class="rounded-md shadow">
-            <x-button  href="/about" color="green">
-              Meet the Crew
-            </x-button>
-          </div>
-          <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <x-button href="/case-studies" color="onyx">
-              Start a Mission
-            </x-button>
-          </div>
-        </div> --}}
+    <div class="relative">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6">
+        <div class="text-center">
+          <h2 class="text-4xl tracking-tight leading-10 font-display font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
+            Helping non-profits
+            <br class="xl:hidden">
+            <span class="text-orange-500">do the impossible.</span>
+          </h2>
+          <p class="mt-3 max-w-md mx-auto text-2xl text-silver-600 sm:text-3xl md:mt-5 md:text-4xl md:max-w-5xl">
+            We create software to propel impact.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<svg class="relative w-full h-64 -mt-64 text-onyx-700" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
-    <polygon points="0,100 100,100 100,0" />
-</svg>
-<div class="relative bg-onyx-700 pb-16 sm:pb-24 lg:pb-32">
-  <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+<div class="relative bg-onyx-700 py-24 sm:py-32 lg:py-48 transform sm:-skew-y-3 sm:-my-10 lg:-my-20">
+  <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl transform sm:skew-y-3">
     <h2 class="text-base font-semibold tracking-wider text-blue-300 uppercase">Deploy faster</h2>
     <p class="mt-2 text-3xl font-display font-extrabold text-gray-900 tracking-tight sm:text-4xl">
       Everything you need to deploy your app
@@ -254,7 +225,7 @@
       Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
     </p>
     <div class="mt-12">
-      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-3">
         <div class="pt-12">
           <div class="h-full flow-root bg-onyx-500 rounded-lg px-6 pb-8">
             <div class="-mt-12">
@@ -304,9 +275,6 @@
     </div>
   </div>
 </div>
-<svg class="relative w-full h-64 -mb-64 text-onyx-700" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
-  <polygon points="0,0 0,100 100,0" />
-</svg>
-<x-cta.case-studies :case-studies="$case_studies" class="pt-16" />
-<x-footer />
+<x-cta.case-studies :case-studies="$case_studies" />
+<x-cta.meeting class="pt-16" team />
 @endsection
