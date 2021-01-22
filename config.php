@@ -92,6 +92,9 @@ return [
         return new Collection();
     },
     'isActive' => function ($page, $path) {
-        return Str::endsWith(trimPath($page->getPath()), trimPath($path));
+        $current = trimPath($page->getPath());
+        $path = trimPath($path);
+
+        return $current === $path || Str::startsWith($current, $path);
     },
 ];

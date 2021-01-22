@@ -95,7 +95,8 @@ module.exports = {
               color: theme('colors.green.300'),
             },
             pre: {
-              backgroundColor: theme('colors.black.400'),
+              color: theme('colors.green.300'),
+              backgroundColor: theme('colors.onyx.600'),
             },
             img: {
               borderRadius: theme('borderRadius.lg'),

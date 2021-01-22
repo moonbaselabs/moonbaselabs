@@ -5,10 +5,10 @@
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto">
       <x-star-dust class="absolute top-0 right-full transform -translate-x-32" />
-      <x-star-dust class="absolute bottom-0 left-full transform" />
+      <x-star-dust class="absolute bottom-4 left-full transform" />
     </div>
   </div>
-  <div class="py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+  <div class="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
         <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">Meet the Crew</h2>

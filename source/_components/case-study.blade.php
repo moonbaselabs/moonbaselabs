@@ -1,19 +1,23 @@
 @props(['caseStudy'])
 
-<div class="relative space-y-4">
-  <div class="relative h-48">
-    <img class="absolute object-cover h-full w-full shadow-lg rounded-lg" src="{{ $caseStudy->image }}" alt="{{ $caseStudy->title }}">
+<div class="relative flex flex-col rounded-lg shadow-lg overflow-hidden">
+  <div class="flex-shrink-0">
+    <img class="h-48 w-full object-cover" src="{{ $caseStudy->image }}" alt="{{ $caseStudy->title }}">
   </div>
-  <a href="{{ $caseStudy->getUrl() }}" class="block">
-    <div class="text-lg font-medium space-y-1">
-      <h3 class="mt-4 text-xl font-display font-semibold text-blue-300">{{ $caseStudy->title }}</h3>
-      <p class="mt-3 text-base text-silver-700">{{ $caseStudy->getExcerpt(140) }}</p>
+  <div class="flex-1 bg-onyx-500 p-6 flex flex-col justify-between">
+    <div class="flex-1">
+      <p class="text-xl font-display font-semibold text-blue-300">
+        {{ $caseStudy->title }}
+      </p>
+      <p class="mt-3 text-base text-silver-700">
+        {{ $caseStudy->description }}
+      </p>
     </div>
-    <span class="absolute inset-0"></span>
-  </a>
-  {{-- <a href="{{ '/clients/'.\Illuminate\Support\Str::slug($caseStudy->client) }}" class="inline-block">
-    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-300 text-onyx-700">
-      {{ $caseStudy->client }}
-    </span>
-  </a> --}}
+    <div class="mt-6 flex items-center">
+      <x-button color="onyx" href="{{ $caseStudy->getUrl() }}">
+        View case study
+        <span class="absolute inset-0"></span>
+      </x-button>
+    </div>
+  </div>
 </div>
