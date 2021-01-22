@@ -9,15 +9,15 @@
       <x-star-dust class="absolute bottom-12 left-full transform translate-x-32" />
     </div>
   </div>
-  <div class="relative px-4 sm:px-6 lg:px-8">
-    <div class="text-lg max-w-prose mx-auto mb-6">
-      <h1 class="mt-2 mb-8 text-3xl text-center font-extrabold tracking-tight text-white sm:text-4xl">{{ $page->title }}</h1>
+  <article class="relative px-4 sm:px-6 lg:px-8">
+    <div class="text-xl max-w-prose mx-auto mb-6">
+      <h1 class="mt-2 mb-8 text-4xl font-display font-extrabold tracking-tight text-white sm:text-5xl">{{ $page->title }}</h1>
       <div class="sm:flex justify-between items-start mt-4">
         <time class="my-2 inline-block mr-8 leading-none text-gray-600 text-xs uppercase tracking-wide" datetime="{{ $page->getDate()->format(DATE_W3C) }}">{{ date('F j, Y', $page->date) }}</time>
         <div>
           @foreach ($page->tags as $tag)
-            <a href="{{ '/blog/tags/'.$tag }}" class="inline-block">
-              <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-300 text-onyx-500">
+            <a href="{{ '/tags/'.$tag }}" class="inline-block">
+              <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-300 text-onyx-700">
                 {{ $tag }}
               </span>
             </a>
@@ -25,32 +25,58 @@
         </div>
       </div>
     </div>
-    <div class="prose prose-lg text-silver-500 mx-auto">
+    <div class="mt-12 prose prose-xl text-silver-500 mx-auto">
       @yield('content')
     </div>
-  </div>
+  </article>
 </div>
 
-<div class="max-w-prose mx-auto mb-6">
-  <x-hr />
-  <nav class="mt-12 sm:flex justify-between text-sm sm:text-base leading-tight">
-      <div class="mr-4 mb-4">
-          @if ($next = $page->getNext())
-              <a class="hover:text-white flex justify-start items-center" href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
-                  <span class="flex-none mr-2">&LeftArrow;</span>
-                  <span>{{ $next->title }}</span>
-              </a>
+<div class="px-4 sm:px-6 lg:px-8">
+  <div class="text-xl max-w-prose mx-auto mb-6">
+    <x-hr />
+    <div id="mentions" class="mt-16 space-y-8">
+      <h2 class="mb-8 text-3xl font-display font-extrabold tracking-tight text-white sm:text-4xl">Mentions</h2>
+      @forelse($page->getWebmentions() as $webmention)
+        <div class="text-base">
+          <div class="flex items-center">
+            <div class="mr-2 flex-shrink-0">
+              <img loading="lazy" src="{{ $webmention->author->photo }}" class="h-8 w-8 rounded-full border border-gray-200 bg-white text-gray-500"/>
+            </div>
+            <div>
+              <h3>
+                <a href="{{ $webmention->author->url }}" class="font-bold hover:bg-peach-100">{{ $webmention->author->name }}</a>
+                <a href="{{ $webmention->url }}" class="underline hover:bg-peach-100">{{ $webmention->verb }}</a>
+                <span class="text-gray-500">on {{ $webmention->date->format('F j, Y') }}</span>
+              </h3>
+            </div>
+          </div>
+          @if ($webmention->text)
+            <div class="mt-2">{{ $webmention->text }}</div>
           @endif
-      </div>
+        </div>
+      @empty
+        <p class="italic text-gray-500">Link to this article on Twitter to comment.</p>
+      @endforelse
+    </div>
+    <nav class="mt-12 sm:flex justify-between text-sm sm:text-base leading-tight">
+        <div class="mr-4 mb-4">
+            @if ($next = $page->getNext())
+                <a class="text-gold-300 hover:gold-400 flex justify-start items-center" href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
+                    <span class="flex-none mr-2">&LeftArrow;</span>
+                    <span>{{ $next->title }}</span>
+                </a>
+            @endif
+        </div>
 
-      <div class="ml-4 mb-4">
-          @if ($previous = $page->getPrevious())
-              <a class="hover:text-white flex justify-end items-center text-right" href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
-                  <span>{{ $previous->title }}</span>
-                  <span class="flex-none ml-2">&RightArrow;</span>
-              </a>
-          @endif
-      </div>
-  </nav>
+        <div class="ml-4 mb-4">
+            @if ($previous = $page->getPrevious())
+                <a class="text-gold-300 hover:gold-400 flex justify-end items-center text-right" href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
+                    <span>{{ $previous->title }}</span>
+                    <span class="flex-none ml-2">&RightArrow;</span>
+                </a>
+            @endif
+        </div>
+    </nav>
+  </div>
 </div>
 @overwrite

@@ -6,7 +6,7 @@ date: 2018-06-25
 client: iSi Environmental
 industry: Environmental Health & Safety
 url: https://www.safetyplans.com/
-image: /assets/images/case-studies/safety-plans-1.jpg
+image: /assets/images/case-studies/safety-plans-4.jpg
 ---
 
 ## The Vision

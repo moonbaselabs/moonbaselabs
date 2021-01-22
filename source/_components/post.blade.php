@@ -3,8 +3,8 @@
 <div>
   <div>
     @foreach ($post->tags as $tag)
-      <a href="{{ '/blog/tags/'.$tag }}" class="inline-block">
-        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-300 text-onyx-500">
+      <a href="{{ '/tags/'.$tag }}" class="inline-block">
+        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-300 text-onyx-700">
           {{ $tag }}
         </span>
       </a>

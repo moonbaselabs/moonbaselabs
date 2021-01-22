@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+use Moonbase\Webmention;
 
 return [
     'production' => false,
@@ -14,7 +16,7 @@ return [
             'path' => '/blog/{filename}',
         ],
         'tags' => [
-            'path' => '/blog/tags/{filename}',
+            'path' => '/tags/{filename}',
             'posts' => function ($page, $posts) {
                 return $posts->filter(function ($post) use ($page) {
                     return $post->tags ? in_array($page->getFilename(), $post->tags, true) : false;
@@ -78,6 +80,16 @@ return [
         }
 
         return '/assets/images/moonbase-labs.jpg';
+    },
+    'getWebmentions' => function ($page) {
+        $path = $page->getPath() ?: 'index';
+        $path = 'webmentions'.$page->getPath().'.json';
+        if (file_exists($path)) {
+            return (new Collection(json_decode(file_get_contents($path), true)))
+                ->map(fn ($entry) => new Webmention($entry));
+        }
+
+        return new Collection();
     },
     'isActive' => function ($page, $path) {
         return Str::endsWith(trimPath($page->getPath()), trimPath($path));

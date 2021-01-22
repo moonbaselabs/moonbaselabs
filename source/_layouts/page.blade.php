@@ -9,6 +9,11 @@
         </a>
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
           <div class="px-5 py-2">
+            <a href="/" class="text-base {{ $page->isActive('/') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
+              Home
+            </a>
+          </div>
+          <div class="px-5 py-2">
             <a href="/about" class="text-base {{ $page->isActive('/about') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
               About
             </a>

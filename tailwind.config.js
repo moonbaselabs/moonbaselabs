@@ -25,11 +25,14 @@ module.exports = {
           300: '#6F859E',
           400: '#5D7085',
           500: '#4B5A6B',
+          600: '#344151',
       },
       onyx: {
           300: '#4A5769',
           400: '#38424F',
           500: '#262D36',
+          600: '#1D232A',
+          700: '#141A1F',
       },
       silver: {
           500: '#EDEFF1',
@@ -81,6 +84,9 @@ module.exports = {
             color: theme('colors.silver.500'),
             a: {
               color: theme('colors.gold.300'),
+              '&:hover': {
+                color: theme('colors.gold.400'),
+              },
             },
             strong: {
               color: theme('colors.white'),

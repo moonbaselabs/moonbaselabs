@@ -12,7 +12,7 @@
     <span class="absolute inset-0"></span>
   </a>
   {{-- <a href="{{ '/clients/'.\Illuminate\Support\Str::slug($caseStudy->client) }}" class="inline-block">
-    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-300 text-onyx-500">
+    <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-300 text-onyx-700">
       {{ $caseStudy->client }}
     </span>
   </a> --}}
