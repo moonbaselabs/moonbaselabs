@@ -1,57 +1,221 @@
-@extends('_layouts.base')
+@extends('_layouts.page')
 
 @section('content')
-<div class="relative -mb-6 bg-gradient-to-r from-onyx-500 overflow-hidden">
+<style>
+#galaxy {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: rotate3d(1.25, 1, 1, 90deg);
+  transform-style: preserve-3d;
+}
+
+#sun, .planet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+}
+
+#sun {
+  transform: rotateX(-75deg);
+}
+
+.pos {
+  position: absolute;
+  transform-style: preserve-3d;
+  animation-name: invert;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.planet {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  animation-name: orbit;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-style: preserve-3d;
+}
+
+/* Animations */
+@keyframes orbit {
+  0%   { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(-360deg); }
+}
+
+@keyframes invert {
+  0%   { transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg); }
+  100% { transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg); }
+}
+
+/* Orbit sizes */
+#mercury.orbit {
+  width: 20em;
+  height: 20em;
+  margin-top: -10em;
+  margin-left: -10em;
+}
+#venus.orbit {
+  width: 12em;
+  height: 12em;
+  margin-top: -6em;
+  margin-left: -6em;
+}
+#earth.orbit {
+  width: 12em;
+  height: 12em;
+  margin-top: -6em;
+  margin-left: -6em;
+}
+#mars.orbit {
+  width: 12em;
+  height: 12em;
+  margin-top: -6em;
+  margin-left: -6em;
+}
+
+/* Planet starting positions */
+#mercury .pos {
+  left: 50%;
+  top: -1px;
+  border: solid 3px red;
+}
+#venus .pos {
+  left: 50%;
+  top: -1px;
+  border: solid 3px red;
+}
+#earth .pos {
+  left: 50%;
+  top: -1px;
+  border: solid 3px red;
+}
+#mars .pos {
+  left: 50%;
+  top: -1px;
+  border: solid 3px red;
+}
+
+/* Planet animation durations */
+#mercury.orbit, #mercury .pos {
+  animation-duration: 4s;
+}
+#venus.orbit, #venus .pos {
+  animation-duration: 6s;
+}
+#earth.orbit, #earth .pos {
+  animation-duration: 8s;
+}
+#mars.orbit, #mars .pos {
+  animation-duration: 10s;
+}
+
+/* Planet sizes */
+#sun {
+	font-size: 10em;
+}
+#mercury {
+	font-size: 1em;
+}
+#venus {
+	font-size: 2em;
+}
+#earth {
+	font-size: 3em;
+}
+#mars {
+	font-size: 4em;
+}
+
+/* Planet shadow animations */
+{{-- #mercury .planet {
+  animation-name: shadow-mercury;
+  animation-duration: 4s;
+}
+#venus .planet {
+  animation-name: shadow-mercury;
+  animation-duration: 6s;
+}
+#earth .planet {
+  animation-name: shadow-mercury;
+  animation-duration: 8s;
+}
+#mars .planet {
+  animation-name: shadow-mercury;
+  animation-duration: 10s;
+} --}}
+
+@keyframes shadow-mercury {
+  0% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
+  25% { box-shadow: inset 16px 0 8px rgba(0, 0, 0, 0.5); /* LEFT */ }
+  50% { box-shadow: inset 40px -20px 16px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
+  50.01% { box-shadow: inset -40px -20px 16px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
+  75% { box-shadow: inset -16px 0 8px rgba(0, 0, 0, 0.5); /* RIGHT */ }
+  100% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
+}
+</style>
+<div class="relative bg-gradient-to-t from-onyx-500 overflow-hidden py-64">
   <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
     <div class="relative h-full max-w-screen-xl mx-auto">
-      <x-star-dust class="absolute right-full transform -translate-y-1/4 translate-x-1/2 lg:translate-y-1/3 lg:translate-x-1/2" />
-      <x-star-dust class="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/3 lg:-translate-x-1/2" />
+      <x-star-dust class="absolute top-0 left-full transform lg:-translate-x-1/2" />
+      <div id="universe" class="absolute left-0 top-1/2 ml-36 transform scale-150">
+        <div id="galaxy">
+          <div id="sun" class="bg-navy-500"></div>
+          <div id="mercury" class="orbit">
+            <div class="pos">
+              <div class="planet bg-orange-500"></div>
+            </div>
+          </div>
+          <div id="venus" class="orbit">
+            <div class="pos">
+              <div class="planet bg-blue-500"></div>
+            </div>
+          </div>
+          <div id="earth" class="orbit">
+            <div class="pos">
+              <div class="planet bg-green-500"></div>
+            </div>
+          </div>
+          <div id="mars" class="orbit">
+            <div class="pos">
+              <div class="planet bg-gold-500"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <svg class="absolute top-0 left-0 w-full h-64 -mt-32 text-onyx-700 lg:-mt-24" fill="currentColor" preserveAspectRatio="false" xmlns="http://www.w3.org/2000/svg">
+    {{-- <svg class="absolute top-0 left-0 w-full h-64 -mt-32 text-onyx-700 lg:-mt-24" fill="currentColor" preserveAspectRatio="false" xmlns="http://www.w3.org/2000/svg">
       <ellipse cx="50%" cy="25%" rx="58%" ry="75%"></ellipse>
     </svg>
     <svg class="hidden absolute bottom-0 left-0 w-full h-64 -mb-20 text-onyx-700 md:block" fill="currentColor" preserveAspectRatio="false" xmlns="http://www.w3.org/2000/svg">
       <ellipse cx="50%" cy="75%" rx="58%" ry="25%"></ellipse>
-    </svg>
+    </svg> --}}
   </div>
-  <div class="relative pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-36">
-    <div class="relative py-6 px-4 sm:px-6 lg:py-12 lg:px-8">
+  <div class="relative">
+    {{-- <div class="relative py-6 px-4 sm:px-6 lg:py-12 lg:px-8">
       <div class="relative max-w-lg mx-auto lg:max-w-7xl">
         <div class="flex items-center justify-between">
           <a href="/" title="{{ $page->siteName }} home">
             <img class="h-12" height="48" src="/assets/svg/logo.svg" alt="Moonbase Labs">
           </a>
-          <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
-            <div class="px-5 py-2">
-              <a href="/" class="text-base {{ $page->isActive('/') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
-                Home
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="/about" class="text-base {{ $page->isActive('/about') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
-                About
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="/case-studies" class="text-base {{ $page->isActive('/case-studies') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
-                Case Studies
-              </a>
-            </div>
-            <div class="px-5 py-2">
-              <a href="/blog" class="text-base {{ $page->isActive('/blog') ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white' }}">
-                Blog
-              </a>
-            </div>
-            <div class="px-5">
-              <a href="/" class="flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-400 focus:outline-none focus:border-blue-700 focus:ring-blue-500">
-                Schedule a Meeting
-              </a>
-            </div>
-          </div>
-        </nav>
+          <x-navigation :page="$page" />
       </div>
-    </div>
-    <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-36">
+    </div> --}}
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6">
       <div class="text-center">
         <h2 class="text-4xl tracking-tight leading-10 font-display font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
           We help non-profits
@@ -61,22 +225,25 @@
         <p class="mt-3 max-w-md mx-auto text-base text-silver-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           Increasing impact requires you to do more with less.
         </p>
-        <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+        {{-- <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <div class="rounded-md shadow">
-            <a href="/about" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-400 focus:outline-none focus:border-blue-700 focus:ring-blue-500 md:py-4 md:text-lg md:px-10">
+            <x-button  href="/about" color="green">
               Meet the Crew
-            </a>
+            </x-button>
           </div>
           <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-            <a href="/case-studies" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-400 bg-onyx-300 hover:text-gray-300 focus:outline-none focus:border-blue-300 focus:ring-blue-500 md:py-4 md:text-lg md:px-10">
+            <x-button href="/case-studies" color="onyx">
               Start a Mission
-            </a>
+            </x-button>
           </div>
-        </div>
+        </div> --}}
       </div>
-    </main>
+    </div>
   </div>
 </div>
+<svg class="relative w-full h-64 -mt-64 text-onyx-700" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon points="0,100 100,100 100,0" />
+</svg>
 <div class="relative bg-onyx-700 pb-16 sm:pb-24 lg:pb-32">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
     <h2 class="text-base font-semibold tracking-wider text-blue-300 uppercase">Deploy faster</h2>
