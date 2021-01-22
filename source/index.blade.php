@@ -1,4 +1,4 @@
-@extends('_layouts.page')
+@extends('_layouts.base')
 
 @section('content')
 <style>
@@ -168,8 +168,18 @@
   100% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
 }
 </style>
+<div class="absolute z-10 top-0 left-0 w-full py-6 px-4 sm:px-6 lg:py-12 lg:px-8">
+  <div class="relative max-w-lg mx-auto lg:max-w-7xl">
+    <div class="lg:flex items-center justify-between">
+      <a href="/" title="{{ $page->siteName }} home">
+        <img class="block h-14 mx-auto" height="48" src="/assets/svg/logo.svg" alt="Moonbase Labs">
+      </a>
+      <x-navigation :page="$page" />
+    </div>
+  </div>
+</div>
 <div class="relative bg-gradient-to-t from-onyx-500 overflow-hidden">
-  <div class="bg-repeat py-12 sm:py-32 lg:py-64" style="background-image: url(/assets/images/stars.png); background-size: 50%;">
+  <div class="bg-repeat py-12 sm:py-64 lg:py-80" style="background-image: url(/assets/images/stars.png); background-size: 50%;">
     <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
       <div class="relative h-full max-w-screen-xl mx-auto">
         <div id="universe" class="absolute left-1/2 top-1/2 -ml-24 transform scale-150">
@@ -203,12 +213,10 @@
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6">
         <div class="text-center">
           <h2 class="text-4xl tracking-tight leading-10 font-display font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-            Helping non-profits
-            <br class="xl:hidden">
-            <span class="text-orange-500">do the impossible.</span>
+            Helping nonprofits do the <span class="text-orange-500">impossible</span>.
           </h2>
-          <p class="mt-3 max-w-md mx-auto text-2xl text-silver-600 sm:text-3xl md:mt-5 md:text-4xl md:max-w-5xl">
-            We create software to propel impact.
+          <p class="mt-3 max-w-md mx-auto text-xl text-silver-600 sm:text-2xl md:mt-5 md:text-3xl md:max-w-4xl">
+            We build software that organizations use to change the world.
           </p>
         </div>
       </div>
@@ -277,4 +285,5 @@
 </div>
 <x-cta.case-studies :case-studies="$case_studies" />
 <x-cta.meeting class="pt-16" team />
+<x-footer />
 @endsection

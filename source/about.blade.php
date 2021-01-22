@@ -1,27 +1,24 @@
 @extends('_layouts.page')
 
 @section('content')
+<x-page-heading title="Meet the Crew" description="We are explorers, tinkerers, painters, and poets." />
 <div class="relative overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto">
-      <x-star-dust class="absolute top-0 right-full transform -translate-x-32" />
+      <x-star-dust class="absolute bottom-1/2 right-full transform -translate-x-32" />
       <x-star-dust class="absolute bottom-4 left-full transform" />
     </div>
   </div>
-  <div class="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:py-16 lg:px-8">
+  <div class="bg-onyx-600 py-6 sm:py-12 lg:py-24 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-      <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-        <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">Meet the Crew</h2>
-        <p class="text-xl text-silver-500">We are explorers, tinkerers, painters, and poets.</p>
-      </div>
-      <ul class="mt-12 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+      <ul class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
         <li class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
           <div class="space-y-6 xl:space-y-10">
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/nic-wentling.jpg" alt="Nic Wentling">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Nic Wentling</h4>
-                <p class="text-gold-300">Principal Owner, Strategy & Partnerships</p>
+                <p class="text-gold-300">Principal Owner, Strategy</p>
               </div>
 
               <ul class="flex justify-center space-x-5">
@@ -52,7 +49,7 @@
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Ted Kriwiel</h4>
-                <p class="text-gold-300">Sales & Data Analytics</p>
+                <p class="text-gold-300">Partner, Partnerships, Data Analytics</p>
               </div>
 
               <ul class="flex justify-center space-x-5">
@@ -83,7 +80,7 @@
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Benny Bowden</h4>
-                <p class="text-gold-300">Product Design & Marketing</p>
+                <p class="text-gold-300">Partner, Product Design, Marketing</p>
               </div>
               <ul class="flex justify-center space-x-5">
                 <li>
@@ -113,7 +110,7 @@
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Christian Taylor</h4>
-                <p class="text-gold-300">Software Development</p>
+                <p class="text-gold-300">Partner, Web Development</p>
               </div>
               <ul class="flex justify-center space-x-5">
                 <li>
@@ -154,5 +151,5 @@
     </div>
   </div>
 </div>
-<x-cta.case-studies :case-studies="$case_studies" />
+<x-cta.meeting />
 @endsection

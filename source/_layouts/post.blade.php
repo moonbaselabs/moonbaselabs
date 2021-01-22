@@ -11,17 +11,18 @@
   </div>
   <article class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-xl max-w-prose mx-auto mb-6">
+      <time class="inline-block mr-8 leading-none text-gray-600 text-xs uppercase tracking-wide" datetime="{{ $page->getDate()->format(DATE_W3C) }}">{{ date('F j, Y', $page->date) }}</time>
       <h1 class="mt-2 mb-8 text-4xl font-display font-extrabold tracking-tight text-white sm:text-5xl">{{ $page->title }}</h1>
       <div class="sm:flex justify-between items-start mt-4">
-        <time class="my-2 inline-block mr-8 leading-none text-gray-600 text-xs uppercase tracking-wide" datetime="{{ $page->getDate()->format(DATE_W3C) }}">{{ date('F j, Y', $page->date) }}</time>
-        <div>
-          @foreach ($page->tags as $tag)
-            <a href="{{ '/tags/'.$tag }}" class="inline-block">
-              <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-300 text-onyx-700">
-                {{ $tag }}
-              </span>
-            </a>
-          @endforeach
+        <div class="mt-2 flex-none flex items-center">
+          <div class="flex-shrink-0">
+            <img class="h-8 w-8 rounded-full" src="{{ $page->getAuthorAvatarUrl() }}" alt="{{ $page->author }}">
+          </div>
+          <div class="ml-3">
+            <p class="text-sm font-medium text-white">
+              {{ $page->author }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -34,30 +35,32 @@
 <div class="px-4 sm:px-6 lg:px-8">
   <div class="text-xl max-w-prose mx-auto mb-6">
     <x-hr />
-    <div id="mentions" class="mt-16 space-y-8">
-      <h2 class="mb-8 text-3xl font-display font-extrabold tracking-tight text-white sm:text-4xl">Mentions</h2>
-      @forelse($page->getWebmentions() as $webmention)
-        <div class="text-base">
-          <div class="flex items-center">
-            <div class="mr-2 flex-shrink-0">
-              <img loading="lazy" src="{{ $webmention->author->photo }}" class="h-8 w-8 rounded-full border border-gray-200 bg-white text-silver-700"/>
+    @if($webmentions = $page->getWebmentions())
+      <div id="mentions" class="mt-16 space-y-8">
+        <h2 class="mb-8 text-3xl font-display font-extrabold tracking-tight text-white sm:text-4xl">Mentions</h2>
+        @forelse($webmentions as $webmention)
+          <div class="text-base">
+            <div class="flex items-center">
+              <div class="mr-2 flex-shrink-0">
+                <img loading="lazy" src="{{ $webmention->author->photo }}" class="h-8 w-8 rounded-full border border-gray-200 bg-white text-silver-700"/>
+              </div>
+              <div>
+                <h3>
+                  <a href="{{ $webmention->author->url }}" class="font-bold hover:bg-peach-100">{{ $webmention->author->name }}</a>
+                  <a href="{{ $webmention->url }}" class="underline hover:bg-peach-100">{{ $webmention->verb }}</a>
+                  <span class="text-silver-700">on {{ $webmention->date->format('F j, Y') }}</span>
+                </h3>
+              </div>
             </div>
-            <div>
-              <h3>
-                <a href="{{ $webmention->author->url }}" class="font-bold hover:bg-peach-100">{{ $webmention->author->name }}</a>
-                <a href="{{ $webmention->url }}" class="underline hover:bg-peach-100">{{ $webmention->verb }}</a>
-                <span class="text-silver-700">on {{ $webmention->date->format('F j, Y') }}</span>
-              </h3>
-            </div>
+            @if ($webmention->text)
+              <div class="mt-2">{{ $webmention->text }}</div>
+            @endif
           </div>
-          @if ($webmention->text)
-            <div class="mt-2">{{ $webmention->text }}</div>
-          @endif
-        </div>
-      @empty
-        <p class="italic text-silver-700">Link to this article on Twitter to comment.</p>
-      @endforelse
-    </div>
+        @empty
+          <p class="italic text-silver-700">Link to this article on Twitter to comment.</p>
+        @endforelse
+      </div>
+    @endif
     <nav class="mt-12 sm:flex justify-between text-sm sm:text-base leading-tight">
       <div class="mr-4 mb-4">
         @if ($next = $page->getNext())

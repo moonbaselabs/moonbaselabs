@@ -17,8 +17,6 @@ In our very first meeting with iSi, we laid out a rough vision for how they coul
 
 Our focus on a minimum viable product and feature set ensured that iSi's goals for the platform were met while leaving time and flexibility for changes and iterations to be made along the way.
 
-![Safety Plans](/assets/images/case-studies/safety-plans-2.jpg)
-
 After a few collaborative sessions together, we helped iSi's team to build the foundational plans for SafetyPlans.com. The web-based tool would allow anyone to create and manage a custom safety program for their company in minutes. Most importantly, this would create a brand new **revenue stream** and **lead generation** source for iSi Environmental to capture new customers that they otherwise may not have reached.
 
 ## The Results

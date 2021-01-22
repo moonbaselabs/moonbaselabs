@@ -1,6 +1,6 @@
 @props(['pagination'])
 
-@if ($pagination->pages->count())
+@if ($pagination->pages->count() > 1)
   <div class="flex items-center justify-center">
     <nav {{ $attributes->merge([
         'class' => 'relative z-0 inline-flex shadow-sm -space-x-px"',
