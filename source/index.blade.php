@@ -226,12 +226,12 @@
 </div>
 <div class="relative bg-onyx-700 py-24 sm:py-32 lg:py-48 transform sm:-skew-y-3 sm:-my-10 lg:-my-20">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl transform sm:skew-y-3">
-    <h2 class="text-base font-semibold tracking-wider text-blue-300 uppercase">Deploy faster</h2>
+    <h2 class="text-base font-semibold tracking-wider text-blue-300 uppercase">Go Further</h2>
     <p class="mt-2 text-3xl font-display font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-      Everything you need to deploy your app
+      How we deliver remarkable products
     </p>
     <p class="mt-5 max-w-prose mx-auto text-xl text-silver-700">
-      Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+      Our team of designers, engineers and analysts join forces to tackle your biggest challenges. We start with a discovery process followed by data analysis and software&nbsp;prototypes.
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-3">
