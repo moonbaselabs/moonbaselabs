@@ -179,7 +179,8 @@
   </div>
 </div>
 <div class="relative bg-gradient-to-t from-onyx-500 overflow-hidden">
-  <div class="bg-repeat py-12 sm:py-64 lg:py-80" style="background-image: url(/assets/images/stars.png); background-size: 50%;">
+  <div class="pt-56 pb-24 sm:py-64 lg:py-80">
+    <div class="absolute inset-0 bg-repeat opacity-50" style="background-image: url(/assets/images/stars.png); background-size: 50%;"></div>
     <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
       <div class="relative h-full max-w-screen-xl mx-auto">
         <div id="universe" class="absolute left-1/2 top-1/2 -ml-24 transform scale-150">
@@ -213,7 +214,7 @@
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6">
         <div class="text-center">
           <h2 class="text-4xl tracking-tight leading-10 font-display font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-            Embark on a <span class="text-orange-500">digital transformation</span>.
+            Embark on a <span class="text-orange-500">digital transformation</span>
           </h2>
           <p class="mt-3 max-w-md mx-auto text-xl text-silver-600 sm:text-2xl md:mt-5 md:text-3xl md:max-w-4xl">
             We create digital tools to boost what you do best.
