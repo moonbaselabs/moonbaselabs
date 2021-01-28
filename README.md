@@ -60,8 +60,8 @@ extends: _layouts.case-study
 title:
 description:
 date: 2020-10-19
-services: []
 client:
+industry:
 url:
 image: /assets/images/case-studies/<image file>
 ---
