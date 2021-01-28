@@ -213,10 +213,10 @@
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6">
         <div class="text-center">
           <h2 class="text-4xl tracking-tight leading-10 font-display font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-            Helping nonprofits do the <span class="text-orange-500">impossible</span>.
+            Embark on a <span class="text-orange-500">digital transformation</span>.
           </h2>
           <p class="mt-3 max-w-md mx-auto text-xl text-silver-600 sm:text-2xl md:mt-5 md:text-3xl md:max-w-4xl">
-            We build software that organizations use to change the world.
+            We create digital tools to boost what you do best.
           </p>
         </div>
       </div>
