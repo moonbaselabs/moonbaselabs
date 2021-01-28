@@ -1,7 +1,7 @@
 /build_*/
 /cache/
 /node_modules/
-/source/assets/build/
+/source/assets/css/
 /vendor/
 /.vscode/
 npm-debug.log
