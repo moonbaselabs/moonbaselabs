@@ -7,6 +7,8 @@
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
+        <link rel="icon" href="/favicon.svg">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <meta property="og:title" content="{{ $page->title }}" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
