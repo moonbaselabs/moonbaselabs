@@ -35,10 +35,11 @@
 <div class="px-4 sm:px-6 lg:px-8">
   <div class="text-xl max-w-prose mx-auto mb-6">
     <x-hr />
-    @if($webmentions = $page->getWebmentions())
+    @php $webmentions = $page->getWebmentions() @endphp
+    @if($webmentions->count())
       <div id="mentions" class="mt-16 space-y-8">
         <h2 class="mb-8 text-3xl font-display font-extrabold tracking-tight text-white sm:text-4xl">Mentions</h2>
-        @forelse($webmentions as $webmention)
+        @foreach($webmentions as $webmention)
           <div class="text-base">
             <div class="flex items-center">
               <div class="mr-2 flex-shrink-0">
@@ -56,9 +57,7 @@
               <div class="mt-2">{{ $webmention->text }}</div>
             @endif
           </div>
-        @empty
-          <p class="italic text-silver-700">Link to this article on Twitter to comment.</p>
-        @endforelse
+        @endforeach
       </div>
     @endif
     <nav class="mt-12 sm:flex justify-between text-sm sm:text-base leading-tight">
@@ -82,4 +81,6 @@
     </nav>
   </div>
 </div>
+<x-cta.case-studies :case-studies="$case_studies" />
+<x-cta.meeting class="pt-16" team />
 @overwrite
