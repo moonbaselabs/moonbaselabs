@@ -1,6 +1,4 @@
-/build_local/
-/build_staging/
-/build_production/
+/build_*/
 /cache/
 /node_modules/
 /source/assets/build/
@@ -8,3 +6,4 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
+.DS_Store
