@@ -55,7 +55,7 @@
           {{ $post->author }}
         </p>
       </div>
-      <div class="text-gold-300 absolute bottom-0 right-0 px-6 py-7 leading-none text-xl">&RightArrow;</div>
     </div>
+    <div class="text-gold-300 absolute bottom-0 right-0 px-6 py-7 leading-none text-xl">&RightArrow;</div>
   </div>
 </div>
