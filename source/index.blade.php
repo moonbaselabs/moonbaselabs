@@ -224,7 +224,7 @@
       How we deliver remarkable products
     </p>
     <p class="mt-5 max-w-prose mx-auto text-xl text-silver-700">
-      Our team of designers, engineers and analysts join forces to tackle your biggest challenges. We start with a discovery process followed by data analysis and software&nbsp;prototypes.
+      Our team of designers, engineers and analysts join forces to tackle your biggest challenges. We start with a discovery process followed by data analysis and software&nbsp;development.
     </p>
     <div class="mt-12">
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-3">
@@ -268,7 +268,7 @@
               </div>
               <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Launches to innovate</h3>
               <p class="mt-5 text-base text-silver-700">
-                Software prototypes increase your capacity to deliver impact.
+                Custom software increases your capacity to deliver impact.
               </p>
             </div>
           </div>
