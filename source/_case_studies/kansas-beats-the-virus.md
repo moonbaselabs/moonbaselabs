@@ -23,6 +23,7 @@ The Kansas Leadership Center saw an opportunity to use their network of leaders 
 The primary objective was to inspire Kansans to lend their influence to convene hundreds of virtual meetings.
 
 The challenges:
+
  * Six weeks to execute
  * Coordinate schedules for 75 facilitators to lead nearly 1,000 meetings
  * Hundreds of conveners need to create meetings and be matched with facilitators
