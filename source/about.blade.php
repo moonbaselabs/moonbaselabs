@@ -17,8 +17,8 @@
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/nic-wentling.jpg" alt="Nic Wentling">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
-                <h4 class="text-white">Nic Wentling</h4>
-                <p class="text-gold-300">Principal Owner, Strategy</p>
+                <h4 class="text-white">Nic Wentling<span class="text-gray-500">, Principal Owner</span></h4>
+                <p class="text-gold-300">Strategy & Partnerships</p>
               </div>
 
               <ul class="flex justify-center space-x-5">
@@ -40,6 +40,7 @@
                 </li>
               </ul>
             </div>
+            <p>Software engineer with a passion for solving technical problems. Formerly a Material and Process Engineer at Textron Aviation.</p>
           </div>
         </li>
 
@@ -48,8 +49,8 @@
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/ted-kriwiel.jpg" alt="Ted Kriwiel">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
-                <h4 class="text-white">Ted Kriwiel</h4>
-                <p class="text-gold-300">Partner, Partnerships, Data Analytics</p>
+                <h4 class="text-white">Ted Kriwiel<span class="text-gray-500">, Partner</span></h4>
+                <p class="text-gold-300">Business Development & Data Analytics</p>
               </div>
 
               <ul class="flex justify-center space-x-5">
@@ -71,6 +72,7 @@
                 </li>
               </ul>
             </div>
+            <p>Data analyst who enjoys telling stories with numbers. Formerly founder of Lion Graph and Eight Oaks.</p>
           </div>
         </li>
 
@@ -79,8 +81,8 @@
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/benny-bowden.jpg" alt="Benny Bowden">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
-                <h4 class="text-white">Benny Bowden</h4>
-                <p class="text-gold-300">Partner, Product Design, Marketing</p>
+                <h4 class="text-white">Benny Bowden<span class="text-gray-500">, Partner</span></h4>
+                <p class="text-gold-300">Product Design & Marketing</p>
               </div>
               <ul class="flex justify-center space-x-5">
                 <li>
@@ -101,6 +103,7 @@
                 </li>
               </ul>
             </div>
+            <p>Product-focused designer with the ability to maintain a balance between high attention to detail and the overall vision for a project.</p>
           </div>
         </li>
 
@@ -109,8 +112,8 @@
             <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/christian-taylor.jpg" alt="Christian Taylor">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
-                <h4 class="text-white">Christian Taylor</h4>
-                <p class="text-gold-300">Partner, Web Development</p>
+                <h4 class="text-white">Christian Taylor<span class="text-gray-500">, Partner</span></h4>
+                <p class="text-gold-300">Web Development</p>
               </div>
               <ul class="flex justify-center space-x-5">
                 <li>
@@ -123,6 +126,7 @@
                 </li>
               </ul>
             </div>
+            <p>Visual artist and web developer. Passionate contributor to the tech and art communities of Wichita.</p>
           </div>
         </li>
 
@@ -145,6 +149,7 @@
                 </li>
               </ul>
             </div>
+            <p>Data analyst who loves asking questions and solving problems. Former employee of Lion Graph.</p>
           </div>
         </li>
       </ul>
