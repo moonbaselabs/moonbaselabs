@@ -81,6 +81,5 @@
     </nav>
   </div>
 </div>
-<x-cta.case-studies :case-studies="$case_studies" />
 <x-cta.meeting class="pt-16" team />
 @overwrite
