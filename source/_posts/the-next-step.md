@@ -41,4 +41,4 @@ A few people we want to thank for their contribution to this rebrand:
  * [Mark Torline](https://www.linkedin.com/in/mark-torline-1b025917/) | WSU Center for Entrepreneurship
  * [Doug Stucky](https://www.linkedin.com/in/doug-stucky-4a23471/) | WSU College of Innovation & Design
  * [Josh Oeding](https://nxtus.io/our-team/) | NXTUS
- * [Wernher von Braun](https://en.wikipedia.org/wiki/Wernher_von_Braun) | Aerospace Engineer
+ * [Wernher von Braun](https://youtu.be/eXIDFx74aSY) | Aerospace Engineer
