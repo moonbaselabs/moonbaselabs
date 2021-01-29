@@ -10,7 +10,7 @@
   </div>
   <div class="relative w-screen h-screen flex justify-center items-center">
     <div class="text-center">
-      <h1 class="text-3xl font-display font-extrabold text-white sm:text-4xl">Lost in space?</h1>
+      <h1 class="text-3xl font-display font-bold text-white sm:text-4xl">Lost in space?</h1>
       <p class="text-xl text-silver-500">Don't worry, our mission control team already has a recovery plan!</p>
       <x-button href="/" color="green" class="mt-6">
         Return Home

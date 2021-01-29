@@ -5,7 +5,7 @@
     <div class="relative">
       <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <h2 class="text-base font-semibold tracking-wider text-blue-300 uppercase">Organizations we’ve sent</h2>
-        <p class="mt-2 text-3xl font-display font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+        <p class="mt-2 text-3xl font-display font-bold text-gray-900 tracking-tight sm:text-4xl">
           To the moon and beyond
         </p>
       </div>

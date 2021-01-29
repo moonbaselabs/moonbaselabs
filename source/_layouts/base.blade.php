@@ -21,7 +21,10 @@
         <script src="https://cdn.usefathom.com/script.js" data-site="CBMOAZJT" defer></script>
         <link rel="webmention" href="https://webmention.io/moonbaselabs.com/webmention" />
         <link rel="pingback" href="https://webmention.io/moonbaselabs.com/xmlrpc" />
-        <x-custom-font src="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap" />
+        <link rel="preload" href="/assets/fonts/archivo/archivo-v7-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" href="/assets/fonts/barlow/barlow-v5-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" href="/assets/fonts/barlow/barlow-v5-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" href="/assets/fonts/barlow/barlow-v5-latin-600.woff2" as="font" type="font/woff2" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ mix('css/main.css') }}">
     </head>
     <body>

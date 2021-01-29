@@ -4,7 +4,7 @@
 <div class="py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
   <div class="relative max-w-lg mx-auto lg:max-w-7xl">
     <div>
-      <h2 class="text-3xl font-display font-extrabold text-white sm:text-4xl">
+      <h2 class="text-3xl font-display font-bold text-white sm:text-4xl">
         {{ $page->title }}
       </h2>
       <p class="mt-3 text-xl text-silver-500 sm:mt-4">

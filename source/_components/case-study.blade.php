@@ -6,7 +6,7 @@
   </div>
   <div class="flex-1 bg-onyx-500 p-6 flex flex-col justify-between">
     <div class="flex-1">
-      <p class="text-xl font-display font-semibold text-blue-300">
+      <p class="text-xl font-display font-bold text-blue-300">
         {{ $caseStudy->title }}
       </p>
       <p class="mt-3 text-base text-silver-700">

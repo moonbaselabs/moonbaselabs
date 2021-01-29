@@ -206,7 +206,7 @@
     <div class="relative">
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6">
         <div class="text-center">
-          <h2 class="text-4xl tracking-tight leading-10 font-display font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
+          <h2 class="text-4xl tracking-tight leading-10 font-display font-bold text-white sm:text-5xl sm:leading-none md:text-6xl">
             Embark on a <span class="text-orange-500">digital transformation</span>
           </h2>
           <p class="mt-3 max-w-md mx-auto text-xl text-silver-600 sm:text-2xl md:mt-5 md:text-3xl md:max-w-4xl">
@@ -220,7 +220,7 @@
 <div class="relative bg-onyx-700 py-24 sm:py-32 lg:py-48 transform sm:-skew-y-3 sm:-my-10 lg:-my-20">
   <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl transform sm:skew-y-3">
     <h2 class="text-base font-semibold tracking-wider text-blue-300 uppercase">Go Further</h2>
-    <p class="mt-2 text-3xl font-display font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+    <p class="mt-2 text-3xl font-display font-bold text-gray-900 tracking-tight sm:text-4xl">
       How we deliver remarkable products
     </p>
     <p class="mt-5 max-w-prose mx-auto text-xl text-silver-700">

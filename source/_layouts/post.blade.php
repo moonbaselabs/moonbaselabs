@@ -12,7 +12,7 @@
   <article class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-xl max-w-prose mx-auto mb-6">
       <time class="inline-block mr-8 leading-none text-gray-600 text-xs uppercase tracking-wide" datetime="{{ $page->getDate()->format(DATE_W3C) }}">{{ date('F j, Y', $page->date) }}</time>
-      <h1 class="mt-2 mb-8 text-4xl font-display font-extrabold tracking-tight text-white sm:text-5xl">{{ $page->title }}</h1>
+      <h1 class="mt-2 mb-8 text-4xl font-display font-bold tracking-tight text-white sm:text-5xl">{{ $page->title }}</h1>
       <div class="sm:flex justify-between items-start mt-4">
         <div class="mt-2 flex-none flex items-center">
           <div class="flex-shrink-0">
@@ -38,7 +38,7 @@
     @php $webmentions = $page->getWebmentions() @endphp
     @if($webmentions->count())
       <div id="mentions" class="mt-16 space-y-8">
-        <h2 class="mb-8 text-3xl font-display font-extrabold tracking-tight text-white sm:text-4xl">Mentions</h2>
+        <h2 class="mb-8 text-3xl font-display font-bold tracking-tight text-white sm:text-4xl">Mentions</h2>
         @foreach($webmentions as $webmention)
           <div class="text-base">
             <div class="flex items-center">

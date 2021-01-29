@@ -1,7 +1,7 @@
 @props(['team' => false])
 <div class="bg-onyx-700">
   <div class="max-w-7xl mx-auto text-center py-24 px-4 sm:px-6 lg:py-48 lg:px-8">
-    <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+    <h2 class="text-3xl font-display font-bold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">Learn how we can help.</span>
       <span class="block text-orange-500">It starts with one small step.</span>
     </h2>
