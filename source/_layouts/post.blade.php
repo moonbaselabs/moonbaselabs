@@ -47,8 +47,8 @@
               </div>
               <div>
                 <h3>
-                  <a href="{{ $webmention->author->url }}" class="font-bold hover:bg-peach-100">{{ $webmention->author->name }}</a>
-                  <a href="{{ $webmention->url }}" class="underline hover:bg-peach-100">{{ $webmention->verb }}</a>
+                  <a href="{{ $webmention->author->url }}" class="font-bold hover:underline">{{ $webmention->author->name }}</a>
+                  <a href="{{ $webmention->url }}" class="underline hover:bg-blue-300">{{ $webmention->verb }}</a>
                   <span class="text-silver-700">on {{ $webmention->date->format('F j, Y') }}</span>
                 </h3>
               </div>
