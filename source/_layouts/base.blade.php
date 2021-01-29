@@ -9,15 +9,14 @@
         <title>{{ $page->title }}</title>
         <link rel="icon" href="/favicon.svg">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <meta property="og:type" content="website">
         <meta property="og:title" content="{{ $page->title }}" />
-        <meta property="og:type" content="article" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description }}" />
-        <meta property="og:image" content="/assets/images/social.png">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@moonbaselabs">
-        <meta name="twitter:image" content="/assets/images/social.png">
-        <meta name="twitter:image:alt" content="Moonbase Labs logo">
+        <meta property="og:image" content="https://moonbaselabs.com/assets/images/social.png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        <meta name="twitter:site" content="@MoonbaseLabs">
         @if($page->production)
         <script src="https://beaver.moonbaselabs.com/script.js" data-site="CBMOAZJT" defer></script>
         @endif
