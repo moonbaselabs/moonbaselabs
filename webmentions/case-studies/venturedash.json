@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/tedkriwiel/status/1355211399778205696",
+    "published": "2021-01-29T17:49:10+00:00",
+    "wm-received": "2021-01-29T18:48:50Z",
+    "wm-id": 1009239,
+    "wm-source": "https://brid-gy.appspot.com/post/twitter/MoonbaseLabs/1355211399778205696",
+    "wm-target": "https://moonbaselabs.com/case-studies/venturedash/",
+    "content": {
+      "html": "I'll never forget the meeting at <a href=\"https://twitter.com/ReverieRoasters\">@ReverieRoasters</a> with <a href=\"https://twitter.com/adewvall\">@adewvall</a> when we brainstormed the concept of <a href=\"https://twitter.com/goventuredash\">@goventuredash</a>. Amazing to see how far it has come. Huge shout out to <a href=\"https://twitter.com/EPedersenKS\">@EPedersenKS</a> for seeing the vision and making it possible. <a href=\"https://moonbaselabs.com/case-studies/venturedash/\">moonbaselabs.com/case-studies/v…</a>",
+      "text": "I'll never forget the meeting at @ReverieRoasters with @adewvall when we brainstormed the concept of @goventuredash. Amazing to see how far it has come. Huge shout out to @EPedersenKS for seeing the vision and making it possible. moonbaselabs.com/case-studies/v…"
+    },
+    "mention-of": "https://moonbaselabs.com/case-studies/venturedash/",
+    "wm-property": "mention-of",
+    "wm-private": false
+  }
+]
