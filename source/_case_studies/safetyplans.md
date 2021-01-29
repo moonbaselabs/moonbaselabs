@@ -5,8 +5,8 @@ description: Putting 27 years of safety consulting experience to work online, th
 date: 2018-06-25
 client: iSi Environmental
 industry: Environmental Health & Safety
-url: https://www.safetyplans.com/
-image: /assets/images/case-studies/safety-plans-4.jpg
+url: https://safetyplans.com/
+image: /assets/images/case-studies/safetyplans.jpg
 ---
 
 ## The Vision

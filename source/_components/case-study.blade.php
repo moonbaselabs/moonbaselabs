@@ -2,7 +2,7 @@
 
 <div class="relative flex flex-col rounded-lg shadow-lg overflow-hidden">
   <div class="flex-shrink-0 bg-navy-600">
-    <img class="h-48 w-full object-cover" src="{{ $caseStudy->image }}" alt="{{ $caseStudy->title }}">
+    <img class="h-48 w-full object-cover object-top" src="{{ $caseStudy->image }}" alt="{{ $caseStudy->title }}">
   </div>
   <div class="flex-1 bg-onyx-500 p-6 flex flex-col justify-between">
     <div class="flex-1">
