@@ -34,7 +34,7 @@ author: Nic Wentling
 
 ___
 
-A few people we want to thank:
+A few people we want to thank for their contribution to this rebrand:
 
  * [Roger Strunk](https://www.rogerstrunk.com) | Graphic Designer
  * [Nancy Kersenbrock](https://www.linkedin.com/in/nancy-kersenbrock-68770122/) | WSU Center for Entrepreneurship
