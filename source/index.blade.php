@@ -9,7 +9,6 @@
   transform: rotate3d(1, .1, 0, 75deg);
   transform-style: preserve-3d;
 }
-
 #sun, .planet {
   position: absolute;
   top: 50%;
@@ -21,11 +20,9 @@
   border-radius: 50%;
   transform-style: preserve-3d;
 }
-
 #sun {
   transform: rotateX(-75deg);
 }
-
 .pos {
   position: absolute;
   transform-style: preserve-3d;
@@ -33,12 +30,10 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-
 .planet {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-
 .orbit {
   position: absolute;
   top: 50%;
@@ -56,7 +51,6 @@
   0%   { transform: rotateZ(0deg); }
   100% { transform: rotateZ(-360deg); }
 }
-
 @keyframes invert {
   0%   { transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg); }
   100% { transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg); }
@@ -158,7 +152,6 @@
   animation-name: shadow-mercury;
   animation-duration: 10s;
 }
-
 @keyframes shadow-mercury {
   0% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
   25% { box-shadow: inset 16px 0 8px rgba(0, 0, 0, 0.5); /* LEFT */ }
