@@ -18,7 +18,9 @@
         <meta name="twitter:site" content="@moonbaselabs">
         <meta name="twitter:image" content="/assets/images/social.png">
         <meta name="twitter:image:alt" content="Moonbase Labs logo">
+        @if($page->production)
         <script src="https://beaver.moonbaselabs.com/script.js" data-site="CBMOAZJT" defer></script>
+        @endif
         <link rel="webmention" href="https://webmention.io/moonbaselabs.com/webmention" />
         <link rel="pingback" href="https://webmention.io/moonbaselabs.com/xmlrpc" />
         <link rel="preload" href="/assets/fonts/archivo/archivo-v7-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
