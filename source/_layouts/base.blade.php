@@ -19,8 +19,8 @@
         <meta name="twitter:image" content="/assets/images/social.png">
         <meta name="twitter:image:alt" content="Moonbase Labs logo">
         <script src="https://cdn.usefathom.com/script.js" data-site="CBMOAZJT" defer></script>
-        <link rel="webmention" href="https://webmention.io/www.moonbaselabs.com/webmention" />
-        <link rel="pingback" href="https://webmention.io/www.moonbaselabs.com/xmlrpc" />
+        <link rel="webmention" href="https://webmention.io/moonbaselabs.com/webmention" />
+        <link rel="pingback" href="https://webmention.io/moonbaselabs.com/xmlrpc" />
         <x-custom-font src="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap" />
         <link rel="stylesheet" href="{{ mix('css/main.css') }}">
     </head>
