@@ -9,6 +9,8 @@ author: Nic Wentling
 
 ## A New Brand
 
+![The new Moonbase Labs logo](/assets/images/blog/the-next-step.png)
+
 **Simply put:** We need a brand that can do more because we can do more.
 
 **At the end of 2019**, we merged with Lion Graph and began offering data analytics services. We build software, create SaaS (software as a service) platforms, design dashboards and construct data warehouses – all under the umbrella of guiding companies through digital transformation.
