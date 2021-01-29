@@ -14,7 +14,7 @@
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description }}" />
         <meta property="og:image" content="assets/images/social.png">
-        <meta name="twitter:card" content="summary">
+        <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@moonbaselabs">
         <meta name="twitter:image" content="/assets/images/social.png">
         <meta name="twitter:image:alt" content="Moonbase Labs logo">
