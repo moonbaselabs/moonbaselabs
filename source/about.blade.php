@@ -40,8 +40,8 @@
                 </li>
               </ul>
             </div>
-            <p>Software engineer with a passion for solving technical problems. Formerly a Material and Process Engineer at Textron Aviation.</p>
           </div>
+          <p class="mt-5 xl:mt-8">Software engineer with a passion for solving technical problems. Formerly a Material and Process Engineer at Textron Aviation.</p>
         </li>
 
         <li class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
@@ -72,8 +72,8 @@
                 </li>
               </ul>
             </div>
-            <p>Data analyst who enjoys telling stories with numbers. Formerly founder of Lion Graph and Eight Oaks.</p>
           </div>
+          <p class="mt-5 xl:mt-8">Data analyst who enjoys telling stories with numbers. Formerly founder of Lion Graph and Eight Oaks.</p>
         </li>
 
         <li class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
@@ -103,8 +103,8 @@
                 </li>
               </ul>
             </div>
-            <p>Product-focused designer with the ability to maintain a balance between high attention to detail and the overall vision for a project.</p>
           </div>
+          <p class="mt-5 xl:mt-8">Product-focused designer with the ability to maintain a balance between high attention to detail and the overall vision for a project.</p>
         </li>
 
         <li class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
@@ -149,8 +149,8 @@
                 </li>
               </ul>
             </div>
-            <p>Data analyst who loves asking questions and solving problems. Former employee of Lion Graph.</p>
           </div>
+          <p class="mt-5 xl:mt-8">Data analyst who loves asking questions and solving problems. Former employee of Lion Graph.</p>
         </li>
       </ul>
     </div>
