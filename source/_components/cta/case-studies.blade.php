@@ -1,7 +1,7 @@
 @props(['caseStudies'])
 
 <div {{ $attributes->merge(['class' => 'bg-onyx-600']) }}>
-  <div class="relative py-24 sm:py-32 lg:py-48 bg-cover" style="background-image:url(/assets/svg/moonbase-lab-texture.svg)">
+  <div class="relative py-24 sm:py-32 lg:py-48 bg-cover" style="background-image:url(/assets/images/moonbase-lab-texture.svg)">
     <div class="relative">
       <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <h2 class="text-base font-semibold tracking-wider text-blue-300 uppercase">Organizations we’ve sent</h2>

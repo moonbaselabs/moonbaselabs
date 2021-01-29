@@ -5,7 +5,7 @@
     <div class="relative max-w-lg mx-auto lg:max-w-7xl">
       <div class="lg:flex items-center justify-between">
         <a href="/" title="{{ $page->siteName }} home">
-          <img class="block h-14 mx-auto" height="48" src="/assets/svg/logo.svg" alt="Moonbase Labs">
+          <img class="block h-14 mx-auto" height="48" src="/assets/images/logo.svg" alt="Moonbase Labs">
         </a>
         <x-navigation :page="$page" />
       </div>
