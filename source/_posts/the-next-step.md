@@ -2,7 +2,7 @@
 extends: _layouts.post
 title: "Moonbase Labs: The Next Step"
 description: We need a brand that can do more because we can do more.
-date: 2021-01-28
+date: 2021-01-29
 tags: []
 author: Nic Wentling
 ---
@@ -13,7 +13,7 @@ author: Nic Wentling
 
 **Simply put:** We need a brand that can do more because we can do more.
 
-**At the end of 2019**, we merged with Lion Graph and began offering data analytics services. We build software, create SaaS (software as a service) platforms, design dashboards and construct data warehouses – all under the umbrella of guiding companies through digital transformation.
+**At the end of 2019**, we merged with Lion Graph and began offering data analytics services. We build software, create SaaS (software as a service) platforms, design dashboards and construct data warehouses – all under the umbrella of guiding organizations through digital transformation.
 
 **We have grown** from two co-founders to [four partners](/about).
 
@@ -26,7 +26,7 @@ author: Nic Wentling
 
 **We help innovators** eliminate friction at the foundations of their work. By integrating our digital experience with our clients’ deep domain knowledge, we create tools that empower our clients to scale their expertise.
 
-**This new brand** reflects our clients. The astronaut in the Moonbase Labs logo represents them and their aspirations, looking towards their future as they forge a path forward.
+**This new brand** reflects [our clients](/case-studies). The astronaut in the Moonbase Labs logo represents them and their aspirations, looking towards their future as they forge a path forward.
 
 **We are paying attention** to our mentors and partners. They are pioneers that constantly recreate themselves, willing to start fresh and make things new. We have watched them do this over and over again and decided to try it ourselves. When you rub shoulders with the best, innovation is contagious, transformation inevitable.
 

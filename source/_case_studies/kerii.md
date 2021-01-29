@@ -13,7 +13,7 @@ image: /assets/images/case-studies/kerii.jpg
 
 Kansas MTSS (Multi-Tier System of Supports and Alignment) exists to drive system-level change in classrooms, schools, and districts across Kansas by helping education leadership align resources. A substantial focus for their team is taking “inventory” of the broad range of initiatives underway within Kansas school districts.
 
-Using a combination of Google Forms and Google Sheets, was capturing large amounts of survey responses and then cleaning messy or repetitive data by hand; reporting on this data was also a manual task.
+Using a combination of Google Forms and Google Sheets, MTSS was capturing large amounts of survey responses and then cleaning messy or repetitive data by hand; reporting on this data was also a manual task.
 
 Faced with a difficult, but common choice, MTSS would either need to hire new administrative professionals to facilitate more survey data or improve the efficiency of their existing team through a streamlined process. With a new school year approaching, the solution would need to emerge quickly.
 

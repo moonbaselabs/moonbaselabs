@@ -24,6 +24,7 @@ With this bold vision as the compass, we set out to create a software-as-a-servi
 Over the course of 8 months, we collaborated with the NetWork Kansas team to develop VentureDash – __“The best way to run a business competition.”__ VentureDash is an online entrepreneurship competition management system designed to streamline the facilitation of entrepreneurship fairs and business plan competitions held throughout the United States.
 
 The Moonbase Labs team completed work across a variety of competencies to deliver the following for VentureDash:
+
  * Marketing website
  * Web application
  * Logo and cohesive brand elements
@@ -37,9 +38,9 @@ Completed in the midst of the Coronavirus pandemic in 2020, the VentureDash plat
 
 <figure>
   <blockquote>
-    “VentureDash has become a powerful platform for us to promote youth entrepreneurship on a national > stage and it wouldn't be possible without our partnership with Moonbase Labs.“
+    “VentureDash has become a powerful platform for us to promote youth entrepreneurship on a national stage and it wouldn't be possible without our partnership with Moonbase Labs.“
   </blockquote>
-  <figcaption>Erik Pederesen, VP of Entrepreneurship at NetWork Kansas</figcaption>
+  <figcaption>Erik Pedersen, VP of Entrepreneurship at NetWork Kansas</figcaption>
 </figure>
 
 In its first six months, 95 competitions were created on VentureDash with a total of over 1,100 participants across the country.
