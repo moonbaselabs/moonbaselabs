@@ -1,0 +1,38 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nic Wentling",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/d455b3a54f63c883a0db455db67a99c6dc30d0bfb47d6e9e7a76269946aafd82.jpg",
+      "url": "https://twitter.com/nwentling5"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1356299010433298434#favorited-by-1881154279",
+    "published": null,
+    "wm-received": "2021-02-01T18:31:43Z",
+    "wm-id": 1012809,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/MoonbaseLabs/1356299010433298434/1881154279",
+    "wm-target": "https://moonbaselabs.com/",
+    "like-of": "https://moonbaselabs.com/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Christian Taylor",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/8cf6fd2e07b769d7a4ba97390a2069fd2e944e17cfcc84dc3582320a66a3a61e.jpg",
+      "url": "https://twitter.com/ima_crayon"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1356299010433298434#favorited-by-143906032",
+    "published": null,
+    "wm-received": "2021-02-01T18:31:43Z",
+    "wm-id": 1012810,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/MoonbaseLabs/1356299010433298434/143906032",
+    "wm-target": "https://moonbaselabs.com/",
+    "like-of": "https://moonbaselabs.com/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
