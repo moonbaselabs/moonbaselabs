@@ -521,5 +521,23 @@
     "like-of": "https://moonbaselabs.com/blog/the-next-step/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "ignister",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/cc896b29a9d1b84dfd37039b69609355808308ebe0519aa3c90f7ad2bbdbc259.png",
+      "url": "https://twitter.com/ignisterKS"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1355188043267907590#favorited-by-1329100230290264067",
+    "published": null,
+    "wm-received": "2021-02-02T20:45:43Z",
+    "wm-id": 1014299,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1355188043267907590/1329100230290264067",
+    "wm-target": "https://moonbaselabs.com/blog/the-next-step/",
+    "like-of": "https://moonbaselabs.com/blog/the-next-step/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
