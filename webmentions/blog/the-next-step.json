@@ -539,5 +539,23 @@
     "like-of": "https://moonbaselabs.com/blog/the-next-step/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Erik Pedersen",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/6079035057051dc2a9228f9fb706c09a9b6852fdb2cac34d58b1f142c1c68c74.jpg",
+      "url": "https://twitter.com/EPedersenKS"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1356999750315343874#favorited-by-1357848338",
+    "published": null,
+    "wm-received": "2021-02-03T18:13:23Z",
+    "wm-id": 1015493,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1356999750315343874/1357848338",
+    "wm-target": "https://moonbaselabs.com/blog/the-next-step/",
+    "like-of": "https://moonbaselabs.com/blog/the-next-step/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
