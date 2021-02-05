@@ -137,28 +137,27 @@
 
 /* Planet shadow animations */
 #mercury .planet {
-  animation-name: shadow-mercury;
+  animation-name: shadow;
   animation-duration: 4s;
 }
 #venus .planet {
-  animation-name: shadow-mercury;
+  animation-name: shadow;
   animation-duration: 6s;
 }
 #earth .planet {
-  animation-name: shadow-mercury;
+  animation-name: shadow;
   animation-duration: 8s;
 }
 #mars .planet {
-  animation-name: shadow-mercury;
+  animation-name: shadow;
   animation-duration: 10s;
 }
-@keyframes shadow-mercury {
-  0% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
-  25% { box-shadow: inset 16px 0 8px rgba(0, 0, 0, 0.5); /* LEFT */ }
-  50% { box-shadow: inset 40px -20px 16px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
-  50.01% { box-shadow: inset -40px -20px 16px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
-  75% { box-shadow: inset -16px 0 8px rgba(0, 0, 0, 0.5); /* RIGHT */ }
-  100% { box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* TOP */ }
+
+@keyframes shadow {
+  0% { box-shadow: inset .2em 0 .1em rgba(0, 0, 0, 0.5); }
+  25% { box-shadow: inset 1em -.5em .2em rgba(0, 0, 0, 0.5); }
+  50% { box-shadow: inset .1em 0 .5em rgba(0, 0, 0, 0.5); }
+  100% { box-shadow: inset .2em 0 .1em rgba(0, 0, 0, 0.5); }
 }
 </style>
 <div class="absolute z-10 top-0 left-0 w-full py-6 px-4 sm:px-6 lg:py-12 lg:px-8">
