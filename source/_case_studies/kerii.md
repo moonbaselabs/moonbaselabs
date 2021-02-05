@@ -5,7 +5,7 @@ description: Delivering a digital survey and analytics tool under a tight timeli
 date: 2020-08-03
 client: KansasMTSS
 industry: Education
-url: https://kansasbeatsthevirus.com/
+url: https://kerii.kansasmtss.org
 image: /assets/images/case-studies/kerii.jpg
 ---
 
