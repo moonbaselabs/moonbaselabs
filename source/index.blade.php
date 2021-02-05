@@ -173,7 +173,7 @@
 <div class="relative bg-gradient-to-t from-onyx-500 overflow-hidden">
   <div class="pt-56 pb-24 sm:py-64 lg:py-80">
     <div class="absolute inset-0 bg-repeat opacity-50" style="background-image: url(/assets/images/stars.png); background-size: 50%;"></div>
-    <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
+    <div class="sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
       <div class="relative h-full max-w-screen-xl mx-auto">
         <div id="universe" class="absolute left-1/2 top-1/2 -ml-24 transform scale-150">
           <div id="galaxy">
