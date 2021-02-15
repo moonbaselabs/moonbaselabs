@@ -7,6 +7,7 @@ client: Essential CEU Institute
 industry: Health & Human Services
 url: https://essentialceu.institute/
 image: /assets/images/case-studies/essential-ceu-institute.jpg
+tags: []
 ---
 
 ## The Vision

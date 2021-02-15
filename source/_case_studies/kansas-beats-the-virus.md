@@ -7,6 +7,7 @@ client: Kansas Leadership Center
 industry: Health & Human Services
 url: https://kansasbeatsthevirus.com/
 image: /assets/images/case-studies/kansas-beats-the-virus.jpg
+tags: [nonprofit]
 ---
 
 ## The Vision

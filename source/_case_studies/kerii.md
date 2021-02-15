@@ -7,6 +7,7 @@ client: KansasMTSS
 industry: Education
 url: https://kerii.kansasmtss.org
 image: /assets/images/case-studies/kerii.jpg
+tags: [nonprofit]
 ---
 
 ## The Vision

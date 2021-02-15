@@ -7,6 +7,7 @@ client: NetWork Kansas
 industry: Education
 url: https://goventurdash.com/
 image: /assets/images/case-studies/venturedash.jpg
+tags: [nonprofit]
 ---
 
 ## The Vision

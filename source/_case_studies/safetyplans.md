@@ -7,6 +7,7 @@ client: iSi Environmental
 industry: Environmental Health & Safety
 url: https://safetyplans.com/
 image: /assets/images/case-studies/safetyplans.jpg
+tags: []
 ---
 
 ## The Vision
