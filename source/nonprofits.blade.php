@@ -34,7 +34,7 @@
         </p>
         <div class="mt-8">
           <div class="inline-flex rounded-md shadow">
-            <x-button color="onyx" href="/blog/we-love-nonprofits-sorry-not-sorry" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
+            <x-button color="onyx" href="/blog/building-software-that-matters" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
               Learn why we love working with nonprofits →
             </x-button>
           </div>
