@@ -1,0 +1,38 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Wichita Life",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/1cc271d9f8d998381e6d7c8cc42a9eacdd7cc41ed3797bda66f19cee9e6593bc.jpg",
+      "url": "https://twitter.com/wichitalifeict"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1363907514232754176#favorited-by-915959909262471169",
+    "published": null,
+    "wm-received": "2021-02-23T06:05:25Z",
+    "wm-id": 1043197,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1363907514232754176/915959909262471169",
+    "wm-target": "https://moonbaselabs.com/blog/building-software-that-matters/",
+    "like-of": "https://moonbaselabs.com/blog/building-software-that-matters/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1363907514232754176#favorited-by-553012338",
+    "published": null,
+    "wm-received": "2021-02-23T06:05:59Z",
+    "wm-id": 1043198,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1363907514232754176/553012338",
+    "wm-target": "https://moonbaselabs.com/blog/building-software-that-matters/",
+    "like-of": "https://moonbaselabs.com/blog/building-software-that-matters/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
