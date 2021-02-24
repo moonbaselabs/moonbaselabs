@@ -2,8 +2,12 @@ name: Publish
 
 on:
   push:
-    branches:
-      - source
+    branches: [source]
+  workflow_run:
+    workflows: [Webmentions]
+    branches: [source]
+    types:
+      - completed
 
 jobs:
   publish:
