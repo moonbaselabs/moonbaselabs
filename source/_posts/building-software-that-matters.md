@@ -16,7 +16,7 @@ We want to build software that matters.
 
 We want to give nonprofits the tools that built Netflix and Amazon. We want good to scale. Empowered teachers, diverse entrepreneurs, stronger leaders: those missions are now our mission. We build software to empower the doers; our analytics tools create context for progress.
 
-Our team wants to be the change we see in the world. It’s why Nic is on the board of [DevICT](https://devict.org) and why Ted co-founded a non-profit, [Eight Oaks](https://www.8oaks.org). It’s why Benny and Christian contribute to [VoteLocal](https://votelocalks.org), an open source project that helps people vote. We care about our community. We want to help.
+Our team wants to be the change we see in the world. It’s why Nic is on the board of [DevICT](https://devict.org) and why Ted co-founded a nonprofit, [Eight Oaks](https://www.8oaks.org). It’s why Benny and Christian contribute to [VoteLocal](https://votelocalks.org), an open source project that helps people vote. We care about our community. We want to help.
 
 Want to learn more about our work with nonprofits? [Check out our nonprofit case studies](/nonprofits).
 
