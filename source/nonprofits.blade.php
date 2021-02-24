@@ -43,6 +43,6 @@
     </div>
   </div>
 </div>
-<x-cta.case-studies :case-studies="$case_studies->filter(fn ($caseStudy) => in_array('nonprofit', $caseStudy->tags, true))" />
+<x-cta.case-studies label="Nonprofits" :case-studies="$case_studies->filter(fn ($caseStudy) => in_array('nonprofit', $caseStudy->tags, true))" />
 <x-cta.meeting team />
 @overwrite
