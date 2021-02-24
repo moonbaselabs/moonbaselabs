@@ -37,12 +37,14 @@
                     <a class="underline text-gold-500 hover:text-gold-400" href="/industries/{{ \Illuminate\Support\Str::slug($page->industry) }}">{{ $page->industry }}</a>
                   </dd>
                 </div>
-                <div>
-                  <dt class="uppercase tracking-wider text-sm font-medium text-navy-500">Location</dt>
-                  <dd class="text-xl font-medium tracking-tight text-navy-300">
-                    <a class="underline text-gold-500 hover:text-gold-400" href="{{ $page->url }}">{{ str_replace('www.', '', parse_url($page->url)['host']) }}</a>
-                  </dd>
-                </div>
+                @if($page->url)
+                  <div>
+                    <dt class="uppercase tracking-wider text-sm font-medium text-navy-500">Location</dt>
+                    <dd class="text-xl font-medium tracking-tight text-navy-300">
+                      <a class="underline text-gold-500 hover:text-gold-400" href="{{ $page->url }}">{{ str_replace('www.', '', parse_url($page->url)['host']) }}</a>
+                    </dd>
+                  </div>
+                @endif
             </dl>
           </div>
           <!-- Image -->
