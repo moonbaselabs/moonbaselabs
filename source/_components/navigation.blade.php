@@ -5,7 +5,7 @@
       <x-nav-link href="/case-studies" :page="$page">Case Studies</x-nav-link>
       <x-nav-link href="/blog" :page="$page">Blog</x-nav-link>
     </div>
-    <x-button color="green" class="mt-5 ml-5 sm:ml-10" href="https://form.asana.com/?k=UGChj8QUhBXNpBlEoAcBVg&d=359352374091689">
+    <x-button color="green" class="mt-5 ml-5 sm:ml-10" href="https://form.asana.com/?k=UGChj8QUhBXNpBlEoAcBVg&d=359352374091689" onclick="window.fathom.trackGoal('VGSSKEKR', 0);">
       Schedule a Meeting
     </x-button>
   </div>
