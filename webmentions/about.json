@@ -74,5 +74,41 @@
     "like-of": "https://moonbaselabs.com/about/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Christian Taylor",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/8cf6fd2e07b769d7a4ba97390a2069fd2e944e17cfcc84dc3582320a66a3a61e.jpg",
+      "url": "https://twitter.com/ima_crayon"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1366442862003511306#favorited-by-143906032",
+    "published": null,
+    "wm-received": "2021-03-02T01:16:50Z",
+    "wm-id": 1052988,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1366442862003511306/143906032",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "ContentKid",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/4ed8292fc28ab733c78d469b6782314528bd5de3efe392237a629b0aa97443ef.jpg",
+      "url": "https://twitter.com/Content_Kid"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1366442862003511306#favorited-by-726014531671982080",
+    "published": null,
+    "wm-received": "2021-03-02T03:24:30Z",
+    "wm-id": 1053164,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1366442862003511306/726014531671982080",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
