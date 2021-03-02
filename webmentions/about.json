@@ -1,0 +1,78 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nic Wentling",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/d455b3a54f63c883a0db455db67a99c6dc30d0bfb47d6e9e7a76269946aafd82.jpg",
+      "url": "https://twitter.com/nwentling5"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1366442862003511306#favorited-by-1881154279",
+    "published": null,
+    "wm-received": "2021-03-01T18:36:58Z",
+    "wm-id": 1052604,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1366442862003511306/1881154279",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1366442862003511306#favorited-by-553012338",
+    "published": null,
+    "wm-received": "2021-03-01T18:36:58Z",
+    "wm-id": 1052605,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1366442862003511306/553012338",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/tedkriwiel/status/1366444747154481159",
+    "published": "2021-03-01T17:46:29+00:00",
+    "wm-received": "2021-03-01T18:37:37Z",
+    "wm-id": 1052609,
+    "wm-source": "https://brid.gy/comment/twitter/MoonbaseLabs/1366442862003511306/1366444747154481159",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "content": {
+      "html": "“The impact” is soooooooo cool.\n<a class=\"u-mention\" href=\"https://imacrayon.com/pictures/\"></a>\n<a class=\"u-mention\" href=\"https://moonbaselabs.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/MoonbaseLabs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ima_crayon\"></a>",
+      "text": "“The impact” is soooooooo cool."
+    },
+    "in-reply-to": "https://moonbaselabs.com/about/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Benny Bowden 🚀",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/0eedd15e6f9739535c5ac377387fee13db2f4f716e8f72280f7255de727c6449.jpg",
+      "url": "https://twitter.com/itsMeBennyB"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1366442862003511306#favorited-by-374366944",
+    "published": null,
+    "wm-received": "2021-03-01T23:04:54Z",
+    "wm-id": 1052861,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1366442862003511306/374366944",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
