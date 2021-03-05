@@ -446,5 +446,23 @@
     "like-of": "https://moonbaselabs.com/about/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nathan Miller",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/8e84d71be4879bbeb117461f104420ed6974dfa3d338ee4ee726e1f994a40e3f.jpg",
+      "url": "https://twitter.com/NateRussMill"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1367594251895238656#favorited-by-735063",
+    "published": null,
+    "wm-received": "2021-03-05T15:00:41Z",
+    "wm-id": 1058429,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1367594251895238656/735063",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
