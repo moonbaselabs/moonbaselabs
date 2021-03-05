@@ -410,5 +410,41 @@
     "like-of": "https://moonbaselabs.com/about/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Seth Etter",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/8fe6744ffa3b5254a604828c6a17cf60d6afec31ca7e0838663111a4cde0b049.jpg",
+      "url": "https://twitter.com/sethetter"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1367594251895238656#favorited-by-19247787",
+    "published": null,
+    "wm-received": "2021-03-05T02:05:34Z",
+    "wm-id": 1057441,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1367594251895238656/19247787",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Thane Chastain",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/725f92214167808ffc8e4711a05152b7e0dec83518b8988171a52141dcfeb0b3.jpg",
+      "url": "https://twitter.com/thanechastain"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1367594251895238656#favorited-by-14562215",
+    "published": null,
+    "wm-received": "2021-03-05T02:06:07Z",
+    "wm-id": 1057442,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1367594251895238656/14562215",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
