@@ -464,5 +464,23 @@
     "like-of": "https://moonbaselabs.com/about/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "𝓜𝓲𝓬𝓱𝓮𝓵𝓵𝓮 𝓙𝓸𝓷𝓮𝓼 🍓",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/ebb47b31cd951e57c7146db8e680fd434d677472b50b1ce1fd9854700db9f366.jpg",
+      "url": "https://twitter.com/Michelle76228"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1367144464519729160#favorited-by-89213064",
+    "published": null,
+    "wm-received": "2021-03-06T17:32:34Z",
+    "wm-id": 1059738,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1367144464519729160/89213064",
+    "wm-target": "https://moonbaselabs.com/about/",
+    "like-of": "https://moonbaselabs.com/about/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
