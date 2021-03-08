@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   /** https://google-webfonts-helper.herokuapp.com **/
 
   /* barlow-regular - latin */
