@@ -94,5 +94,59 @@
     "like-of": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Tiffany Nixon",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/25ee8466323e4eaad18d51d83d8057854dd1bfff177e0f626d02bbb62c7dc813.jpg",
+      "url": "https://twitter.com/TiffanyJNixon"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1369067625297416194#favorited-by-2205533976",
+    "published": null,
+    "wm-received": "2021-03-09T14:51:37Z",
+    "wm-id": 1062856,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1369067625297416194/2205533976",
+    "wm-target": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "like-of": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Marquetta",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/b536bffb9a0da60e17333f753322981c50045d6df82335a6122c4ad74d058c90.jpg",
+      "url": "https://twitter.com/MarquettaAKs"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1369067625297416194#favorited-by-21241118",
+    "published": null,
+    "wm-received": "2021-03-09T15:39:06Z",
+    "wm-id": 1062887,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1369067625297416194/21241118",
+    "wm-target": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "like-of": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Shelley Paasch",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/e5451661ac3988e7d3ec863fa8b2b6482b477c9470126d9fd12cee551400e4cd.jpg",
+      "url": "https://twitter.com/shelpaasch"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1369067625297416194#favorited-by-2851551640",
+    "published": null,
+    "wm-received": "2021-03-09T17:36:06Z",
+    "wm-id": 1062997,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1369067625297416194/2851551640",
+    "wm-target": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "like-of": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]

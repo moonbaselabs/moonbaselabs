@@ -34,5 +34,23 @@
     "like-of": "https://moonbaselabs.com/case-studies/essential-ceu-institute/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Tiffany Nixon",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/25ee8466323e4eaad18d51d83d8057854dd1bfff177e0f626d02bbb62c7dc813.jpg",
+      "url": "https://twitter.com/TiffanyJNixon"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1369067614824173569#favorited-by-2205533976",
+    "published": null,
+    "wm-received": "2021-03-09T14:51:39Z",
+    "wm-id": 1062858,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1369067614824173569/2205533976",
+    "wm-target": "https://moonbaselabs.com/case-studies/essential-ceu-institute/",
+    "like-of": "https://moonbaselabs.com/case-studies/essential-ceu-institute/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
