@@ -9,7 +9,7 @@
       </div>
       <div class="md:max-w-2xl md:flex md:items-center">
         <div>
-          <a href="/blog/flybys-to-discover" class="inline-flex items-center text-white bg-navy-600 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-silver-700">
+          <a href="/blog/building-software-that-matters/" class="inline-flex items-center text-white bg-navy-600 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-silver-700">
             <span class="inline-flex items-center px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-500 rounded-full">
               We
               <!-- heart -->
