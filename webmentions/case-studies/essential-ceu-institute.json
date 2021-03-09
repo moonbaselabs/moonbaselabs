@@ -16,5 +16,23 @@
     "like-of": "https://moonbaselabs.com/case-studies/essential-ceu-institute/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Nathan Miller",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/8e84d71be4879bbeb117461f104420ed6974dfa3d338ee4ee726e1f994a40e3f.jpg",
+      "url": "https://twitter.com/NateRussMill"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1369067614824173569#favorited-by-735063",
+    "published": null,
+    "wm-received": "2021-03-09T04:23:51Z",
+    "wm-id": 1062368,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1369067614824173569/735063",
+    "wm-target": "https://moonbaselabs.com/case-studies/essential-ceu-institute/",
+    "like-of": "https://moonbaselabs.com/case-studies/essential-ceu-institute/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
