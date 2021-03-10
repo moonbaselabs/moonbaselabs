@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/tedkriwiel/status/1369660268452720640",
+    "published": "2021-03-10T14:43:49+00:00",
+    "wm-received": "2021-03-10T16:30:25Z",
+    "wm-id": 1064842,
+    "wm-source": "https://brid.gy/post/twitter/MoonbaseLabs/1369660268452720640",
+    "wm-target": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "content": {
+      "html": "We use a \"flyby\" to de-risk projects for our clients. We borrowed the term from NASA. In short: Look before you leap.  <a href=\"https://moonbaselabs.com/blog/flybys-to-discover/\">moonbaselabs.com/blog/flybys-to…</a>",
+      "text": "We use a \"flyby\" to de-risk projects for our clients. We borrowed the term from NASA. In short: Look before you leap.  moonbaselabs.com/blog/flybys-to…"
+    },
+    "mention-of": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "wm-property": "mention-of",
+    "wm-private": false
+  }
+]
