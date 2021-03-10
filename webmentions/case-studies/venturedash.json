@@ -310,5 +310,23 @@
     "like-of": "https://moonbaselabs.com/case-studies/venturedash/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ciara Thyfault",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/bf93b5217ea7acba1028bf3ec662c41d7d7b986e7b014da429b3fbf1c9e32c43.jpg",
+      "url": "https://twitter.com/clthyfault"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1369067620067143681#favorited-by-2518301880",
+    "published": null,
+    "wm-received": "2021-03-09T23:13:47Z",
+    "wm-id": 1063353,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1369067620067143681/2518301880",
+    "wm-target": "https://moonbaselabs.com/case-studies/venturedash/",
+    "like-of": "https://moonbaselabs.com/case-studies/venturedash/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
