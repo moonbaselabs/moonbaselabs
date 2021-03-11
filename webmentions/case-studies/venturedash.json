@@ -328,5 +328,23 @@
     "like-of": "https://moonbaselabs.com/case-studies/venturedash/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Kristan Davis",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/cf885c66fa6b3c64be8d79f48fc7a09077833c095478ff43f03fdb24c13906c4.jpg",
+      "url": "https://twitter.com/kristandavis92"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1369067620067143681#favorited-by-1633690333",
+    "published": null,
+    "wm-received": "2021-03-11T17:08:51Z",
+    "wm-id": 1066966,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1369067620067143681/1633690333",
+    "wm-target": "https://moonbaselabs.com/case-studies/venturedash/",
+    "like-of": "https://moonbaselabs.com/case-studies/venturedash/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
