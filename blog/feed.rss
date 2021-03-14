@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title></title>
+    <link href="https://moonbaselabs.com" />
+    <link type="application/atom+xml" rel="self" href="https://moonbaselabs.com/blog/feed.rss" />
+    <updated>2021-03-14T06:19:28+00:00</updated>
+    <id>https://moonbaselabs.com/blog/feed.rss</id>
+    <author>
+        <name></name>
+    </author>
+       <entry>
+  <id>https://moonbaselabs.com/blog/flybys-to-discover</id>
+  <link type="text/html" rel="alternate" href="https://moonbaselabs.com/blog/flybys-to-discover" />
+  <title>Flybys to Discover</title>
+  <published>2021-03-08T00:00:00+00:00</published>
+  <updated>2021-03-08T00:00:00+00:00</updated>
+  <author>
+    <name>Ted Kriwiel</name>
+  </author>
+  <summary type="html">How our flyby process helps our customers get the best products possible....</summary>
+  <content type="html"><![CDATA[
+    <p><img src="/assets/images/blog/flybys-to-discover-01.jpg" alt="Illustration of lunar capsule orbiting the moon" /></p>
+
+<p>Before astronauts from Apollo 11 landed on the moon, NASA completed <a href="https://moon.nasa.gov/exploration/moon-missions/">thirty lunar missions</a>. They sent flybys to circle the moon and collect data to inform a future lunar landing. Over the span of a decade, NASA sent dozens of missions towards the moon without trying to land on the moon. They had a clear scope for every mission and regardless of the outcome, they learned something. every. single. attempt. In 1969, Apollo 11 traveled safely to the moon due to previous missions that didn’t go to the moon. Those missions never intended to. Their purpose was to de-risk and demystify this new landscape.</p>
+
+<p><img src="/assets/images/blog/flybys-to-discover-02.jpg" alt="Imaging scan of the surface of the moon" /></p>
+
+<p>To help our clients build the best products possible, we start with a flyby – a mission to find answers to two critical questions: <strong>“Where are we going?”</strong> and <strong>“Why are we going there?”</strong> In a series of five meetings, we create diagrams and roadmaps to de-risk building software for everyone involved.</p>
+
+<p><strong>“Why are we going there?”</strong> is the most important question  and always comes first. “Why?” drives the business conversation and helps inform the requirements.
+Why do we need to automate this workflow?
+How do we prioritize each feature we want?
+How painful is the current process?
+Conversely, what new opportunities will this solution create?</p>
+
+<p>Nested in those “Why?” questions, is a business case for building the solution. Trips to the moon are risky, and the more cargo you carry, the riskier those missions become. Building beautiful products requires sharp attention to the value each feature creates and requires saying “no” to features that would be nice. By eliminating non-critical features at the beginning, we save <a href="https://moonbaselabs.com/case-studies/">our clients</a> hundreds of hours and thousands of dollars.</p>
+
+<p><strong>“Where are we going?”</strong> drives the technical conversation to determine the requirements.
+How many users do we expect?
+How often will they interact with the data?
+What features will be needed to solve the problem?
+What devices will be used to access the software?</p>
+
+<p><img src="/assets/images/blog/flybys-to-discover-03.jpg" alt="Historic photo of NASA ground control memebers celebrating mission success" /></p>
+
+<p>At Moonbase Labs, iteration is king. We don’t attempt go-for-broke moonshots. We send orbits and flybys. We build prototypes that let user feedback dictate design. Eventually, we land partners on the moon, but never overnight. We think it’s important that our clients arrive safely, so we eliminate risks at every turn. We de-risk and demystify the process of creating a successful product, whether you’re building a SaaS platform or an internal tool. We help partners determine where they are going, the risks they’ll face, and the fastest way to get there.</p>
+
+<p>Want to see the steps we take to answer these two important questions? Check out our <a href="https://docs.google.com/document/d/1HfjUDB_TEWbqRQt9jXYevaetZwegF8nHho0zsj2jyeA/edit" onclick="window.fathom.trackGoal('VB6WRXW1', 0);">flyby process</a>.</p>
+  ]]></content>
+</entry>
+ 
+   <entry>
+  <id>https://moonbaselabs.com/blog/building-software-that-matters</id>
+  <link type="text/html" rel="alternate" href="https://moonbaselabs.com/blog/building-software-that-matters" />
+  <title>Building Software that Matters</title>
+  <published>2021-02-15T00:00:00+00:00</published>
+  <updated>2021-02-15T00:00:00+00:00</updated>
+  <author>
+    <name>Ted Kriwiel</name>
+  </author>
+  <summary type="html">Why we love working with nonprofits....</summary>
+  <content type="html"><![CDATA[
+    <p>Moonbase Labs has never really had a “niche.” We are a team of  problem solvers, so naturally, we do our best to help everyone who walks through our doors. In January, we took time to reflect on the last few years and a pattern came to light: <strong>We enjoy helping people who help people.</strong></p>
+
+<p>We discussed our favorite projects and the partnerships we’ve created over the last few years. Todd Wiedemann with <a href="/case-studies/kerii/">Kansas MTSS</a>; Steve Radley and Erik Pedersen at <a href="/case-studies/venturedash/">NetWork Kansas</a>; Ed O’Malley and Julia Fabris McBride with the <a href="/case-studies/kansas-beats-the-virus/">Kansas Leadership Center</a>. What do all of these people have in common? They are innovative leaders of highly impactful nonprofits. More importantly, they are wildly talented individuals on a mission to do good. They are improving the lives of teachers, serving entrepreneurs, and inspiring the bold leaders of tomorrow. Those missions matter: they matter to our communities, and that matters to us.</p>
+
+<p>We want to build software that matters.</p>
+
+<p>We want to give nonprofits the tools that built Netflix and Amazon. We want good to scale. Empowered teachers, diverse entrepreneurs, stronger leaders: those missions are now our mission. We build software to empower the doers; our analytics tools create context for progress.</p>
+
+<p>Our team wants to be the change we see in the world. It’s why Nic is on the board of <a href="https://devict.org">DevICT</a> and why Ted co-founded a nonprofit, <a href="https://www.8oaks.org">Eight Oaks</a>. It’s why Benny and Christian contribute to <a href="https://votelocalks.org">VoteLocal</a>, an open source project that helps people vote. We care about our community. We want to help.</p>
+
+<p>Want to learn more about our work with nonprofits? <a href="/nonprofits">Check out our nonprofit case studies</a>.</p>
+
+<hr>
+
+<p>People who helped us see the light:</p>
+
+<ul>
+<li><a href="https://www.linkedin.com/in/delane-butler-231a78112/">Delane Butler</a> | United Way of the Plains</li>
+<li><a href="https://www.linkedin.com/in/michael-webb-35240416/">Michael Webb</a> | Grant Writing Consultant</li>
+<li><a href="https://www.linkedin.com/in/melissarobertskc/">Melissa Roberts-Chapman</a> | Kauffman Foundation</li>
+<li><a href="https://www.linkedin.com/in/christina-long-05221555/">Christina Long</a> | Create Campaign</li>
+<li><a href="https://www.linkedin.com/in/sethetter/">Seth Etter</a> | Ad Hoc</li>
+<li><a href="https://www.linkedin.com/in/brentcomstock/">Brent Comstock</a> | BCom Solutions</li>
+<li><a href="https://www.linkedin.com/in/meyersmaria/">Maria Meyers</a> | US Sourcelink</li>
+<li><a href="https://www.linkedin.com/in/samueladiv/">Sam Adiv</a> | OpenTent</li>
+<li><a href="https://www.linkedin.com/in/michael-ramsey-4bbb2a31/">Mike Ramsey</a> | Real Estate Tycoon at Bokeh Development</li>
+<li><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">Mahatma Gandhi</a> | Political Ethicist</li>
+</ul>
+  ]]></content>
+</entry>
+ 
+   <entry>
+  <id>https://moonbaselabs.com/blog/the-next-step</id>
+  <link type="text/html" rel="alternate" href="https://moonbaselabs.com/blog/the-next-step" />
+  <title>Moonbase Labs: The Next Step</title>
+  <published>2021-01-29T00:00:00+00:00</published>
+  <updated>2021-01-29T00:00:00+00:00</updated>
+  <author>
+    <name>Nic Wentling</name>
+  </author>
+  <summary type="html">We need a brand that can do more because we can do more....</summary>
+  <content type="html"><![CDATA[
+    <h2>A New Brand</h2>
+
+<p><img src="/assets/images/blog/the-next-step.png" alt="The new Moonbase Labs logo" /></p>
+
+<p><strong>Simply put:</strong> We need a brand that can do more because we can do more.</p>
+
+<p><strong>At the end of 2019</strong>, we merged with Lion Graph and began offering data analytics services. We build software, create SaaS (software as a service) platforms, design dashboards and construct data warehouses – all under the umbrella of guiding organizations through digital transformation.</p>
+
+<p><strong>We have grown</strong> from two co-founders to <a href="/about">four partners</a>.</p>
+
+<ul>
+<li>Nic Wentling</li>
+<li>Benny Bowden</li>
+<li>Ted Kriwiel</li>
+<li>Christian Taylor</li>
+</ul>
+
+<p><strong>Our clients are</strong> nationally recognized as thought leaders in their fields – they are trailblazers. The work of a trailblazer is never finished and the road to innovation is most often digital.</p>
+
+<p><strong>We help innovators</strong> eliminate friction at the foundations of their work. By integrating our digital experience with our clients’ deep domain knowledge, we create tools that empower our clients to scale their expertise.</p>
+
+<p><strong>This new brand</strong> reflects <a href="/case-studies">our clients</a>. The astronaut in the Moonbase Labs logo represents them and their aspirations, looking towards their future as they forge a path forward.</p>
+
+<p><strong>We are paying attention</strong> to our mentors and partners. They are pioneers that constantly recreate themselves, willing to start fresh and make things new. We have watched them do this over and over again and decided to try it ourselves. When you rub shoulders with the best, innovation is contagious, transformation inevitable.</p>
+
+<p><strong>This is the next step</strong> for Moonbase Labs and we invite you to join us. <a href="https://form.asana.com/?k=UGChj8QUhBXNpBlEoAcBVg&amp;d=359352374091689">Reach out to us</a> anytime.</p>
+
+<hr />
+
+<p>A few people we want to thank for their contribution to this rebrand:</p>
+
+<ul>
+<li><a href="https://www.rogerstrunk.com">Roger Strunk</a> | Graphic Designer</li>
+<li><a href="https://www.linkedin.com/in/nancy-kersenbrock-68770122/">Nancy Kersenbrock</a> | WSU Center for Entrepreneurship</li>
+<li><a href="https://www.linkedin.com/in/mark-torline-1b025917/">Mark Torline</a> | WSU Center for Entrepreneurship</li>
+<li><a href="https://www.linkedin.com/in/doug-stucky-4a23471/">Doug Stucky</a> | WSU College of Innovation &amp; Design</li>
+<li><a href="https://nxtus.io/our-team/">Josh Oeding</a> | NXTUS</li>
+<li><a href="https://youtu.be/eXIDFx74aSY">Wernher von Braun</a> | Aerospace Engineer</li>
+</ul>
+  ]]></content>
+</entry>
+ 
+</feed>
