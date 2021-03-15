@@ -5,7 +5,7 @@ description: Harnessing subject matter expertise to establish new revenue stream
 date: 2020-05-01
 client: NetWork Kansas
 industry: Education
-url: https://goventurdash.com/
+url: https://goventuredash.com/
 image: /assets/images/case-studies/venturedash.jpg
 tags: [nonprofit]
 ---
