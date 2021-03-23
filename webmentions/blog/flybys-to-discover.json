@@ -20,5 +20,63 @@
     "mention-of": "https://moonbaselabs.com/blog/flybys-to-discover/",
     "wm-property": "mention-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1374060737925091331#favorited-by-553012338",
+    "published": null,
+    "wm-received": "2021-03-22T19:02:17Z",
+    "wm-id": 1087492,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1374060737925091331/553012338",
+    "wm-target": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "like-of": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/tedkriwiel/status/1374072877394300936",
+    "published": "2021-03-22T18:57:57+00:00",
+    "wm-received": "2021-03-22T19:02:18Z",
+    "wm-id": 1087493,
+    "wm-source": "https://brid.gy/post/twitter/MoonbaseLabs/1374072877394300936",
+    "wm-target": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "content": {
+      "html": "This is my favorite part of what we do. Dreaming and scheming.\n<a class=\"u-mention\" href=\"https://moonbaselabs.com/blog/flybys-to-discover/\"></a>\n<a href=\"https://twitter.com/moonbaselabs/status/1374060737925091331\">twitter.com/moonbaselabs/s…</a>",
+      "text": "This is my favorite part of what we do. Dreaming and scheming.\n\ntwitter.com/moonbaselabs/s…"
+    },
+    "mention-of": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "wm-property": "mention-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Benny Bowden 🚀",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/fcd4e47173b186bddbcdbf9c812806c26979c87f7159e533fd805492e0b8c2a3.jpg",
+      "url": "https://twitter.com/itsMeBennyB"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1374060737925091331#favorited-by-374366944",
+    "published": null,
+    "wm-received": "2021-03-23T00:36:31Z",
+    "wm-id": 1087803,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1374060737925091331/374366944",
+    "wm-target": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "like-of": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
