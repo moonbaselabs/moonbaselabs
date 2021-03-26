@@ -180,5 +180,23 @@
     "like-of": "https://moonbaselabs.com/blog/flybys-to-discover/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Benny Bowden 🚀",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/fcd4e47173b186bddbcdbf9c812806c26979c87f7159e533fd805492e0b8c2a3.jpg",
+      "url": "https://twitter.com/itsMeBennyB"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1375071229808406528#favorited-by-374366944",
+    "published": null,
+    "wm-received": "2021-03-26T01:42:43Z",
+    "wm-id": 1092960,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1375071229808406528/374366944",
+    "wm-target": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "like-of": "https://moonbaselabs.com/blog/flybys-to-discover/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
