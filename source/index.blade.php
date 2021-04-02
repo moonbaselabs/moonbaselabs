@@ -311,7 +311,7 @@
                 Move Fast <em>and</em> Slow
               </dt>
               <dd class="mt-2 text-base text-silver-700">
-                Bursts of activity followed by periods of rest to gather data and see what works
+                Bursts of activity followed by periods of rest to gather data and see what works.
               </dd>
             </div>
           </div>
