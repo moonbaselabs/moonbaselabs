@@ -1,4 +1,8 @@
-@extends('_layouts.page')
+---
+extends: _layouts.page
+title: Nonprofits
+description: We build software that nonprofits use to change the world.
+---
 
 @section('content')
 <div class="py-6 sm:py-12 lg:py-24 px-4 sm:px-6 lg:py-16 lg:px-8">

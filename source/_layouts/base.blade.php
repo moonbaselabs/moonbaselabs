@@ -6,11 +6,11 @@
         <meta name="referrer" content="always">
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
-        <title>{{ $page->title }}</title>
+        <title>{{ $page->title ? $page->title.' | ' : '' }}{{ $page->siteName }}</title>
         <link rel="icon" href="/favicon.svg">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <meta property="og:type" content="website">
-        <meta property="og:title" content="{{ $page->title }}" />
+        <meta property="og:title" content="{{ $page->title ? $page->title.' | ' : '' }}{{ $page->siteName }}" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description }}" />
         <meta property="og:image" content="https://moonbaselabs.com/assets/images/social.png">

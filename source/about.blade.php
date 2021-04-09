@@ -1,4 +1,8 @@
-@extends('_layouts.page')
+---
+extends: _layouts.page
+title: About
+description: Meet the crew.
+---
 
 @section('content')
 <x-page-heading title="Meet the Crew" description="We are explorers, tinkerers, painters, and poets. We have the Design, Analytics, and Engineering skills to build your vision." />

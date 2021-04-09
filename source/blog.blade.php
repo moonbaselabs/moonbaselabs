@@ -1,9 +1,11 @@
 ---
+extends: _layouts.page
+title: Blog
+description: Transmissions from the moonbase.
 pagination:
   collection: posts
   perPage: 9
 ---
-@extends('_layouts.page')
 
 @section('content')
 <x-page-heading title="The Blog" description="Transmissions from the moonbase." />

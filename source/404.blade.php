@@ -1,4 +1,8 @@
-@extends('_layouts.base')
+---
+extends: _layouts.base
+title: Page Not Found
+description: Lost in space?
+---
 
 @section('content')
 <div class="relative overflow-hidden">

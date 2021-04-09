@@ -7,7 +7,7 @@ use Moonbase\Webmention;
 return [
     'production' => false,
     'baseUrl' => 'http://moonbaselabs.test',
-    'title' => 'Moonbase Labs',
+    'siteName' => 'Moonbase Labs',
     'description' => 'Custom digital solutions that drive efficiency, customer engagement, and business growth. We are fueled by the belief that technology innovation is attanable by any company. Services: Software Development, Digital Consulting, Rapid Prototyping, Experience Design, Data Analytics, and UI/UX Design.',
     'collections' => [
         'posts' => [

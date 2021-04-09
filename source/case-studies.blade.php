@@ -1,4 +1,8 @@
-@extends('_layouts.page')
+---
+extends: _layouts.page
+title: Case Studies
+description: Nothing shows what we do better than the projects we have completed with past and current partners.
+---
 
 @section('content')
 <x-page-heading title="Case Studies" description="Nothing shows what we do better than the projects we have completed with past and current partners." />
