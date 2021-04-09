@@ -4,7 +4,7 @@ title: Essential CEU Institute
 description: Energizing an unstable software product and growing its user base by 10 times in one year.
 date: 2017-11-01
 client: Essential CEU Institute
-industry: Health & Human Services
+industry: Health & Human Service
 url: https://essentialceu.institute/
 image: /assets/images/case-studies/essential-ceu-institute.jpg
 tags: []

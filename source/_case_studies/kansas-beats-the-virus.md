@@ -4,7 +4,7 @@ title: Kansas Beats the Virus
 description: Software to inspire Kansans to lead.
 date: 2020-11-01
 client: Kansas Leadership Center
-industry: Health & Human Services
+industry: Health & Human Service
 url: https://kansasbeatsthevirus.com/
 image: /assets/images/case-studies/kansas-beats-the-virus.jpg
 tags: [nonprofit]
