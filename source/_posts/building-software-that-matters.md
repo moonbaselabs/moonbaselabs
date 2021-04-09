@@ -3,6 +3,7 @@ extends: _layouts.post
 title: Building Software that Matters
 description: Why we love working with nonprofits.
 date: 2021-02-15
+image: /assets/images/blog/building-software-that-matters.jpg
 tags: []
 author: Ted Kriwiel
 ---

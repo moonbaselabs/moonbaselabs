@@ -13,9 +13,7 @@
         <meta property="og:title" content="{{ $page->title ? $page->title.' | ' : '' }}{{ $page->siteName }}" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description }}" />
-        <meta property="og:image" content="https://moonbaselabs.com/assets/images/social.png">
-        <meta property="og:image:width" content="512">
-        <meta property="og:image:height" content="512">
+        <meta property="og:image" content="{{ $page->baseUrl ?  $page->baseUrl.$page->image : 'https://moonbaselabs.com/assets/images/social.png' }}">
         <meta name="twitter:site" content="@MoonbaseLabs">
         @if($page->production)
         <script src="https://beaver.moonbaselabs.com/script.js" data-site="CBMOAZJT" defer></script>

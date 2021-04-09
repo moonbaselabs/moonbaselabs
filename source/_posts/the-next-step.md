@@ -3,13 +3,14 @@ extends: _layouts.post
 title: "Moonbase Labs: The Next Step"
 description: We need a brand that can do more because we can do more.
 date: 2021-01-29
+image: /assets/images/blog/the-next-step.jpg
 tags: []
 author: Nic Wentling
 ---
 
 ## A New Brand
 
-![The new Moonbase Labs logo](/assets/images/blog/the-next-step.png)
+![The new Moonbase Labs logo](/assets/images/blog/the-next-step-01.png)
 
 **Simply put:** We need a brand that can do more because we can do more.
 

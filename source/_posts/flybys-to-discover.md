@@ -3,6 +3,7 @@ extends: _layouts.post
 title: Flybys to Discover
 description: How our flyby process helps our customers get the best products possible.
 date: 2021-03-08
+image: /assets/images/blog/flybys-to-discover.jpg
 tags: []
 author: Ted Kriwiel
 ---
