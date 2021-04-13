@@ -1,7 +1,7 @@
 ---
 extends: _layouts.case-study
 title: WorkReady
-description: "From spreadsheets to software: How WorkReady organized a remote team, streamlined their workflow, and used data to give work to the people who need it the most."
+description: "From spreadsheets to software: Using data to give work to those that need it most."
 date: 2021-04-09
 client: WorkReady
 industry: Social Service
