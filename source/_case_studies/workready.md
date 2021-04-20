@@ -30,12 +30,9 @@ With everyone working off of their own spreadsheets, management struggled to sta
 
 After 12 months of using the portal, WorkReady has gone from having no data on their employers to a detailed database of 688 employers – all relationships developed by their team. In the same span, the team logged over 10,000 activities working with clients and developing relationships with employers. By correlating which activities drive placements, WorkReady can incorporate this information into their management and training.
 
-<figure>
-  <blockquote>
-    “One of our biggest challenges was managing benchmark deadlines for our clients. Moonbase Labs created a shared benchmark calendar visible to the entire organization and now everyone is on the same page. Because everything is in one place, managing our team is so much easier.”
-  </blockquote>
-  <figcaption>Shelley Glinsky, Assistant Director at WorkReady</figcaption>
-</figure>
+<x-blockquote credit="Shelley Glinsky, Assistant Director at WorkReady">
+“One of our biggest challenges was managing benchmark deadlines for our clients. Moonbase Labs created a shared benchmark calendar visible to the entire organization and now everyone is on the same page. Because everything is in one place, managing our team is so much easier.”
+</x-blockquote>
 
 ## The Takeaway
 

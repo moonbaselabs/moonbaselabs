@@ -40,11 +40,8 @@ Over the next two months, MTSS achieved the following with the tool:
 
 Kansas MTSS is a perfect example of the collaborative partnerships we strive to create with our customers!
 
-<figure>
-  <blockquote>
-    “Our web-based software has improved our process in so many ways! Working with Moonbase Labs was a great experience and it produced an invaluable tool for us.“
-  </blockquote>
-  <figcaption>Todd Wiedemann, Co-Director of MTSS</figcaption>
-</figure>
+<x-blockquote credit="Todd Wiedemann, Co-Director of MTSS">
+“Our web-based software has improved our process in so many ways! Working with Moonbase Labs was a great experience and it produced an invaluable tool for us.“
+</x-blockquote>
 
 Is your team outpacing your existing tools? [Schedule a meeting](https://form.asana.com/?k=UGChj8QUhBXNpBlEoAcBVg&d=359352374091689) with us.
