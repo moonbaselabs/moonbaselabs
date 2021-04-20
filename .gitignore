@@ -2,6 +2,7 @@
 /cache/
 /node_modules/
 /source/assets/css/
+/source/assets/mix-manifest.json
 /vendor/
 /.vscode/
 npm-debug.log
