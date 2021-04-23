@@ -220,5 +220,45 @@
     "mention-of": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
     "wm-property": "mention-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/tedkriwiel/status/1385587143502819334",
+    "published": "2021-04-23T13:31:32+00:00",
+    "wm-received": "2021-04-23T14:07:37Z",
+    "wm-id": 1131285,
+    "wm-source": "https://brid.gy/comment/twitter/MoonbaseLabs/1385245143729545217/1385587143502819334",
+    "wm-target": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "content": {
+      "html": "I'm honored!\n<a class=\"u-mention\" href=\"https://moonbaselabs.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/MoonbaseLabs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/itsMeBennyB\"></a>",
+      "text": "I'm honored!"
+    },
+    "in-reply-to": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1385245143729545217#favorited-by-553012338",
+    "published": null,
+    "wm-received": "2021-04-23T14:07:38Z",
+    "wm-id": 1131287,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1385245143729545217/553012338",
+    "wm-target": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "like-of": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
