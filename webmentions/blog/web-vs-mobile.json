@@ -96,5 +96,23 @@
     "like-of": "https://moonbaselabs.com/blog/web-vs-mobile/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Kenneth Friedel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/bf8aacd2dafbf645e1252f5841bb00f3de6287498b2193d1a1a2c20d855d2e04.jpg",
+      "url": "https://twitter.com/KennethFriedel"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1386721590801481733#favorited-by-385760040",
+    "published": null,
+    "wm-received": "2021-04-28T00:39:29Z",
+    "wm-id": 1134841,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1386721590801481733/385760040",
+    "wm-target": "https://moonbaselabs.com/blog/web-vs-mobile/",
+    "like-of": "https://moonbaselabs.com/blog/web-vs-mobile/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
