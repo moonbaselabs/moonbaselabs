@@ -260,5 +260,23 @@
     "like-of": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ted Kriwiel",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/163abeac16429edb1a1c63e61a72a0947df137cdbd347d70c250e0710073097b.jpg",
+      "url": "https://twitter.com/tedkriwiel"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1387424878287011855#favorited-by-553012338",
+    "published": null,
+    "wm-received": "2021-04-28T16:16:38Z",
+    "wm-id": 1135624,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1387424878287011855/553012338",
+    "wm-target": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "like-of": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
