@@ -278,5 +278,23 @@
     "like-of": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Larry B",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/896a8c466d17ba43c9514e0826b3afb1e7472db928a5059aeb50ffc2bc4dfda3.jpg",
+      "url": "https://twitter.com/thelarrybarker"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1387424878287011855#favorited-by-1138829327234215936",
+    "published": null,
+    "wm-received": "2021-04-28T20:16:38Z",
+    "wm-id": 1135750,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1387424878287011855/1138829327234215936",
+    "wm-target": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "like-of": "https://moonbaselabs.com/case-studies/axiom-healthcare-services/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
