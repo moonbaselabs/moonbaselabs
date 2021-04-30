@@ -282,5 +282,23 @@
     "like-of": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Melissa Nicole Miller, MFA",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/090494292ed0724dbbd20fd76b2a02894d2f3928a2027d4f7193666216448bf6.jpg",
+      "url": "https://twitter.com/MelissaInColor"
+    },
+    "url": "https://twitter.com/MoonbaseLabs/status/1387762844960280581#favorited-by-587144003",
+    "published": null,
+    "wm-received": "2021-04-30T01:44:50Z",
+    "wm-id": 1137038,
+    "wm-source": "https://brid.gy/like/twitter/MoonbaseLabs/1387762844960280581/587144003",
+    "wm-target": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "like-of": "https://moonbaselabs.com/case-studies/kansas-beats-the-virus/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
