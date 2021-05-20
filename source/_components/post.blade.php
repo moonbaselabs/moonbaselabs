@@ -16,7 +16,7 @@
     </div>
     <div class="mt-4 flex-none flex items-center">
       <div class="flex-shrink-0">
-        <img class="h-8 w-8 rounded-full" src="{{ $post->getAuthorAvatarUrl() }}" alt="{{ $post->author }}">
+        <img class="h-8 w-8 rounded-full" src="{{ $post->getAuthorAvatarUrl() }}" alt="">
       </div>
       <div class="ml-3">
         <p class="text-sm font-medium text-white">

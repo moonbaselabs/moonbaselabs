@@ -16,7 +16,7 @@
       <div class="sm:flex justify-between items-start mt-4">
         <div class="mt-2 flex-none flex items-center">
           <div class="flex-shrink-0">
-            <img class="h-8 w-8 rounded-full" src="{{ $page->getAuthorAvatarUrl() }}" alt="{{ $page->author }}">
+            <img class="h-8 w-8 rounded-full" src="{{ $page->getAuthorAvatarUrl() }}" alt="">
           </div>
           <div class="ml-3">
             <p class="text-sm font-medium text-white">
