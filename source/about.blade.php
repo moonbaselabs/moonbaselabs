@@ -7,7 +7,7 @@ description: Meet the crew.
 @section('content')
 <x-page-heading title="Meet the Crew" description="We are explorers, tinkerers, painters, and poets. We have the Design, Analytics, and Engineering skills to build your vision." />
 <div class="relative overflow-hidden">
-  <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+  <div class="hidden absolute inset-y-0 h-full w-full 2xl:block">
     <div class="relative h-full text-lg max-w-prose mx-auto">
       <x-star-dust class="absolute bottom-1/2 right-full transform -translate-x-32" />
       <x-star-dust class="absolute bottom-4 left-full transform" />

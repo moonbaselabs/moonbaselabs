@@ -11,7 +11,7 @@ pagination:
 <x-page-heading title="The Blog" description="Transmissions from the moonbase." />
 <div class="relative overflow-hidden">
   <div class="relative overflow-hidden bg-onyx-600 py-6 sm:py-12 lg:py-24 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+    <div class="hidden absolute inset-y-0 h-full w-full 2xl:block">
       <div class="relative h-full text-lg max-w-prose mx-auto">
         <x-star-dust class="absolute top-0 left-full transform translate-x-32" />
         <x-star-dust class="absolute bottom-0 right-full transform -translate-x-48" />
