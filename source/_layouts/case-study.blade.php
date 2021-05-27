@@ -52,7 +52,11 @@
             <x-orbit class="hidden lg:block absolute top-0 right-0 transform -translate-y-1/4 translate-x-1/2" width="404" height="404" />
             <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
-                <img src="{{ $page->image }}" alt="" width="1184" height="1376" class="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto">
+                @hasSection('feature')
+                  @yield('feature')
+                @else
+                  <img src="{{ $page->image }}" alt="" width="1184" height="1376" class="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto">
+                @endif
               </figure>
             </div>
           </div>
