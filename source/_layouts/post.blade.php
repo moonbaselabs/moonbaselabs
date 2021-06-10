@@ -16,7 +16,7 @@
       <div class="sm:flex justify-between items-start mt-4">
         <div class="mt-2 flex-none flex items-center">
           <div class="flex-shrink-0">
-            <img class="h-8 w-8 rounded-full" src="{{ $page->getAuthorAvatarUrl() }}" alt="">
+            <img loading="lazy" class="h-8 w-8 rounded-full" src="{{ $page->getAuthorAvatarUrl() }}" alt="">
           </div>
           <div class="ml-3">
             <p class="text-sm font-medium text-white">
@@ -43,7 +43,7 @@
           <div class="text-base">
             <div class="flex items-center">
               <div class="mr-2 flex-shrink-0">
-                <img loading="lazy" src="{{ $webmention->author->photo }}" class="h-8 w-8 rounded-full border border-gray-200 bg-white text-silver-700"/>
+                <img loading="lazy" width="32" height="32" src="{{ $webmention->author->photo }}" class="h-8 w-8 rounded-full border border-gray-200 bg-white text-silver-700"/>
               </div>
               <div>
                 <h3>

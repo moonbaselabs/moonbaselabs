@@ -55,7 +55,7 @@
                 @hasSection('feature')
                   @yield('feature')
                 @else
-                  <img src="{{ $page->image }}" alt="" width="1184" height="1376" class="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto">
+                  <img loading="lazy" src="{{ $page->image }}" alt="" width="1184" height="1376" class="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto">
                 @endif
               </figure>
             </div>

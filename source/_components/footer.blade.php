@@ -1,7 +1,7 @@
 <footer class="bg-gradient-to-r from-onyx-500 to-onxy-600">
   <div class="bg-repeat pt-6 sm:pt-16 lg:pt-24" style="background-image: url(/assets/images/stars.png); background-size: 50%;">
     <div class="max-w-xl mx-auto py-12 px-4 overflow-hidden space-y-8 sm:px-6 lg:px-8">
-      <a class="mx-auto w-48 block" href="/"><img class="block mx-auto" src="/assets/images/logo-stacked.svg" alt="Moonbase Labs"></a>
+      <a class="mx-auto w-48 block" href="/"><img loading="lazy" class="block mx-auto" src="/assets/images/logo-stacked.svg" width="192" height="151" alt="Moonbase Labs"></a>
       <div class="bg-onyx-500 rounded-xl p-4 mt-8">
         <nav class="flex flex-wrap justify-center">
           <div class="px-5 py-2">
@@ -57,6 +57,6 @@
         </p>
       </div>
     </div>
-    <img class="w-full" src="/assets/images/surface.svg" alt="Illustration of moon surface with rocket pad">
+    <img loading="lazy" width="2560" height="560" class="w-full" src="/assets/images/surface.svg" alt="Illustration of moon surface with rocket pad">
   </div>
 </footer>

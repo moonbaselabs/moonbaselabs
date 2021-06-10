@@ -9,7 +9,7 @@ description: We build software that nonprofits use to change the world.
   <div class="mx-auto max-w-7xl">
     <div class="grid gap-12 md:gap:24 md:grid-cols-2 lg:gap-40">
       <div class="lg:mt-0 md:order-2">
-        <img aria-hidden class="max-w-sm mx-auto md:max-w-full" src="/assets/images/connections.svg" alt="">
+        <img loading="lazy" aria-hidden class="max-w-sm mx-auto md:max-w-full" src="/assets/images/connections.svg" alt="">
       </div>
       <div class="md:max-w-2xl md:flex md:items-center">
         <div>
