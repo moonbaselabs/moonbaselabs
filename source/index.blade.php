@@ -265,55 +265,49 @@
         </p>
 
         <dl class="mt-10 space-y-10">
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
                 <!-- flask -->
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15,9.783V4h1V2h-2h-4H8v2h1v5.783l-4.268,9.389c-0.283,0.622-0.23,1.337,0.14,1.911C5.241,21.657,5.87,22,6.553,22h10.895 c0.683,0,1.312-0.343,1.681-0.917c0.37-0.574,0.423-1.289,0.14-1.911L15,9.783z M10.91,10.414C10.97,10.284,11,10.143,11,10V4h2v6 c0,0.143,0.03,0.284,0.09,0.414L15.177,15H8.825L10.91,10.414z"></path></svg>
               </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
                 Small experiments over grand visions
-              </dt>
-              <dd class="mt-2 text-base text-silver-700">
-                No moonshots! Progress is always incremental.
-              </dd>
-            </div>
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-silver-700">
+              No moonshots! Progress is always incremental.
+            </dd>
           </div>
 
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
                 <!-- stats -->
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20,12c-0.249,0-0.483,0.051-0.703,0.133l-2.398-1.963C16.958,9.956,17,9.734,17,9.5C17,8.114,15.886,7,14.5,7 S12,8.114,12,9.5c0,0.396,0.1,0.765,0.262,1.097l-2.909,3.438C9.237,14.015,9.121,14,9,14c-0.179,0-0.348,0.03-0.512,0.074 l-2.563-2.563C5.97,11.348,6,11.179,6,11c0-1.108-0.892-2-2-2s-2,0.892-2,2s0.892,2,2,2c0.179,0,0.348-0.03,0.512-0.074 l2.563,2.563C7.03,15.652,7,15.821,7,16c0,1.108,0.892,2,2,2s2-0.892,2-2c0-0.237-0.048-0.46-0.123-0.671l2.913-3.442 C14.017,11.953,14.252,12,14.5,12c0.411,0,0.792-0.107,1.133-0.281l2.399,1.963C18.016,13.786,18,13.891,18,14c0,1.108,0.892,2,2,2 s2-0.892,2-2S21.108,12,20,12z"></path></svg>
               </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
                 Create a business case for change
-              </dt>
-              <dd class="mt-2 text-base text-silver-700">
-                Identify the pain points and require new tools to justify themselves.
-              </dd>
-            </div>
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-silver-700">
+              Identify the pain points and require new tools to justify themselves.
+            </dd>
           </div>
 
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
                 <!-- sync -->
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M13 7.101c.003 0 .007 0 .01.001.318.065.634.163.937.291.296.125.581.281.849.461.264.178.513.383.74.61s.434.477.611.74c.182.271.337.556.461.851.127.298.225.613.291.937C16.966 11.321 17 11.66 17 12s-.034.679-.102 1.008c-.066.324-.164.639-.292.938-.123.293-.278.579-.459.848-.179.264-.385.514-.612.741l1.414 1.414c.317-.317.605-.666.855-1.037.254-.377.472-.777.645-1.187.178-.42.315-.863.408-1.316C18.952 12.949 19 12.475 19 12s-.048-.949-.143-1.41c-.093-.454-.23-.896-.407-1.314-.174-.412-.392-.812-.646-1.19-.249-.37-.537-.718-.854-1.035-.317-.318-.666-.605-1.035-.854-.373-.252-.773-.47-1.188-.646-.425-.18-.868-.317-1.315-.408C13.275 5.115 13.137 5.1 13 5.08V2L9 6l4 4V7.101zM5.55 14.724c.174.412.392.812.646 1.19.249.37.537.718.854 1.034.314.316.664.604 1.036.855.373.252.773.47 1.188.646.425.18.868.317 1.315.408.167.034.338.056.508.078v2.944l4-4-4-4v3.03c-.035-.006-.072-.003-.107-.011-.318-.065-.634-.163-.937-.291-.296-.125-.581-.281-.849-.461-.267-.179-.515-.384-.74-.61-.228-.228-.434-.477-.611-.74-.182-.271-.337-.556-.461-.851-.127-.298-.225-.613-.291-.937C7.034 12.679 7 12.34 7 12s.034-.679.102-1.008c.066-.324.164-.639.292-.938C7.517 9.76 7.672 9.475 7.853 9.206c.179-.264.385-.514.612-.741L7.051 7.05C6.733 7.368 6.445 7.716 6.195 8.087 5.941 8.464 5.724 8.864 5.551 9.274c-.178.42-.315.863-.408 1.316C5.048 11.051 5 11.525 5 12s.048.949.143 1.41C5.235 13.863 5.373 14.306 5.55 14.724z"></path></svg>
               </div>
-            </div>
-            <div class="ml-4">
-              <dt class="text-lg leading-6 font-medium text-gray-900">
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
                 Move Fast <em>and</em> Slow
-              </dt>
-              <dd class="mt-2 text-base text-silver-700">
-                Bursts of activity followed by periods of rest to gather data and see what works.
-              </dd>
-            </div>
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-silver-700">
+              Bursts of activity followed by periods of rest to gather data and see what works.
+            </dd>
           </div>
         </dl>
       </div>
