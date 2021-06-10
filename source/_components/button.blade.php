@@ -16,7 +16,7 @@ switch($size) {
 }
 switch($color) {
   case 'green':
-  $class .= ' '.'text-white bg-green-500 hover:bg-green-400 focus:ring-green-500';
+  $class .= ' '.'text-white bg-green-600 hover:bg-green-700 focus:ring-green-500';
   break;
   case 'onyx':
   $class .= ' '.'text-white bg-onyx-300 hover:bg-onyx-400 focus:ring-blue-500';
