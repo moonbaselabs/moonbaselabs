@@ -22,9 +22,9 @@
         <link rel="webmention" href="https://webmention.io/moonbaselabs.com/webmention" />
         <link rel="pingback" href="https://webmention.io/moonbaselabs.com/xmlrpc" />
         <link rel="preload" href="/assets/fonts/archivo/archivo-v7-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-        <link rel="preload" href="/assets/fonts/barlow/barlow-v5-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-        <link rel="preload" href="/assets/fonts/barlow/barlow-v5-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-        <link rel="preload" href="/assets/fonts/barlow/barlow-v5-latin-600.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        @foreach(['latin-regular', 'latin-italic', 'latin-500', 'latin-600', 'latin-700'] as $name)
+        <link rel="preload" href="/assets/fonts/barlow/barlow-v5-{{ $name }}.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        @endforeach
         <link rel="stylesheet" href="{{ mix('css/main.css') }}">
     </head>
     <body>
