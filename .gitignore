@@ -2,6 +2,7 @@
 /cache/
 /node_modules/
 /source/assets/css/
+/source/assets/js/
 /source/assets/mix-manifest.json
 /vendor/
 /.vscode/

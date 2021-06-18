@@ -18,6 +18,7 @@
         @if($page->production)
         <script src="https://beaver.moonbaselabs.com/script.js" data-site="CBMOAZJT" defer></script>
         @endif
+        <script src="{{ mix('js/goals.js') }}" defer></script>
         <link rel="webmention" href="https://webmention.io/moonbaselabs.com/webmention" />
         <link rel="pingback" href="https://webmention.io/moonbaselabs.com/xmlrpc" />
         <link rel="preload" href="/assets/fonts/archivo/archivo-v7-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">

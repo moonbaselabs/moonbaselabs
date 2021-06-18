@@ -10,4 +10,5 @@ mix.jigsaw({
     .postCss('source/_assets/css/main.css', 'css/main.css', [
         require('tailwindcss'),
     ])
+    .js('source/_assets/js/goals.js', 'js/goals.js')
     .version();

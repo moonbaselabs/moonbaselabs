@@ -6,7 +6,6 @@ module.exports = {
     content: [
       'source/**/*.html',
       'source/**/*.md',
-      'source/**/*.js',
       'source/**/*.php',
     ],
   },
