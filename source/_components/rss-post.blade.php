@@ -11,6 +11,6 @@
   </author>
   <summary type="html">{{ $post->getExcerpt() }}...</summary>
   <content type="html"><![CDATA[
-    @includeFirst(['_posts.' . $post->getFilename(), '_posts._tmp.' . $post->getFilename()])
+    @includeFirst(['_posts.' . $post->getFilename(), '_posts.cache.' . $post->getFilename()])
   ]]></content>
 </entry>
