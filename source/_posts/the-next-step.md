@@ -31,7 +31,7 @@ author: Nic Wentling
 
 **We are paying attention** to our mentors and partners. They are pioneers that constantly recreate themselves, willing to start fresh and make things new. We have watched them do this over and over again and decided to try it ourselves. When you rub shoulders with the best, innovation is contagious, transformation inevitable.
 
-**This is the next step** for Moonbase Labs and we invite you to join us. [Reach out to us](https://form.asana.com/?k=UGChj8QUhBXNpBlEoAcBVg&d=359352374091689) anytime.
+**This is the next step** for Moonbase Labs and we invite you to join us. [Reach out to us](/contact) anytime.
 
 ___
 

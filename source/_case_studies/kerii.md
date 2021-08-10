@@ -44,4 +44,4 @@ Kansas MTSS is a perfect example of the collaborative partnerships we strive to 
 “Our web-based software has improved our process in so many ways! Working with Moonbase Labs was a great experience and it produced an invaluable tool for us.“
 </x-blockquote>
 
-Is your team outpacing your existing tools? [Schedule a meeting](https://form.asana.com/?k=UGChj8QUhBXNpBlEoAcBVg&d=359352374091689) with us.
+Is your team outpacing your existing tools? [Schedule a meeting](/contact) with us.
