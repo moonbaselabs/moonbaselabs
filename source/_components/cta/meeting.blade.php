@@ -7,7 +7,7 @@
     </h2>
     <div class="mt-8 flex justify-center">
       <div class="inline-flex rounded-md shadow">
-        <x-button color="green" href="/contact" onclick="window.fathom.trackGoal(window.GOAL_ID, 0);">
+        <x-button color="green" href="/contact">
           Schedule a Meeting
         </x-button>
       </div>

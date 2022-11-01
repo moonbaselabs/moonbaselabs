@@ -5,7 +5,7 @@
       <x-nav-link href="/case-studies" :page="$page">Case Studies</x-nav-link>
       <x-nav-link href="/blog" :page="$page">Blog</x-nav-link>
     </div>
-    <x-button color="green" class="mt-5 ml-5 sm:ml-10" href="/contact" onclick="window.fathom.trackGoal(window.GOAL_ID, 0);">
+    <x-button color="green" class="mt-5 ml-5 sm:ml-10" href="/contact">
       Schedule a Meeting
     </x-button>
   </div>

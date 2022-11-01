@@ -36,4 +36,4 @@ Nested in those “Why?” questions, is a business case for building the soluti
 
 At Moonbase Labs, iteration is king. We don’t attempt go-for-broke moonshots. We send orbits and flybys. We build prototypes that let user feedback dictate design. Eventually, we land partners on the moon, but never overnight. We think it’s important that our clients arrive safely, so we eliminate risks at every turn. We de-risk and demystify the process of creating a successful product, whether you’re building a SaaS platform or an internal tool. We help partners determine where they are going, the risks they’ll face, and the fastest way to get there.
 
-Want to see the steps we take to answer these two important questions? Check out our <a href="https://docs.google.com/document/d/1HfjUDB_TEWbqRQt9jXYevaetZwegF8nHho0zsj2jyeA/edit" onclick="window.fathom.trackGoal('VB6WRXW1', 0);">flyby process</a>.
+Want to see the steps we take to answer these two important questions? Check out our [flyby process](https://docs.google.com/document/d/1HfjUDB_TEWbqRQt9jXYevaetZwegF8nHho0zsj2jyeA/edit).

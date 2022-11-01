@@ -22,10 +22,6 @@
         <link rel="preload" href="/assets/fonts/barlow/barlow-v5-{{ $name }}.woff2" as="font" type="font/woff2" crossorigin="anonymous">
         @endforeach
         <link rel="stylesheet" href="{{ mix('css/main.css') }}">
-        @if($page->production)
-        <script src="https://beaver.moonbaselabs.com/script.js" data-site="CBMOAZJT" defer></script>
-        @endif
-        <script src="{{ mix('js/goals.js') }}" defer></script>
     </head>
     <body>
       @yield('content')
