@@ -45,7 +45,7 @@ return [
         ],
     ],
     'getDate' => function ($page) {
-        return Datetime::createFromFormat('U', $page->date);
+        return DateTime::createFromFormat('U', $page->date);
     },
     'getExcerpt' => function ($page, $length = 255) {
         if ($page->description) {
