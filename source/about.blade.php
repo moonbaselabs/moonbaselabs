@@ -77,7 +77,7 @@ description: Meet the crew.
               </ul>
             </div>
           </div>
-          <p class="mt-5 xl:mt-8">Data analyst who enjoys telling stories with numbers. Founder of Lion Graph and Eight Oaks.</p>
+          <p class="mt-5 xl:mt-8">Data analyst who enjoys telling stories with numbers. Founder of <a class="underline" href="https://www.8oaks.org/">Eight Oaks</a>.</p>
         </li>
 
         <li class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
