@@ -18,7 +18,7 @@ description: Meet the crew.
       <ul class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
         <li class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
           <div class="space-y-6 xl:space-y-10">
-            <img loading="lazy" class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/nic-wentling.jpg" alt="">
+            <img loading="lazy" class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/nic-wentling.jpg?id=2" alt="">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Nic Wentling<span class="text-gray-500">, Principal Owner</span></h4>
@@ -82,7 +82,7 @@ description: Meet the crew.
 
         <li class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
           <div class="space-y-6 xl:space-y-10">
-            <img loading="lazy" class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/christian-taylor.jpg" alt="">
+            <img loading="lazy" class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="/assets/images/christian-taylor.jpg?id=2" alt="">
             <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
               <div class="font-medium text-lg space-y-1">
                 <h4 class="text-white">Christian Taylor<span class="text-gray-500">, Partner</span></h4>
