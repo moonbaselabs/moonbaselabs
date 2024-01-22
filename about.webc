@@ -43,4 +43,39 @@ description: We are explorers, tinkerers, painters, and poets. We have the Desig
         </div>
     </div>
 </div>
+
+<div class="bg-onyx-600 px-4 py-6 sm:py-12 sm:px-6 lg:px-8 lg:py-16">
+    <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl text-center mb-4">
+        We're also friends in real life.
+    </h3>
+    <p class="mt-3 text-lg text-silver-700 text-center">
+        Meg Ryan (from You've Got Mail) was right. Business is personal. We care about each other! We try to make work fun. We are occasionally silly. 
+    </p>
+    <div class="flex justify-center space-x-4 mt-6">
+        <!-- Container for the first image -->
+        <div class="bg-onyx-500 rounded-lg p-4"> <!-- No margin needed for the first gray rectangle -->
+            <img loading="lazy" class="mx-auto max-h-full w-auto rounded-lg" src="/img/team_pic.png" alt="Joshua Tree Retreat" style="max-height: 500px;">
+            <!-- Title and Subtitle for the first image -->
+            <div class="mt-4 text-white text-center">
+                <h3 class="text-lg font-semibold">2022 Team Retreat</h3>
+                <p class="text-gold-300">Joshua Tree, CA</p>
+            </div>
+        </div>
+        <div style="width: 20px;"></div> <!-- Empty div to create spacing -->
+        <!-- Container for the second image -->
+        <div class="bg-onyx-500 rounded-lg p-4"> <!-- No margin needed for the second gray rectangle -->
+            <img loading="lazy" class="mx-auto max-h-full w-auto rounded-lg" src="/img/team_dinner.png" alt="Joshua Tree Retreat" style="max-height: 500px;">
+            <!-- Title and Subtitle for the second image -->
+            <div class="mt-4 text-white text-center">
+                <h3 class="text-lg font-semibold">Year-End Party 2023</h3>
+                <p class="text-gold-300">Wichita, KS</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 <cta-meeting></cta-meeting>
