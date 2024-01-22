@@ -1,0 +1,37 @@
+---
+layout: layout.webc
+---
+
+<div class="relative py-16 overflow-hidden">
+    <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+        <div class="relative h-full text-lg max-w-prose mx-auto">
+            <decoration-star-dust class="absolute top-12 left-full transform translate-x-32"></decoration-star-dust>
+            <decoration-star-dust class="absolute top-1/4 right-full transform -translate-x-32"></decoration-star-dust>
+            <decoration-star-dust class="absolute bottom-12 left-full transform translate-x-32"></decoration-star-dust>
+        </div>
+    </div>
+    <article class="relative px-4 sm:px-6 lg:px-8">
+        <div class="text-xl max-w-prose mx-auto mb-6">
+            <time class="inline-block mr-8 leading-none text-gray-600 text-xs uppercase tracking-wide" :datetime="page.date" @text="readableDate(page.date)"></time>
+            <h1 class="mt-2 mb-8 text-4xl font-display font-bold tracking-tight text-white sm:text-5xl" @text="title"></h1>
+            <div class="sm:flex justify-between items-start mt-4">
+                <div class="mt-2 flex-none flex items-center">
+                    <div class="flex-shrink-0">
+                        <img loading="lazy" class="h-8 w-8 rounded-full" :src="team[author].image" alt="">
+                    </div>
+                    <div class="ml-3">
+                        <p class="text-sm font-medium text-white" @text="team[author].name"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-12 prose prose-xl text-silver-500 mx-auto" @raw="content"></div>
+    </article>
+</div>
+<div class="px-4 sm:px-6 lg:px-8">
+    <div class="text-xl max-w-prose mx-auto mb-6">
+        <decoration-divider></decoration-divider>
+        <pagination :@collection="collections.blog"></pagination>
+    </div>
+</div>
+<cta-meeting @team="true"></cta-meeting>

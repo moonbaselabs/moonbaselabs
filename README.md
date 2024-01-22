@@ -2,71 +2,31 @@
 
 ## Setup
 
-Clone this repo
-```
-cd ~/Sites
-git clone https://github.com/moonbaselabs/moonbaselabs.git
-cd moonbaselabs
-```
-Install Composer packages
-```
-composer install
-```
+1. Install NPM dependencies:
 
-Install NPM packages
-```
+```sh
 npm install
 ```
 
-Generate the website
+2. Start the dev server:
 
+```sh
+npm run start
 ```
-npm run watch
-```
+The `start` command will output the port address where the website is running (it's [http://localhost:8080/](http://localhost:8080/) by default).
 
-## Updating the Website
+The website will automatically rebuild and refresh as you save files.
 
-As long as `npm run watch` is running in your console file changes will trigger the website to rebuild.
+Press `ctrl + c` to stop the dev server.
 
-### Adding a Blog Post
+## Content
 
-Add a new markdown (`.md`) file to the `/source/_posts` directory. The name of the file corresponds to the page URL (`new-post.md` will show up at `moonbaselabs.com/blog/new-post`).
+Blog posts and case studies exist as Markdown files.
 
-Add the post frontmatter to the top of the new `.md` file.
-```
----
-extends: _layouts.post
-title:
-description:
-date: 2020-10-19
-tags: []
-author:
----
-```
-Check out other post files in the `/source/_case-studies` directory to get a sense for how the frontmatter is used.
+Blog posts live inside the `blog` directory. Copy one of the existing `.md` files and update the front matter data (the stuff between the `---`’s, at the top) to start a new draft.
 
-Check out the **"How to Format a Markdown Post"** article on the working website for tips on writting your first Markdown document.
+Case studies live inside the `missions` directory. Copy one of the existing `.md` files and update the front matter data (the stuff between the `---`’s, at the top) to start a new draft.
 
-### Adding a Case Study
+## Styling
 
-Add a new markdown (`.md`) file to the `/source/_case-studies` directory. The name of the file corresponds to the page URL(`new-case-study.md` will show up at `moonbaselabs.com/case-studies/new-case-study`).
-
-Any images for this case study should be added to the `/source/assets/images/case-studies` directory.
-
-Add the case study frontmatter to the top of the new `.md` file.
-```
----
-extends: _layouts.case-study
-title:
-description:
-date: 2020-10-19
-client:
-industry:
-url:
-image: /assets/images/case-studies/<image file>
----
-```
-
-Check out other case study files in the `/source/_case-studies` directory to get a sense for how the frontmatter is used.
-
-Check out the **"How to Format a Markdown Post"** article on the working website for tips on writting your first Markdown document.
+The website is styled with Tailwind CSS you may occasionally have to restart the dev server for Tailwind to recognize and compile new CSS class names.

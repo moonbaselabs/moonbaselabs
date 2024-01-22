@@ -1,0 +1,8 @@
+<script webc:type="js" webc:root webc:raw>
+let txt = slots.text.default;
+if(safe || safe === "") {
+	txt;
+} else {
+	webc.escapeText(txt);
+}
+</script>

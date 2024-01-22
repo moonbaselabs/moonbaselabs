@@ -1,0 +1,56 @@
+---
+permalink: /404.html
+eleventyExcludeFromCollections: true
+layout: layout.webc
+title: Page Not Found
+description: Lost in space?
+---
+
+<style>
+    .move-right {
+        margin-top: -224px;
+        margin-left: -224px;
+        animation-duration: 30s;
+        animation-name: move-right;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes move-right {
+        from {
+            transform: translate(0, 50vh);
+        }
+
+        to {
+            transform: translate(calc(100vw + 224px), 50vh);
+        }
+    }
+</style>
+<div class="relative overflow-hidden">
+    <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+        <div class="relative h-full text-lg max-w-prose mx-auto">
+            <decoration-star-dust class="absolute top-0 right-full transform -translate-x-32"></decoration-star-dust>
+            <decoration-star-dust class="absolute bottom-0 left-full transform"></decoration-star-dust>
+        </div>
+    </div>
+    <div class="move-right absolute top-0 left-0 w-56 h-56">
+        <svg viewBox="0 0 296 176">
+            <path d="M175.714 97.359l-55.391-19.396-13.631 38.927 55.391 19.396 13.631-38.927zM122.924 72.383l54.237 18.992-.149-31.637-34.234-11.988-19.854 24.633z" fill="#fff" />
+            <path d="M147.515 41.62l-4.737 6.13 34.234 11.988-.071-7.813-29.426-10.304z" fill="#A7AFB7" />
+            <path d="M163.195 65.284l-13.271-4.647-4.656 13.297 13.271 4.647 4.656-13.297z" fill="#A9995D" />
+            <path d="M106.496 73.46L16.656 42 3.162 80.54 93 112l13.495-38.54zM279.335 134.459L189.496 103 176 141.541 265.84 173l13.495-38.541z" fill="#141A1F" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M108.22 93.411l5.962 2.088-1.349 3.854-5.962-2.088 1.349-3.854zm65.773 27.359l-5.769-2.021 1.349-3.854 5.77 2.021-1.35 3.854z" fill="#fff" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.025 38.927l94.433 33.068-14.98 42.781L.044 81.709l14.98-42.782zm2.497 5.202l-5.466 15.609 4.039 1.414-1.35 3.854-4.039-1.414-5.466 15.61 86.74 30.373 5.466-15.61-4.038-1.413 1.35-3.855 4.038 1.415 5.466-15.61-86.74-30.373zM187.808 99.57l94.434 33.068-14.981 42.781-94.433-33.067 14.98-42.782zm2.497 5.202l-5.422 15.485 3.923 1.373-1.35 3.855-3.923-1.374-5.509 15.734 86.74 30.373 5.51-15.733-3.963-1.388 1.35-3.854 3.962 1.387 5.423-15.485-86.741-30.373zm-151.9-35.808l3.576-10.213 3.847 1.347L42.25 70.31l3.847 1.347-1.35 3.855-3.846-1.347-3.644 10.406-3.847-1.347 3.644-10.406-4.039-1.415 1.35-3.854 4.039 1.415zM68.6 79.538l3.577-10.213 3.846 1.346-3.576 10.214 3.847 1.347-1.35 3.854-3.847-1.347-3.644 10.406-3.846-1.346 3.644-10.407-3.847-1.347 1.35-3.854 3.846 1.347zm145.206 55.173l-3.644 10.406-3.847-1.346 3.644-10.407-4.039-1.414 1.35-3.854 4.039 1.414 3.576-10.213 3.847 1.347-3.577 10.213 3.847 1.347-1.35 3.854-3.846-1.347zm30.195 10.574l-3.644 10.406-3.846-1.347 3.644-10.406-4.039-1.414 1.349-3.855 4.039 1.415 3.577-10.214 3.846 1.347-3.576 10.214 3.846 1.347-1.349 3.854-3.847-1.347z" fill="#A7AFB7" />
+        </svg>
+        <span class="animate-ping absolute top-2 right-14 inline-flex h-24 w-24 rounded-full bg-gold-400 opacity-75"></span>
+    </div>
+    <div class="relative w-screen h-[60vh] flex justify-center items-center">
+        <div class="relative text-center px-4">
+            <h1 class="text-3xl font-display font-bold text-white sm:text-4xl">Lost in space?</h1>
+            <p class="text-xl text-silver-500">Don't worry, our mission control team already has a recovery plan!</p>
+            <button href="/" @color="green" class="mt-6">
+                Return Home
+            </button>
+        </div>
+    </div>
+</div>

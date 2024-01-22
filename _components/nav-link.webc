@@ -1,0 +1,3 @@
+<a @attributes :href="href" :aria-current="$data.page.url === href ? 'page' : false" :class="$data.page.url === href ? 'text-gold-300 hover:text-gold-500' : 'text-gray-300 hover:text-white'">
+	<slot></slot>
+</a>

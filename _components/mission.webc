@@ -1,0 +1,17 @@
+<div class="relative flex flex-col rounded-lg shadow-lg overflow-hidden">
+    <div class="flex-shrink-0 bg-navy-600">
+        <img loading="lazy" class="w-full" width="384" height="384" :src="mission.data.image.replace('.jpg', '-768.jpg')" alt="">
+    </div>
+    <div class="flex-1 bg-onyx-500 p-6 flex flex-col justify-between">
+        <div class="flex-1">
+            <p class="text-xl font-display font-bold text-blue-300" @text="mission.data.title"></p>
+            <p class="mt-3 text-base text-silver-700" @text="mission.data.description"></p>
+        </div>
+        <div class="mt-6 flex items-center">
+            <button @color="onyx" :href="mission.url">
+                Mission briefing
+                <span class="absolute inset-0"></span>
+            </button>
+        </div>
+    </div>
+</div>
