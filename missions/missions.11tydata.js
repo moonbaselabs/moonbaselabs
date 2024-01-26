@@ -1,6 +1,6 @@
 export default {
-    "layout": "mission.webc",
-    "tags": [
-        "missions"
-    ]
+  "layout": "mission.webc",
+  "tags": [
+    "missions"
+  ]
 }
