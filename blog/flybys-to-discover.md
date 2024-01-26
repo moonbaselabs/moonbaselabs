@@ -15,7 +15,7 @@ Before astronauts from Apollo 11 landed on the moon, NASA completed [thirty luna
 
 To help our clients build the best products possible, we start with a flyby – a mission to find answers to two critical questions: **“Where are we going?”** and **“Why are we going there?”** In a series of five meetings, we create diagrams and roadmaps to de-risk building software for everyone involved.
 
-**“Why are we going there?”** is the most important question  and always comes first. “Why?” drives the business conversation and helps inform the requirements.
+**“Why are we going there?”** is the most important question and always comes first. “Why?” drives the business conversation and helps inform the requirements.
 
  * Why do we need to automate this workflow?
  * How do we prioritize each feature we want?
@@ -31,7 +31,7 @@ Nested in those “Why?” questions, is a business case for building the soluti
  * What features will be needed to solve the problem?
  * What devices will be used to access the software?
 
-![Historic photo of NASA ground control memebers celebrating mission success](/img/blog/flybys-to-discover-03.jpg)
+![Historic photo of NASA ground control members celebrating mission success](/img/blog/flybys-to-discover-03.jpg)
 
 At Moonbase Labs, iteration is king. We don’t attempt go-for-broke moonshots. We send orbits and flybys. We build prototypes that let user feedback dictate design. Eventually, we land partners on the moon, but never overnight. We think it’s important that our clients arrive safely, so we eliminate risks at every turn. We de-risk and demystify the process of creating a successful product, whether you’re building a SaaS platform or an internal tool. We help partners determine where they are going, the risks they’ll face, and the fastest way to get there.
 
