@@ -29,6 +29,9 @@ Through in-depth discussions with the ARC+ Physical Therapy team, Moonbase Labs 
 
 The ARC+ team did a remarkable job identifying an opportunity to enhance their marketing efforts with data. They took it one step further by building a prototype which received strong validation from their partners. The only piece missing was the right tools and expertise to automate the process and Moonbase Labs was happy to provide them.
 
-<x-blockquote credit="Ben Peterson, COO ARC+ Physical Therapy">
-"The dashboards that Moonbase Labs created made this process 1,000 times better."
-</x-blockquote>
+<figure>
+  <blockquote>
+    “The dashboards that Moonbase Labs created made this process 1,000 times better.“
+  </blockquote>
+  <figcaption>Ben Peterson, COO ARC+ Physical Therapy</figcaption>
+</figure>

@@ -36,9 +36,12 @@ The Moonbase Labs team completed work across a variety of competencies to delive
 
 Completed in the midst of the Coronavirus pandemic in 2020, the VentureDash platform could not have come at a better time for NetWork Kansas. This new product was a timely solution for communities in Kansas looking to take their annual competitions virtual.
 
-<x-blockquote credit="Erik Pedersen, VP of Entrepreneurship at NetWork Kansas">
-“VentureDash has become a powerful platform for us to promote youth entrepreneurship on a national stage and it wouldn't be possible without our partnership with Moonbase Labs.“
-</x-blockquote>
+<figure>
+  <blockquote>
+    “VentureDash has become a powerful platform for us to promote youth entrepreneurship on a national stage and it wouldn't be possible without our partnership with Moonbase Labs.“
+  </blockquote>
+  <figcaption>Erik Pedersen, VP of Entrepreneurship at NetWork Kansas</figcaption>
+</figure>
 
 In its first six months, 95 competitions were created on VentureDash with a total of over 1,100 participants across the country.
 

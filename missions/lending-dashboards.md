@@ -11,7 +11,7 @@ tags: [nonprofit]
 
 ## The Vision
 Network Kansas, a nonprofit organization, aimed to empower rural entrepreneurs in Kansas by providing gap financing. They developed an innovative model to give local leaders autonomy to fund entrepreneurs. They helped communities form local volunteer leadership teams responsible for loaning money to businesses and overseeing a local loan fund.
-Distributing money to rural communities in this way became a nationally recognized model for rural economic development. As the program grew from a handful of communities to nearly seventy communities, managing these portfolios became more burdensome. Regional managers would sift through twenty to thirty-page spreadsheets saved as PDFs. While NetWork Kansas knew the program was working as a whole, evaluating efficacy by each community was more challenging. NetWork Kansas asked Moonbase Labs to build a way to visualize the performance of each community’s loan fund. 
+Distributing money to rural communities in this way became a nationally recognized model for rural economic development. As the program grew from a handful of communities to nearly seventy communities, managing these portfolios became more burdensome. Regional managers would sift through twenty to thirty-page spreadsheets saved as PDFs. While NetWork Kansas knew the program was working as a whole, evaluating efficacy by each community was more challenging. NetWork Kansas asked Moonbase Labs to build a way to visualize the performance of each community’s loan fund.
 Over a few months, with feedback and input from communities and regional managers, Moonbase Labs built dashboards to help them understand critical metrics like Dollars Loaned, Average Loan Rate, Percent Past Due, and many more.
 
 ![Scatterplot of loans compared to state benchmarks](/img/missions/nwks-chart.png)
@@ -26,19 +26,11 @@ The collaboration between Network Kansas and Moonbase Labs led to a more profoun
 
 <figure>
   <blockquote>
-    “The dashboards Moonbase Labs created have provided insight into our services that I never could have imagined. Now, we have the ability to see our service history trends going back years which affects all sorts of day-to-day decisions. Analysis that would have taken our staff weeks to compile is now at our fingertips in a matter of seconds.“
+    “The dashboards Moonbase Labs created have provided insight into our services that I never could have imagined. Now, we have the ability to see our service history trends going back years which affects all sorts of day-to-day decisions. Analysis that would have taken our staff weeks to compile is now at our fingertips in a matter of seconds“
   </blockquote>
   <figcaption>Erik Pedersen, VP of Entrepreneurship at NetWork Kansas</figcaption>
 </figure>
 
 Moonbase Labs was happy to use our expertise to help NetWork Kansas advance its mission of empowering rural entrepreneurs.
 
-To learn more about NetWork Kansas and the E-Community Lending program, visit the [Network Kansas webite](https://networkkansas.com). 
-
-
-
-
-
-
-
-
+To learn more about NetWork Kansas and the E-Community Lending program, visit the [Network Kansas webite](https://networkkansas.com).

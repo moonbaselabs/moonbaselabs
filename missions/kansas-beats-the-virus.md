@@ -13,9 +13,12 @@ tags: [nonprofit]
 
 The Kansas Leadership Center saw an opportunity to use their network of leaders to inspire Kansans to take action to combat the Coronavirus pandemic. They envisioned a statewide, public health intervention to activate and connect local leadership to combat COVID-19.
 
-<x-blockquote credit="Ed O’Malley, President & CEO of KLC">
-“We’re honored that KDHE and Governor Kelly, with the support of the Kansas Legislature, have called on KLC to help mobilize Kansans for the purpose and challenge of a century. We’re charging our statewide network of partners and 12,000 leadership program graduates to lead virtual, non-partisan meetings that generate local support and stimulate concrete action to slow the spread of the virus.“
-</x-blockquote>
+<figure>
+  <blockquote>
+    “We’re honored that KDHE and Governor Kelly, with the support of the Kansas Legislature, have called on KLC to help mobilize Kansans for the purpose and challenge of a century. We’re charging our statewide network of partners and 12,000 leadership program graduates to lead virtual, non-partisan meetings that generate local support and stimulate concrete action to slow the spread of the virus.“
+  </blockquote>
+  <figcaption>Ed O’Malley, President & CEO of KLC</figcaption>
+</figure>
 
 The primary objective was to inspire Kansans to lend their influence to convene hundreds of virtual meetings.
 

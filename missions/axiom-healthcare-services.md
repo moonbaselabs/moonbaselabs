@@ -38,6 +38,9 @@ After nearly three years of using the portal, Axiom has gone from having no form
 
 By organizing all of their information into a single, shared space, Axiom Healthcare was able to improve their collaboration, streamline communication and feel confident that everyone was looking at the same information. This increased visibility of their data, saved everyone time, and improved the quality of care Axiom was able to provide.
 
-<x-blockquote credit="Jan Ediger, Regional Health Information Manager">
-“I appreciate the Moonbase Labs team and their willingness to work with us and give us input on how to get the most out of our portal. They really listen to our needs and create tools that work with our workflow rather than giving us tools that are easy for them to manage, that means a lot!”
-</x-blockquote>
+<figure>
+  <blockquote>
+    “I appreciate the Moonbase Labs team and their willingness to work with us and give us input on how to get the most out of our portal. They really listen to our needs and create tools that work with our workflow rather than giving us tools that are easy for them to manage, that means a lot!”
+  </blockquote>
+  <figcaption>Jan Ediger, Regional Health Information Manager</figcaption>
+</figure>
