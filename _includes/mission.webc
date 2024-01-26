@@ -20,20 +20,20 @@ layout: layout.webc
                     <div class="relative z-10">
                         <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
                             <div>
-                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-500">Mission</dt>
-                                <dd class="text-xl font-medium tracking-tight text-navy-300" @text="`MBL#${hash($data.page.inputPath)}`"></dd>
+                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-300">Mission</dt>
+                                <dd class="text-xl font-medium tracking-tight text-gray-500" @text="`MBL#${hash($data.page.inputPath)}`"></dd>
                             </div>
                             <div>
-                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-500">Partner</dt>
-                                <dd class="text-xl font-medium tracking-tight text-navy-300" @text="$data.client"></dd>
+                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-300">Partner</dt>
+                                <dd class="text-xl font-medium tracking-tight text-gray-500" @text="$data.client"></dd>
                             </div>
                             <div>
-                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-500">Industry</dt>
-                                <dd class="text-xl font-medium tracking-tight text-navy-300" @text="$data.industry"></dd>
+                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-300">Industry</dt>
+                                <dd class="text-xl font-medium tracking-tight text-gray-500" @text="$data.industry"></dd>
                             </div>
                             <div webc:if="$data.url">
-                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-500">Location</dt>
-                                <dd class="text-xl font-medium tracking-tight text-navy-300">
+                                <dt class="uppercase tracking-wider text-sm font-medium text-navy-300">Location</dt>
+                                <dd class="text-xl font-medium tracking-tight text-gray-500">
                                     <a class="underline text-gold-500 hover:text-gold-400" :href="$data.url" @text="(new URL($data.url)).host.replace('www.', '')"></a>
                                 </dd>
                             </div>
@@ -43,13 +43,11 @@ layout: layout.webc
                     <div class="relative mt-10">
                         <decoration-orbit class="hidden lg:block absolute top-0 right-0 transform -translate-y-1/4 translate-x-1/2" width="404" height="404"></decoration-orbit>
                         <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
-                            <figure>
-                                <template webc:type="js">
-                                    $data.page.sections
-                                    ? $data.page.sections.feature
-                                    : `<img loading="lazy" src="${$data.image}" alt="" width="1184" height="1376" class="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto">`
-                                </template>
-                            </figure>
+                            <template webc:type="js">
+                                $data.page.sections
+                                ? $data.page.sections.feature
+                                : `<img loading="lazy" src="${$data.image}" alt="" width="1184" height="1376" class="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto">`
+                            </template>
                         </div>
                     </div>
                 </div>

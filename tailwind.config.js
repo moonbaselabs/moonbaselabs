@@ -2,7 +2,7 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 import typography from '@tailwindcss/typography'
 
 export default {
-  content: ["./**/*.{html,njk,svg}"],
+  content: ["./**/*.{html,njk,webc,svg}"],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -99,9 +99,16 @@ export default {
               color: theme('colors.white'),
               borderColor: theme('colors.blue.300'),
             },
+            figcaption: {
+              color: theme('colors.navy.300'),
+            },
             'h1, h2, h3, h4, h5, h6': {
               color: theme('colors.blue.300'),
+              fontFamily: [theme('fontFamily.display')],
             },
+            'dt': {
+              color: theme('colors.white'),
+            }
           },
         },
       }),

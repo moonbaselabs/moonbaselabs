@@ -1,4 +1,4 @@
-<div @attributes class="relative w-full flex justify-end items-center">
+<div @attributes aria-hidden="true" class="relative w-full flex justify-end items-center">
     <svg class="absolute top-0 right-full w-screen" height="24" preserveAspectRatio="none" viewBox="0 0 10 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 13.2H10.1998V16.2999H0V13.2Z" fill="#A9995D" />
         <path d="M0 7.09998H10.1998V10.2H0V7.09998Z" fill="#A9995D" />
