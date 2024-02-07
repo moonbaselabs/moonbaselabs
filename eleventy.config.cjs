@@ -16,7 +16,7 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('favicon.svg')
 
     eleventyConfig.addFilter('readableDate', dateObj => {
-        return DateTime.fromJSDate(dateObj, { zone: 'America/Chicago' }).toLocaleString(DateTime.DATE_FULL);
+        return DateTime.fromJSDate(dateObj, { zone: 'UTC' }).toLocaleString(DateTime.DATE_FULL);
     })
 
     eleventyConfig.addFilter('hash', str => {
