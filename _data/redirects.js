@@ -20,6 +20,10 @@ export default [
     to: '/missions/kerii/',
   },
   {
+    from: '/case-studies/lending-dashboards/',
+    to: '/missions/lending-dashboards/',
+  },
+  {
     from: '/case-studies/lubrication-engineers.blade/',
     to: '/missions/lubrication-engineers.blade/',
   },
