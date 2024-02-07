@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="">
+	<title>Moonbase Labs</title>
+	<subtitle>Custom digital solutions that drive efficiency, customer engagement, and business growth. We are fueled by the belief that technology innovation is attainable by any company.</subtitle>
+	<link href="https://moonbaselabs.com/rss.xml" rel="self"/>
+	<link href="https://moonbaselabs.com/"/>
+	<updated>2024-02-07T21:30:38Z</updated>
+	<id>https://moonbaselabs.com</id>
+	<author>
+		<name></name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>An Ode to the Patron Saint of the Internet</title>
+		<link href="https://moonbaselabs.com/blog/an-ode-to-the-patron-saint-of-the-internet/"/>
+		<updated>2021-05-28T00:00:00Z</updated>
+		<id>https://moonbaselabs.com/blog/an-ode-to-the-patron-saint-of-the-internet/</id>
+		<content type="html">&lt;p&gt;Carlo Acutis could soon become the &lt;a href=&quot;https://www.bbc.com/news/world-europe-54507064#:~:text=Carlo%20Acutis%2C%20who%20died%20of,run%20websites%20for%20Catholic%20organisations&quot;&gt;first millennial to be designated a saint&lt;/a&gt; by the catholic church. In 2006, at the age of fifteen, Carlo tragically passed away from Leukemia. He was an English-born Italian Catholic who was most famous for documenting Eucharistic miracles on his website, before his death.&lt;/p&gt;
+&lt;p&gt;Acutis was also described by his friends as a “computer geek,” which would almost certainly make him the first “computer geek” to become a saint. For that reason, he holds a special place in the hearts of the Moonbase Labs team.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://moonbaselabs.com/img/blog/an-ode-to-the-patron-saint-of-the-internet.jpg&quot; alt=&quot;&quot;&gt;
+I couldn’t help but notice that Carlo was born two years after myself. If he was still alive today, he would be nearly the same age as everyone on the Moonbase team. Much like Carlo, our team grew up with the internet. I wonder what he would think of it now? He never got to see iPhones or play Minecraft. The year he passed, to “Google” – a verb – was added to the dictionary. (Here are some other major &lt;a href=&quot;https://www.computerhistory.org/timeline/2006/&quot;&gt;technology milestones of 2006&lt;/a&gt;, the year Carlo died.) So much has changed since then.&lt;/p&gt;
+&lt;p&gt;I can’t help but wonder: &lt;em&gt;How would he be using the internet, for good, if he was alive today?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;His death is a mind-boggling tragedy and my heart goes out to his family. I’m sure they still grieve, all these years later. I hope that the honor gained following his death provides some solace for his family. I’m struck by the power of the internet to amplify unusual voices. Because of his passion for computers and his deeply held faith, his story transcended country and culture to create an incredible legacy recognized by the pope himself.&lt;/p&gt;
+&lt;p&gt;Over and over again, I’m blown away by the potential of the internet. It’s a powerful, dangerous tool, and it’s up to all of us to make sure that it’s wielded for good.&lt;/p&gt;
+&lt;p&gt;May (the-soon-to-be) Saint Carlo guide our steps and make our work true.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;People we would like to thank:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Isidore_of_Seville&quot;&gt;St. Isidore of Seville&lt;/a&gt; (560–630) | Patron saint of technology&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi#Life&quot;&gt;Muhammad ibn Musa al-Khwarizmi&lt;/a&gt; (780–840) | Astronomer and father of Algebra&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Yi_Xing&quot;&gt;Yi Xing&lt;/a&gt; (683–727) | Monk, astronomer, and inventor of the astronomical clock&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Women_in_computing&quot;&gt;Ada Lovelace &amp;amp; Grace Hopper&lt;/a&gt; | The reason computers exist&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Main_Page&quot;&gt;Larry Sanger &amp;amp; Jimmy Wales&lt;/a&gt; | Co-founders of Wikipedia (Created in 2001)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Head-to-Head Comparison: Mobile Apps vs. Web Apps</title>
+		<link href="https://moonbaselabs.com/blog/web-vs-mobile/"/>
+		<updated>2021-04-09T00:00:00Z</updated>
+		<id>https://moonbaselabs.com/blog/web-vs-mobile/</id>
+		<content type="html">&lt;p&gt;What’s the difference between a mobile app and a web app? Why does it matter?&lt;/p&gt;
+&lt;p&gt;Everyone trying to solve a problem with custom software faces this question: Should we build a mobile app or a web app? The path you choose will have significant implications, so it’s important to have a basic understanding of the differences between the two.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://moonbaselabs.com/img/blog/web-vs-mobile.jpg&quot; alt=&quot;Web interface and mobile app interface illustration&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;A simple definition of each:&lt;/h2&gt;
+&lt;h3&gt;Web Apps&lt;/h3&gt;
+&lt;p&gt;Web applications are accessible through a browser on a computer, tablet or mobile device. Most will work on any modern browser like Chrome, Safari, or Firefox. Web apps are distinct from websites because they usually require a login and allow the end user to perform many complex actions. Websites are generally static and offer little functionality to the end user. Web apps are popular because they are device agnostic and easy to access through a URL.&lt;/p&gt;
+&lt;h3&gt;Mobile Apps&lt;/h3&gt;
+&lt;p&gt;Mobile apps must be downloaded from an app store like the Apple App Store or Google Play. They are specifically designed for mobile devices and are popular because they offer powerful performance and a convenient experience for users that have downloaded the apps. Mobile apps surged in popularity under the Apple marketing campaign: “We have an app for that.”&lt;/p&gt;
+&lt;h2&gt;How to compare them:&lt;/h2&gt;
+&lt;p&gt;Obviously, neither one is better than the other, they simply provide different methods for reaching users. Let’s compare web apps and mobile apps across a few dimensions.&lt;/p&gt;
+&lt;h3&gt;Access&lt;/h3&gt;
+&lt;p&gt;One of the major benefits of a web app is the ease of access. The only thing needed for access is a link to the URL and you can reach this address from any device with a modern browser. Mobile apps have one additional barrier to access because you have to download the app from the app store.&lt;/p&gt;
+&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;p&gt;While browser performance continues to dramatically improve, native apps developed for mobile devices outperform web apps in speed, processing power, and access to physical device components. This is especially important if the app you want to build will need to access the device’s camera, accelerometer, or bluetooth.&lt;/p&gt;
+&lt;h3&gt;Development Complexity&lt;/h3&gt;
+&lt;p&gt;If you choose to build a mobile app, you are immediately faced with the decision to build for ios (Apple) or android (Google) or BOTH! Android and ios are completely different frameworks and will require a development team with experience in each. If you decide to build for one or the other, you drastically limit the number of potential customers that your product can reach. Web apps are often seen as the simpler option because they only require one web development team and can reach nearly any device in the world!&lt;/p&gt;
+&lt;h3&gt;Gatekeepers&lt;/h3&gt;
+&lt;p&gt;One of the beautiful parts of building for the web is that there are no gatekeepers. Buy a domain and tell people to go there! If you accept payment, you can keep all the money. When building mobile apps, you will be faced with two gatekeepers: Apple and Google. They will require your app to be reviewed before it enters their app stores and will take 30% of any payments you receive. This has been derided as the Apple tax and is very controversial (&lt;a href=&quot;https://www.businessinsider.com/apple-developer-rage-30-percent-app-store-tax-2020-6&quot;&gt;Read &lt;span class=&quot;sr-only&quot;&gt;more about the Apple tax &lt;/span&gt;here&lt;/a&gt;, &lt;a href=&quot;https://www.business-standard.com/article/companies/google-delays-adopting-controversial-30-in-app-commission-from-jan-to-sept-120112300691_1.html&quot;&gt;here&lt;span class=&quot;sr-only&quot;&gt; is another Apple tax controversy&lt;/span&gt;&lt;/a&gt;, and &lt;a href=&quot;https://hey.com/apple/&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;a third Apple tax controversy &lt;/span&gt;here&lt;/a&gt;). In the last few months, both Apple and Google have made concessions for smaller applications that reduce the percentage to 15% for apps generating less than $1,000,000 in revenue.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This is by no means an exhaustive comparison but at least a starting point for consideration. For us, at the end of the day, we want to build products that &lt;strong&gt;people use&lt;/strong&gt;. This requires keeping things simple and ensuring that the product is available to the customers who want it. We generally lead people towards starting with web apps unless they have a compelling case for mobile apps or a performance requirement that makes a mobile app the stronger choice.&lt;/p&gt;
+&lt;p&gt;Whether for the web or mobile, software is a powerful way to streamline workflows. &lt;a href=&quot;https://moonbaselabs.com/missions&quot;&gt;Read our case studies&lt;/a&gt; to see how Moonbase Labs equips our clients with digital tools to eliminate friction at the foundations of their work. &lt;a href=&quot;https://moonbaselabs.com/contact&quot;&gt;Schedule a meeting&lt;/a&gt; to learn how we can help your organization increase its impact.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Flybys to Discover</title>
+		<link href="https://moonbaselabs.com/blog/flybys-to-discover/"/>
+		<updated>2021-03-08T00:00:00Z</updated>
+		<id>https://moonbaselabs.com/blog/flybys-to-discover/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://moonbaselabs.com/img/blog/flybys-to-discover-01.jpg&quot; alt=&quot;Illustration of lunar capsule orbiting the moon&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Before astronauts from Apollo 11 landed on the moon, NASA completed &lt;a href=&quot;https://moon.nasa.gov/exploration/moon-missions/&quot;&gt;thirty lunar missions&lt;/a&gt;. They sent flybys to circle the moon and collect data to inform a future lunar landing. Over the span of a decade, NASA sent dozens of missions towards the moon without trying to land &lt;em&gt;on the moon&lt;/em&gt;. They had a clear scope for every mission and regardless of the outcome, they learned something. every. single. attempt. In 1969, Apollo 11 traveled safely to the moon due to previous missions that &lt;em&gt;didn’t&lt;/em&gt; go to the moon. Those missions never intended to. Their purpose was to de-risk and demystify this new landscape.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://moonbaselabs.com/img/blog/flybys-to-discover-02.jpg&quot; alt=&quot;Imaging scan of the surface of the moon&quot;&gt;&lt;/p&gt;
+&lt;p&gt;To help our clients build the best products possible, we start with a flyby – a mission to find answers to two critical questions: &lt;strong&gt;“Where are we going?”&lt;/strong&gt; and &lt;strong&gt;“Why are we going there?”&lt;/strong&gt; In a series of five meetings, we create diagrams and roadmaps to de-risk building software for everyone involved.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“Why are we going there?”&lt;/strong&gt; is the most important question and always comes first. “Why?” drives the business conversation and helps inform the requirements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Why do we need to automate this workflow?&lt;/li&gt;
+&lt;li&gt;How do we prioritize each feature we want?&lt;/li&gt;
+&lt;li&gt;How painful is the current process?&lt;/li&gt;
+&lt;li&gt;Conversely, what new opportunities will this solution create?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nested in those “Why?” questions, is a business case for building the solution. Trips to the moon are risky, and the more cargo you carry, the riskier those missions become. Building beautiful products requires sharp attention to the value each feature creates and requires saying “no” to features that &lt;em&gt;would be nice&lt;/em&gt;. By eliminating non-critical features at the beginning, we save &lt;a href=&quot;https://moonbaselabs.com/missions/&quot;&gt;our clients&lt;/a&gt; hundreds of hours and thousands of dollars.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“Where are we going?”&lt;/strong&gt; drives the technical conversation to determine the requirements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How many users do we expect?&lt;/li&gt;
+&lt;li&gt;How often will they interact with the data?&lt;/li&gt;
+&lt;li&gt;What features will be needed to solve the problem?&lt;/li&gt;
+&lt;li&gt;What devices will be used to access the software?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://moonbaselabs.com/img/blog/flybys-to-discover-03.jpg&quot; alt=&quot;Historic photo of NASA ground control members celebrating mission success&quot;&gt;&lt;/p&gt;
+&lt;p&gt;At Moonbase Labs, iteration is king. We don’t attempt go-for-broke moonshots. We send orbits and flybys. We build prototypes that let user feedback dictate design. Eventually, we land partners on the moon, but never overnight. We think it’s important that our clients arrive safely, so we eliminate risks at every turn. We de-risk and demystify the process of creating a successful product, whether you’re building a SaaS platform or an internal tool. We help partners determine where they are going, the risks they’ll face, and the fastest way to get there.&lt;/p&gt;
+&lt;p&gt;Want to see the steps we take to answer these two important questions? Check out our &lt;a href=&quot;https://docs.google.com/document/d/1HfjUDB_TEWbqRQt9jXYevaetZwegF8nHho0zsj2jyeA/edit&quot;&gt;flyby process&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Building Software that Matters</title>
+		<link href="https://moonbaselabs.com/blog/building-software-that-matters/"/>
+		<updated>2021-02-15T00:00:00Z</updated>
+		<id>https://moonbaselabs.com/blog/building-software-that-matters/</id>
+		<content type="html">&lt;p&gt;Moonbase Labs has never really had a “niche.” We are a team of  problem solvers, so naturally, we do our best to help everyone who walks through our doors. In January, we took time to reflect on the last few years and a pattern came to light: &lt;strong&gt;We enjoy helping people who help people.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We discussed our favorite projects and the partnerships we’ve created over the last few years. Todd Wiedemann with &lt;a href=&quot;https://moonbaselabs.com/missions/kerii/&quot;&gt;Kansas MTSS&lt;/a&gt;; Steve Radley and Erik Pedersen at &lt;a href=&quot;https://moonbaselabs.com/missions/venturedash/&quot;&gt;NetWork Kansas&lt;/a&gt;; Ed O’Malley and Julia Fabris McBride with the &lt;a href=&quot;https://moonbaselabs.com/missions/kansas-beats-the-virus/&quot;&gt;Kansas Leadership Center&lt;/a&gt;. What do all of these people have in common? They are innovative leaders of highly impactful nonprofits. More importantly, they are wildly talented individuals on a mission to do good. They are improving the lives of teachers, serving entrepreneurs, and inspiring the bold leaders of tomorrow. Those missions matter: they matter to our communities, and that matters to us.&lt;/p&gt;
+&lt;p&gt;We want to build software that matters.&lt;/p&gt;
+&lt;p&gt;We want to give nonprofits the tools that built Netflix and Amazon. We want good to scale. Empowered teachers, diverse entrepreneurs, stronger leaders: those missions are now our mission. We build software to empower the doers; our analytics tools create context for progress.&lt;/p&gt;
+&lt;p&gt;Our team wants to be the change we see in the world. It’s why Nic is on the board of &lt;a href=&quot;https://devict.org&quot;&gt;DevICT&lt;/a&gt; and why Ted co-founded a nonprofit, &lt;a href=&quot;https://www.8oaks.org&quot;&gt;Eight Oaks&lt;/a&gt;. It’s why Christian contributes to &lt;a href=&quot;https://votelocalks.org&quot;&gt;VoteLocal&lt;/a&gt;, an open source project that helps people vote. We care about our community. We want to help.&lt;/p&gt;
+&lt;p&gt;Want to learn more about our work with nonprofits? &lt;a href=&quot;https://moonbaselabs.com/nonprofits&quot;&gt;Check out our nonprofit case studies&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;People who helped us see the light:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/delane-butler-231a78112/&quot;&gt;Delane Butler&lt;/a&gt; | United Way of the Plains&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/michael-webb-35240416/&quot;&gt;Michael Webb&lt;/a&gt; | Grant Writing Consultant&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/melissarobertskc/&quot;&gt;Melissa Roberts-Chapman&lt;/a&gt; | Kauffman Foundation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/christina-long-05221555/&quot;&gt;Christina Long&lt;/a&gt; | Create Campaign&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/sethetter/&quot;&gt;Seth Etter&lt;/a&gt; | Ad Hoc&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/brentcomstock/&quot;&gt;Brent Comstock&lt;/a&gt; | BCom Solutions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/meyersmaria/&quot;&gt;Maria Meyers&lt;/a&gt; | US Sourcelink&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/samueladiv/&quot;&gt;Sam Adiv&lt;/a&gt; | OpenTent&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/michael-ramsey-4bbb2a31/&quot;&gt;Mike Ramsey&lt;/a&gt; | Real Estate Tycoon at Bokeh Development&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mahatma_Gandhi&quot;&gt;Mahatma Gandhi&lt;/a&gt; | Political Ethicist&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Moonbase Labs: The Next Step</title>
+		<link href="https://moonbaselabs.com/blog/the-next-step/"/>
+		<updated>2021-01-29T00:00:00Z</updated>
+		<id>https://moonbaselabs.com/blog/the-next-step/</id>
+		<content type="html">&lt;h2&gt;A New Brand&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://moonbaselabs.com/img/blog/the-next-step-01.png&quot; alt=&quot;The new Moonbase Labs logo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simply put:&lt;/strong&gt; We need a brand that can do more because we can do more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;At the end of 2019&lt;/strong&gt;, we merged with Lion Graph and began offering data analytics services. We build software, create SaaS (software as a service) platforms, design dashboards and construct data warehouses – all under the umbrella of guiding organizations through digital transformation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We have grown&lt;/strong&gt; from two co-founders to &lt;a href=&quot;https://moonbaselabs.com/about&quot;&gt;four partners&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nic Wentling&lt;/li&gt;
+&lt;li&gt;Benny Bowden&lt;/li&gt;
+&lt;li&gt;Ted Kriwiel&lt;/li&gt;
+&lt;li&gt;Christian Taylor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Our clients are&lt;/strong&gt; nationally recognized as thought leaders in their fields – they are trailblazers. The work of a trailblazer is never finished and the road to innovation is most often digital.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We help innovators&lt;/strong&gt; eliminate friction at the foundations of their work. By integrating our digital experience with our clients’ deep domain knowledge, we create tools that empower our clients to scale their expertise.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This new brand&lt;/strong&gt; reflects &lt;a href=&quot;https://moonbaselabs.com/missions&quot;&gt;our clients&lt;/a&gt;. The astronaut in the Moonbase Labs logo represents them and their aspirations, looking towards their future as they forge a path forward.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We are paying attention&lt;/strong&gt; to our mentors and partners. They are pioneers that constantly recreate themselves, willing to start fresh and make things new. We have watched them do this over and over again and decided to try it ourselves. When you rub shoulders with the best, innovation is contagious, transformation inevitable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This is the next step&lt;/strong&gt; for Moonbase Labs and we invite you to join us. &lt;a href=&quot;https://moonbaselabs.com/contact&quot;&gt;Reach out to us&lt;/a&gt; anytime.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A few people we want to thank for their contribution to this rebrand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rogerstrunk.com&quot;&gt;Roger Strunk&lt;/a&gt; | Graphic Designer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/nancy-kersenbrock-68770122/&quot;&gt;Nancy Kersenbrock&lt;/a&gt; | WSU Center for Entrepreneurship&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/mark-torline-1b025917/&quot;&gt;Mark Torline&lt;/a&gt; | WSU Center for Entrepreneurship&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/doug-stucky-4a23471/&quot;&gt;Doug Stucky&lt;/a&gt; | WSU College of Innovation &amp;amp; Design&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/joshoeding&quot;&gt;Josh Oeding&lt;/a&gt; | NXTUS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/eXIDFx74aSY&quot;&gt;Wernher von Braun&lt;/a&gt; | Aerospace Engineer&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+</feed>
