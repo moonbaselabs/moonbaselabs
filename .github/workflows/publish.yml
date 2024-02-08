@@ -50,3 +50,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Send Slack notification
+        uses: 8398a7/action-slack@v3
+        if: success()
+        with:
+          text: 'moonbaselabs.com has deployed successfully.'
+          status: ${{ job.status }}
+          author_name: ${{ github.actor }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
