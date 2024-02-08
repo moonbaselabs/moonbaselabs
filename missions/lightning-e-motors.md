@@ -1,6 +1,6 @@
 ---
 title: Lightning eMotors
-description: Creating tools for fleet managers converting to all-electric vehicles. 
+description: Creating tools for fleet managers converting to all-electric vehicles.
 date: 2023-11-01
 client: Lightning eMotors
 industry: Transportation
@@ -36,7 +36,7 @@ Variables they had to consider included:
 
 All these variables were considered to help identify the most suitable heavy-duty vehicle for the fleet. Upon completing the simulation, the fleet manager would receive an impact report, which outlined the potential savings and tax credits available for electrifying their fleet.
 
-![Example of simulation user interface](/img/missions/lightning-in-browser.png)
+![Example of simulation user interface](/img/missions/lightning-in-browser.jpg)
 
 ## How It Helped
 
