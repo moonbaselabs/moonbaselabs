@@ -37,8 +37,8 @@ layout: layout.webc
                     </p>
                 </div>
             </div>
-            <div id="hero" class="relative rounded-full lg:mt-0">
-                <decoration-rocket width="116" height="569" class="relative mx-auto"></decoration-rocket>
+            <div id="hero" class="relative rounded-full lg:mt-0" onclick="enableRocketControls()">
+                <decoration-rocket width="116" height="569" class="relative mx-auto h-[35vh] lg:h-auto"></decoration-rocket>
             </div>
         </div>
     </div>
@@ -52,14 +52,28 @@ layout: layout.webc
         scene.style.setProperty("--x", (x * 100) + '%');
         scene.style.setProperty("--y", (y * 100 / 10) + '%');
     }
-    window.ondeviceorientation = function ({ gamma, beta }) {
+    function handleOrientation({ gamma, beta }) {
         window.onmousemove = null
         let tiltX = (window.orientation % 180 === 0) ? gamma : -beta
         let tiltY = (window.orientation % 180 === 0) ? beta : -gamma
-        let x = tiltX / 270 * -1
-        let y = tiltY / 270 * -1
+        let x = tiltX / 270 * 2 * -1
+        let y = tiltY / 270 * 2 * -1
         scene.style.setProperty("--x", (x * 100) + '%');
-        scene.style.setProperty("--y", (y * 100 / 10) + '%');
+        scene.style.setProperty("--y", (y * 100 / 5) + '%');
+    }
+    window.enableRocketControls = () => { }
+    if (typeof DeviceMotionEvent.requestPermission === 'function') {
+        window.enableRocketControls = () => {
+            DeviceMotionEvent.requestPermission().then((state) => {
+                if (state === 'granted') {
+                    window.addEventListener('deviceorientation', handleOrientation);
+                } else {
+                    console.error('Request to access the orientation was rejected');
+                }
+            }).catch(console.error);
+        }
+    } else {
+        window.addEventListener('deviceorientation', handleOrientation)
     }
 </script>
 
