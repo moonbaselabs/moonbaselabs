@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.linkedin-post {
-    border: 2px solid #A9995D; /* LinkedIn's brand color, but you can use any color */
-    border-radius: 10px; /* Optional: Rounds the corners of the border */
-    margin: 20px 0; /* Adds some space around the iframe */
-    overflow: hidden;
-};
