@@ -1,5 +1,5 @@
 ---
-title: "Bet on ourselves"
+title: "Bet on Ourselves"
 description: This year we are trying something new.
 date: 2024-02-13
 image: /img/blog/the-next-step.jpg

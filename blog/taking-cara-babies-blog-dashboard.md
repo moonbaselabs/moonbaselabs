@@ -2,7 +2,7 @@
 title: "Powerful Tools for the Taking Cara Babies Blog Team"
 description: A dashboard we built to help Taking Cara Babies monitor performance across hundreds of blog posts.
 date: 2024-02-12
-image: /img/blog/process.jpg
+image: /img/blog/tcb-tools-blog-team.jpg
 tags: [tcb]
 author: Ted Kriwiel
 ---
