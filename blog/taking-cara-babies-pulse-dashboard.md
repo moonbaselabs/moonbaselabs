@@ -32,5 +32,5 @@ These nine charts allow Taking Cara Babies to keep a pulse of their company ever
 Watch the video to see a walk-through of the dashboard.
 
 <figure>
-   <div style="position: relative; padding-bottom: 70.67415730337078%; height: 0;"><iframe src="https://www.loom.com/embed/6ca56cf7431f45848cde2603a1eefca8?sid=ae6ec961-177e-4cd1-ab90-2024e71c3a13" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+   <div style="position: relative; padding-bottom: 68.54304635761589%; height: 0;"><iframe src="https://www.loom.com/embed/c4ee218f501b471f90512039cfa7f431?sid=996ff92d-7fb7-4e89-98f7-0e326c2b4e62?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </figure>

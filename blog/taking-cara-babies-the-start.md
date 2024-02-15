@@ -3,7 +3,7 @@ title: "Starting from scratch with Taking Cara Babies"
 description: A summary of our "Flyby process" to kick off our engagement with Taking Cara Babies.
 date: 2024-02-14
 image: /img/blog/process.jpg
-tags: []
+tags: [tcb]
 author: Ted Kriwiel
 ---
 
@@ -16,5 +16,5 @@ Once we understood the types of software they were using and which ones were wor
 This visualization helped us identify some gaps in the process and helped us determine where we would focus our efforts. We ended by creating a feature roadmap that aligned with the Taking Cara Babies vision, and we used that as our north star when building features for the next eight months. Watch this video to get a feel for the type of work we do on a flyby.
 
 <figure>
-    <div style="position: relative; padding-bottom: 70.89136490250696%; height: 0;"><iframe src="https://www.loom.com/embed/6d0b08a4872d49e4afdd46b45bf5f304?sid=4cd8adf3-e700-451e-bdd9-f0143e9c586f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+       <div style="position: relative; padding-bottom: 70.89136490250696%; height: 0;"><iframe src="https://www.loom.com/embed/6d0b08a4872d49e4afdd46b45bf5f304?sid=0170e234-c082-4fcc-81e1-388e00400dc1?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </figure>
