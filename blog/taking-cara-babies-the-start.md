@@ -1,7 +1,7 @@
 ---
-title: "Starting from scratch with Taking Cara Babies"
+title: "How we started with Taking Cara Babies"
 description: A summary of our "Flyby process" to kick off our engagement with Taking Cara Babies.
-date: 2024-02-14
+date: 2024-01-29
 image: /img/blog/process.jpg
 tags: [tcb]
 author: Ted Kriwiel

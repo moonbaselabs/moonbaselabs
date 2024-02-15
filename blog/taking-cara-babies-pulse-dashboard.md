@@ -1,9 +1,9 @@
 ---
 title: "Building a Pulse Dashboard for Taking Cara Babies"
 description: How we distilled the most important metrics driving Taking Cara Babies into a simple dashboard. 
-date: 2024-02-14
+date: 2024-02-05
 image: /img/blog/process.jpg
-tags: []
+tags: [tcb]
 author: Ted Kriwiel
 ---
 
