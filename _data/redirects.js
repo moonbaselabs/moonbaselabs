@@ -39,4 +39,8 @@ export default [
     from: '/case-studies/workready/',
     to: '/missions/workready/',
   },
+  {
+    from: '/missions/lending-dashboards/',
+    to: '/missions/network-kansas/',
+  },
 ]

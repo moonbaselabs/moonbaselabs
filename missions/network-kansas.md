@@ -1,5 +1,5 @@
 ---
-title: Enhancing Community Lending Through Data
+title: NetWork Kansas
 description: Giving tools to community leaders to support entrepreneurs.
 date: 2024-02-01
 client: NetWork Kansas
