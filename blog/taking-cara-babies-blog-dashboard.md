@@ -7,7 +7,7 @@ tags: [tcb]
 author: Ted Kriwiel
 ---
 
-This is a sneak peek into some work we're doing to support the Taking Cara Babies’ awesome blog team. They work hard to create resources for new parents, especially those who are trying to get some sleep.
+This is a sneak peek into some work we're doing to support Taking Cara Babies’ awesome blog team. They work hard to create resources for new parents, especially those who are trying to get some sleep.
 
 Over the last few years, they’ve created over one hundred blog posts that cover everything you could want to know about sleep for infants all the way to toddlers. The challenge for the Taking Cara Babies blog team is managing all of those posts. They monitor traffic and conversion and try to optimize how the pages rank in Google Search. 
 
