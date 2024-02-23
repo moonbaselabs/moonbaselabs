@@ -7,7 +7,11 @@ tags: [tcb]
 author: Ted Kriwiel
 ---
 
-This is a sneak peek into some work we're doing to support Taking Cara Babies’ awesome blog team. They work hard to create resources for new parents, especially those who are trying to get some sleep.
+This is a sneak peek into some work we're doing to support the Taking Cara Babies’ awesome blog team. They work hard to create resources for new parents, especially those who are trying to get some sleep
+
+<figure>
+       <div style="position: relative; padding-bottom: 70.03484320557492%; height: 0;"><iframe src="https://www.loom.com/embed/23475bb2832a4c6d87d10420f032f0e7?sid=e9ffc45b-9bdc-477c-b163-5a4df0f564ab?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+</figure>
 
 Over the last few years, they’ve created over one hundred blog posts that cover everything you could want to know about sleep for infants all the way to toddlers. The challenge for the Taking Cara Babies blog team is managing all of those posts. They monitor traffic and conversion and try to optimize how the pages rank in Google Search. 
 
@@ -27,6 +31,3 @@ Or, if the blog team wants to focus on Return Gazelles, they might see if there 
 As to the Lazy lemurs, I suggest ignoring them. Unless there’s a compelling reason to work on them, it usually makes more sense to invest in the pages that show promise. 
 
 Ultimately, we wanted to create a tool that helps the blog team do their job better, which helps millions of new parents help their babies get 10-12 hours of uninterrupted sleep a night. And that’s a big deal. 
-<figure>
-       <div style="position: relative; padding-bottom: 70.03484320557492%; height: 0;"><iframe src="https://www.loom.com/embed/23475bb2832a4c6d87d10420f032f0e7?sid=e9ffc45b-9bdc-477c-b163-5a4df0f564ab?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-</figure>
