@@ -14,7 +14,7 @@ description: We are explorers, tinkerers, painters, and poets. We have the Desig
     </div>
     <div class="bg-onyx-600 px-4 py-6 sm:py-12 sm:px-6 lg:px-8 lg:py-16">
         <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-            <ul class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+            <ul class="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
                 <li webc:for="(name, member) in team" class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
                     <div class="space-y-6 xl:space-y-10">
                         <img loading="lazy" class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" :src="member.image" alt="">

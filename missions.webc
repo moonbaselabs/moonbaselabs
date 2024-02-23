@@ -14,7 +14,7 @@ description: Nothing shows what we do better than missions we have completed wit
             </div>
         </div>
         <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-            <div class="sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+            <div class="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
                 <mission webc:for="mission of collections.missions.slice(0).reverse()" :mission="mission">
             </div>
         </div>
