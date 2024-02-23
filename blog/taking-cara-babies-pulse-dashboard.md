@@ -13,6 +13,7 @@ We've built several dashboards for Taking Cara Babies, but this is probably my f
    <div style="position: relative; padding-bottom: 68.54304635761589%; height: 0;"><iframe src="https://www.loom.com/embed/c4ee218f501b471f90512039cfa7f431?sid=996ff92d-7fb7-4e89-98f7-0e326c2b4e62?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </figure>
 
+
 ## Selecting the metrics
 After a few discussions, we settled on the following metrics as the most critical ones to monitor:
 
