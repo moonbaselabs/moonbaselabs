@@ -9,16 +9,14 @@
     "devDependencies": {
         "@11ty/eleventy": "3.0.0-alpha.5",
         "@11ty/eleventy-img": "^3.1.8",
+        "@11ty/eleventy-plugin-rss": "^1.2.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
         "@11ty/eleventy-plugin-webc": "^0.11.2",
         "@tailwindcss/typography": "^0.5.10",
         "autoprefixer": "^10.4.16",
+        "cssnano": "^6.0.4",
+        "luxon": "^3.4.4",
         "postcss": "^8.4.33",
         "tailwindcss": "^3.4.0"
-    },
-    "dependencies": {
-        "@11ty/eleventy-plugin-rss": "^1.2.0",
-        "cssnano": "^6.0.3",
-        "luxon": "^3.4.4"
     }
 }
