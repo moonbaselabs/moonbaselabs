@@ -1,7 +1,7 @@
 ---
 layout: layout.webc
-title: Custom Prototype Application
-description: Apply to receve 100 development hours towards a custom software prototype for your organization.
+title: Nonprofit Custom Prototype Program
+description: Apply to receive 100 free development hours towards a custom software prototype for your organization. This will take less than five minutes.
 ---
 
 <page-head></page-head>
@@ -15,77 +15,101 @@ description: Apply to receve 100 development hours towards a custom software pro
     <div class="bg-onyx-600 px-4 py-6 sm:py-12 sm:px-6 lg:px-8 lg:py-16">
         <div class="relative max-w-lg mx-auto lg:max-w-7xl">
             <ul class="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
-                <!-- Start of Formspark form -->
                 <li class="col-span-3">
                     <div class="mt-4 mx-4 py-8 px-6 sm:mx-0 sm:p-10 bg-onyx-600 rounded-lg shadow-lg">
-                        <form action="YOUR_FORMSPARK_ACTION_URL" method="POST" class="space-y-12">
+                        <form action="https://submit-form.com/2p2GYVZHe" method="POST" class="space-y-12">
+                            <input type="hidden" name="_feedback.dark" value="true" />
+                            <input type="hidden" name="_feedback.whitelabel" value="true" />
                             <div class="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                 <!-- Organization -->
                                 <div class="sm:col-span-4">
-                                <label for="organization" class="block text-sm font-medium leading-6 text-white">Organization</label>
+                                <label for="organization" class="block text-base font-medium leading-6 text-white">Organization</label>
                                 <div class="mt-2">
-                                    <input type="text" name="organization" id="organization" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-sm sm:leading-6">
+                                    <input type="text" name="organization" id="organization" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6">
                                 </div>
                                 </div>
 
                                 <!-- Website -->
                                 <div class="sm:col-span-4">
-                                <label for="website" class="block text-sm font-medium leading-6 text-white">Website</label>
+                                <label for="website" class="block text-base font-medium leading-6 text-white">Website</label>
                                 <div class="mt-2">
-                                    <input type="text" name="website" id="website" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-sm sm:leading-6">
+                                    <input type="text" name="website" id="website" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6">
                                 </div>
                                 </div>
 
                                 <!-- Name -->
                                 <div class="sm:col-span-4">
-                                <label for="name" class="block text-sm font-medium leading-6 text-white">Name</label>
+                                <label for="name" class="block text-base font-medium leading-6 text-white">Name</label>
                                 <div class="mt-2">
-                                    <input type="text" name="name" id="name" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-sm sm:leading-6">
+                                    <input type="text" name="name" id="name" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6">
                                 </div>
                                 </div>
 
                                 <!-- Email -->
                                 <div class="sm:col-span-4">
-                                <label for="email" class="block text-sm font-medium leading-6 text-white">Email</label>
+                                <label for="email" class="block text-base font-medium leading-6 text-white">Email</label>
                                 <div class="mt-2">
-                                    <input type="email" name="email" id="email" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-sm sm:leading-6">
+                                    <input type="email" name="email" id="email" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6">
                                 </div>
                                 </div>
-
 
                                 <!-- Role -->
                                 <div class="sm:col-span-4">
-                                <label for="role" class="block text-sm font-medium leading-6 text-white">Role</label>
+                                <label for="role" class="block text-base font-medium leading-6 text-white">Role</label>
                                 <div class="mt-2">
-                                    <input type="text" name="contact-email" id="contact-email" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-sm sm:leading-6">
+                                    <input type="text" name="role" id="role" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6">
                                 </div>
                                 </div>
 
                                 <!-- Project Idea -->
                                 <div class="sm:col-span-6">
-                                <label for="project-idea" class="block text-sm font-medium leading-6 text-white">What problem are you trying to solve?</label>
+                                <label for="idea" class="block text-base font-medium leading-6 text-white">What problem are you trying to solve?</label>
                                 <div class="mt-2">
-                                    <textarea name="project-idea" id="project-idea" rows="4" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-sm sm:leading-6"></textarea>
+                                    <textarea name="idea" id="idea" rows="4" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6"></textarea>
                                 </div>
                                 </div>
 
-                                 <!-- Sustainable -->
+                                 <!-- Success -->
                                 <div class="sm:col-span-6">
-                                <label for="project-idea" class="block text-sm font-medium leading-6 text-white">What would success look like for you?</label>
+                                <label for="success" class="block text-base font-medium leading-6 text-white">What would success look like for you?</label>
                                 <div class="mt-2">
-                                    <textarea name="project-idea" id="project-idea" rows="4" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-sm sm:leading-6"></textarea>
+                                    <textarea name="success" id="success" rows="4" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6"></textarea>
+                                </div>
+                                </div>
+
+                                <!-- Sustainability -->
+                                <div class="sm:col-span-4">
+                                <label class="block text-base font-medium leading-6 text-white">If this prototype gets traction, how will you support it into the future?</label>
+                                <div class="mt-2 space-y-2">
+                                    <div>
+                                    <label class="inline-flex items-center">
+                                        <input type="radio" name="sustainability" value="internal" class="text-navy-500 focus:ring-navy-500">
+                                        <span class="ml-2 text-white">Internal development team</span>
+                                    </label>
+                                    </div>
+                                    <div>
+                                    <label class="inline-flex items-center">
+                                        <input type="radio" name="sustainability" value="budget" class="text-navy-500 focus:ring-navy-500">
+                                        <span class="ml-2 text-white">Establish budget between $50,000 to $100,000 for additional development</span>
+                                    </label>
+                                    </div>
+                                    <div>
+                                    <label class="inline-flex items-center">
+                                        <input type="radio" name="sustainability" value="other" class="text-navy-500 focus:ring-navy-500">
+                                        <span class="ml-2 text-white">Other</span>
+                                    </label>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
 
                             <div class="mt-6 flex items-center justify-end gap-x-6">
-                            <button type="submit" class="rounded-md bg-green-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus:ring-2 focus:ring-offset-2 focus:ring-green-500">Submit Application</button>
+                            <button type="submit" class="rounded-md bg-green-500 px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-green-400 focus:ring-2 focus:ring-offset-2 focus:ring-green-500">Submit Application</button>
                             </div>
                         </form>
                     </div>
 
                 </li>
-                <!-- End of Formspark form -->
             </ul>
         </div>
     </div>

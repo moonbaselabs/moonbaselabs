@@ -1,7 +1,7 @@
 ---
 title: "Kansas MTSS Progress Tracker"
 description: Building a collaboration tool to measure progress in school districts.
-date: 2024-02-20
+date: 2024-02-29
 image: /img/blog/flybys-to-discover.jpg
 tags: [nonprofit]
 author: Ted Kriwiel

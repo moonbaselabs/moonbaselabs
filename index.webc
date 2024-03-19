@@ -364,15 +364,15 @@
                             </span>
                             <p class="ml-3 font-medium text-white truncate">
                                 <span class="lg:hidden">
-                                    We love nonprofits!
+                                    Nonprofits apply for a <strong>free</strong> custom prototype. 
                                 </span>
                                 <span class="hidden lg:inline">
-                                    We build software that <strong>nonprofits</strong> use to change the world.
+                                    Nonprofits can apply to build a <strong>free</strong> custom software prototype.
                                 </span>
                             </p>
                         </div>
                         <div class="mt-2 flex-shrink-0 w-full lg:mt-0 lg:w-auto">
-                            <a href="/nonprofits" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-500 w-full">Learn More
+                            <a href="/blog/nonprofit-prototype-application" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-500 w-full">Learn More
                                 <span class="ml-2 -mr-1">&RightArrow;</span></a>
                         </div>
                     </div>
