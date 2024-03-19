@@ -13,14 +13,14 @@ description: Fill out the form and we'll respond with a scheduling link to setup
         </div>
     </div>
     <div class="bg-onyx-600 px-4 py-6 sm:py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div class="relative max-w-lg mx-auto lg:max-w-7xl">
+        <div class="relative max-w-md mx-auto lg:max-w-4xl">
             <ul class="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
                 <li class="col-span-3">
-                    <div class="mt-4 mx-4 py-8 px-6 sm:mx-0 sm:p-10 bg-onyx-600 rounded-lg shadow-lg">
+                    <div class="mt-0 mx-4 py-8 px-6 sm:mx-0 sm:p-10 bg-onyx-600 rounded-lg shadow-lg">
                         <form action="https://submit-form.com/oQ8OVKV8y" method="POST" class="space-y-12">
                             <input type="hidden" name="_feedback.dark" value="true" />
                             <input type="hidden" name="_feedback.whitelabel" value="true" />
-                            <div class="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                            <div class="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-4">
                                 <!-- Organization -->
                                 <div class="sm:col-span-4">
                                 <label for="organization" class="block text-base font-medium leading-6 text-white">Organization</label>
@@ -62,15 +62,15 @@ description: Fill out the form and we'll respond with a scheduling link to setup
                                 </div>
 
                                 <!-- Project Idea -->
-                                <div class="sm:col-span-6">
+                                <div class="sm:col-span-4">
                                 <label for="idea" class="block text-base font-medium leading-6 text-white">What problem are you trying to solve?</label>
                                 <div class="mt-2">
                                     <textarea name="idea" id="idea" rows="4" required class="block w-full rounded-md bg-white/5 py-1.5 text-white focus:ring-2 focus:ring-navy-500 sm:text-base sm:leading-6"></textarea>
                                 </div>
                                 </div>
 
-                                 <div class="mt-6 flex items-center justify-end gap-x-6">
-                            <button type="submit" class="rounded-md bg-green-500 px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-green-400 focus:ring-2 focus:ring-offset-2 focus:ring-green-500">Submit</button>
+                                <div class="sm:col-span-4 flex justify-end">
+                                <button type="submit" class="rounded-md bg-green-500 px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-green-400 focus:ring-2 focus:ring-offset-2 focus:ring-green-500">Submit</button>
                             </div>
                         </form>
                     </div>
