@@ -16,11 +16,10 @@ description: Fill out the form and we'll respond with a scheduling link to setup
         <div class="relative max-w-md mx-auto lg:max-w-4xl">
             <ul class="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
                 <li class="col-span-3">
-                    <div class="mt-0 mx-4 py-8 px-6 sm:mx-0 sm:p-10 bg-onyx-600 rounded-lg shadow-lg">
+                    <div class="mt-0 mx-4 py-8 px-6 sm:mx-0 sm:p-10 bg-onyx-500 rounded-lg shadow-lg">
                         <form action="https://submit-form.com/oQ8OVKV8y" method="POST" class="space-y-12">
                             <input type="hidden" name="_feedback.dark" value="true" />
                             <input type="hidden" name="_feedback.whitelabel" value="true" />
-                            <div class="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-4">
                                 <!-- Organization -->
                                 <div class="sm:col-span-4">
                                 <label for="organization" class="block text-base font-medium leading-6 text-white">Organization</label>
