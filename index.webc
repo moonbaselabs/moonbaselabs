@@ -296,7 +296,7 @@
                                 Blog
                             </a>
                         </div>
-                        <a href="/contact/" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-green-600 hover:bg-green-700 focus:ring-green-500 mt-5 ml-5 sm:ml-10">Schedule a Meeting</a>
+                        <a href="/contact/" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-green-600 ring-offset-onyx-700 hover:bg-green-700 focus:ring-green-500 mt-5 ml-5 sm:ml-10">Schedule a Meeting</a>
                     </div>
                 </nav>
             </div>
@@ -646,10 +646,10 @@
             </h2>
             <div class="mt-8 flex justify-center">
                 <div class="inline-flex rounded-md shadow">
-                    <a href="/contact/" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-green-600 hover:bg-green-700 focus:ring-green-500">Schedule a Meeting</a>
+                    <a href="/contact/" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-green-600 ring-offset-onyx-700 hover:bg-green-700 focus:ring-green-500">Schedule a Meeting</a>
                 </div>
                 <div class="ml-3 inline-flex">
-                    <a href="/about/" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-onyx-300 hover:bg-onyx-400 focus:ring-blue-500">Meet Our Team</a>
+                    <a href="/about/" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-onyx-300 ring-offset-onyx-700 hover:bg-onyx-400 focus:ring-blue-500">Meet Our Team</a>
                 </div>
             </div>
         </div>

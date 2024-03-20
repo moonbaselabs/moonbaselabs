@@ -1,5 +1,5 @@
 <script webc:type="js" webc:root="override">
-    let classes = ['inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2']
+    let classes = ['inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm ring-offset-onyx-700 focus:outline-none focus:ring-2 focus:ring-offset-2']
 
     let colors = {
         green: 'text-white bg-green-600 hover:bg-green-700 focus:ring-green-500',
