@@ -1,5 +1,6 @@
 import defaultTheme from 'tailwindcss/defaultTheme'
 import typography from '@tailwindcss/typography'
+import forms from '@tailwindcss/forms'
 
 export default {
   content: ["./**/*.{html,njk,webc,svg}"],
@@ -114,5 +115,5 @@ export default {
       }),
     },
   },
-  plugins: [typography],
+  plugins: [typography, forms],
 }
