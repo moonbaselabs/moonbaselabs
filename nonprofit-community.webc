@@ -173,7 +173,6 @@ description: We’re building a community of nonprofit leaders who use great tec
       <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">Share your email address and we'll send instructions on how to &nbsp;get&nbsp;involved.</p>
       <form action="https://submit-form.com/125RDq7aq" class="bg-onyx-600 mx-auto mt-10 flex max-w-md gap-x-4">
         <input type="hidden" name="_feedback.dark" value="true" />
-        <input type="hidden" name="_feedback.whitelabel" value="true" />
         <label for="email-address" class="sr-only">Email address</label>
         <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-silver-300 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email">
         <button type="submit" class="flex-none rounded-md bg-green-700 px-3.5 py-2.5 text-sm font-semibold text-silver-300 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Submit</button>
