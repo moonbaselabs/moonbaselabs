@@ -13,26 +13,16 @@ description: We’re building a community of nonprofit leaders who use great tec
             </div>
             <div class="md:max-w-2xl md:flex md:items-center">
                 <div>
-                                        <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
+                    <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                         Join a community of <span class="text-orange-500">nonprofit innovators</span>
                     </h1>
                     <p class="mt-3 text-base text-silver-700 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                         We want good to scale. Empowered teachers, diverse entrepreneurs, stronger leaders. You are invited to join a community of innovators using technology to do good.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<!-- Centered Big Text under image -->
-
-<div class="py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        Tech isn’t what you do, but it’s part of everything you do.
-    </h2>
-    <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-silver-700">
-        Software helps nonprofits do more with less and create impact at scale. We’re building a community of nonprofit leaders who use great technology to accomplish their work.
-    </p>
 </div>
 
 <!--key benefits section -->
@@ -42,10 +32,10 @@ description: We’re building a community of nonprofit leaders who use great tec
         <div class="grid gap-12 md:gap-24 md:grid-cols-2 lg:gap-40">
             <div class="relative">
                 <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                    What does it look like?
+                    Tech isn’t what you do, but it’s part of everything you do.
                 </h3>
                 <p class="mt-3 text-lg text-silver-700">
-                    By joining this community, you will have the opportunity to:
+                    Software helps nonprofits do more with less and create impact at scale. We’re building a community of nonprofit leaders who use great technology to accomplish their work. By joining this community, you will have the opportunity to:
                 </p>
             </div>
         </div>
@@ -164,23 +154,31 @@ description: We’re building a community of nonprofit leaders who use great tec
             </div>
         </div>
     </div>
+
 </div>
 
-<div class="py-16 sm:py-24">
-  <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 pb-48">
-    <div class="bg-onyx-600 relative isolate overflow-hidden px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
-      <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Would you like to join us?</h2>
-      <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">Share your email address and we'll send instructions on how to &nbsp;get&nbsp;involved.</p>
-      <form action="https://submit-form.com/125RDq7aq" class="bg-onyx-600 mx-auto mt-10 flex max-w-md gap-x-4">
-        <input type="hidden" name="_feedback.dark" value="true" />
-        <label for="email-address" class="sr-only">Email address</label>
-        <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-silver-300 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email">
-        <button type="submit" class="flex-none rounded-md bg-green-700 px-3.5 py-2.5 text-sm font-semibold text-silver-300 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Submit</button>
-      </form>
-  </div>
+<div class="py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8 mb-36">
+    <div class="mx-auto max-w-7xl">
+        <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+            You believe technology can amplify your impact.
+        </h3>
+        <p class="mt-3 text-lg text-silver-700">
+            Learn and grow with people who feel the same way. 
+        </p>
+        <div class="mt-3 flex items-center gap-x-6">
+            <button @size="lg" @color="green" class="mt-8" href="/application">
+            Apply Today
+            </button>
+            <button @size="lg" @color="onyx" class="mt-8" href="#missions">
+            Learn More <span aria-hidden="true"> ↓</span>
+            </button>
+        </div>
+    </div>
 </div>
+
 
 <!-- standard footer CTA's -->
-
-<cta-missions @label="Nonprofits" :@missions="collections.missions.filter(mission => mission.data.tags.includes('nonprofit')).slice(-3).reverse()"></cta-missions>
-<cta-meeting :@team="true"></cta-meeting>
+<div id="missions">
+    <cta-missions @label="Nonprofits" :@missions="collections.missions.filter(mission => mission.data.tags.includes('nonprofit')).slice(-3).reverse()"></cta-missions>
+    <cta-meeting :@team="true"></cta-meeting>
+</div>
