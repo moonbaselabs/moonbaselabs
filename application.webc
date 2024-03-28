@@ -16,7 +16,7 @@ description: Fill out the form and we'll reach out with next steps.
         <div class="relative max-w-lg mx-auto lg:max-w-7xl">
             <div class="relative max-w-xl">
                 <div class="py-8 px-6 sm:p-10 bg-onyx-500 rounded-lg shadow-lg">
-                    <form action="https://submit-form.com/125RDq7aq" method="POST">
+                    <form onsubmit="subscribe(event)" action="https://submit-form.com/125RDq7aq" method="post">
                         <input type="hidden" name="_feedback.dark" value="true" />
                         <input type="hidden" name="_feedback.whitelabel" value="true" />
                         <div class="space-y-6">
@@ -70,3 +70,14 @@ description: Fill out the form and we'll reach out with next steps.
     </div>
 </div>
 <cta-meeting></cta-meeting>
+<script>
+    window.subscribe = function (event) {
+        event.preventDefault()
+        fetch('https://liongraph.co/integrations/newsletter', {
+            method: 'POST',
+            body: new FormData(event.target),
+        }).then(() => {
+            event.target.submit()
+        })
+    }
+</script>
