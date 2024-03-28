@@ -43,4 +43,8 @@ export default [
     from: '/missions/lending-dashboards/',
     to: '/missions/network-kansas/',
   },
+  {
+    from: '/application/',
+    to: '/nonprofit-community/',
+  },
 ]

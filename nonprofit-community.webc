@@ -4,178 +4,186 @@ title: Community for nonprofit innovators
 description: We’re building a community of nonprofit leaders who use great technology to accomplish their work.
 ---
 
-<!-- Header Copy -->
-<div class="py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <div class="mx-auto max-w-7xl">
-        <div class="grid gap-12 md:gap:24 md:grid-cols-2 lg:gap-40">
-            <div class="lg:mt-0 md:order-2">
-                <img aria-hidden class="max-w-sm mx-auto md:max-w-full" src="/img/connections.svg" alt="">
-            </div>
-            <div class="md:max-w-2xl md:flex md:items-center">
-                <div>
-                    <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
-                        Join a community of <span class="text-orange-500">nonprofit innovators</span>
-                    </h1>
-                    <p class="mt-3 text-base text-silver-700 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                        We want good to scale. Empowered teachers, diverse entrepreneurs, stronger leaders. You are invited to join a community of innovators using technology to do good.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--key benefits section -->
+<script>
+    window.subscribe = function (event) {
+        event.preventDefault()
+        fetch('https://liongraph.co/integrations/newsletter', {
+            method: 'POST',
+            body: new FormData(event.target),
+        }).then(() => {
+            event.target.submit()
+        })
+    }
+</script>
 
 <div class="py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="mx-auto max-w-7xl">
-        <div class="grid gap-12 md:gap-24 md:grid-cols-2 lg:gap-40">
-            <div class="relative">
-                <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                    Tech isn’t what you do, but it’s part of everything you do.
-                </h3>
-                <p class="mt-3 text-lg text-silver-700">
-                    Software helps nonprofits do more with less and create impact at scale. We’re building a community of nonprofit leaders who use great technology to accomplish their work. By joining this community, you will have the opportunity to:
+        <div class="grid gap-12 mx-auto max-w-2xl lg:max-w-full lg:grid-cols-2 lg:gap-24 xl:gap-40">
+            <div>
+                <h1 class="text-3xl leading-tight tracking-tight font-extrabold text-white sm:text-4xl lg:text-5xl">
+                    Join a community of <span class="text-orange-500">nonprofit innovators</span>
+                </h1>
+                <p class="mt-3 text-silver-700 sm:mt-5 sm:text-lg">
+                    We want good to scale. Empowered teachers, diverse entrepreneurs, stronger leaders. You are invited to join a community of innovators using technology to do good.
                 </p>
-            </div>
-        </div>
-
-        <div class="mt-10 grid gap-12 md:gap-24 md:grid-cols-2 lg:gap-16">
-            <!-- First column -->
-            <div class="relative">
-                <dl class="space-y-10">
-                    <div class="relative">
-                        <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
-                                <!-- flask -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <h2 class="mt-12 text-2xl font-extrabold text-gray-900 tracking-tight">
+                    Tech isn’t what you do, but it’s part of everything you do.
+                </h2>
+                <p class="mt-3 text-silver-700">
+                    Software helps nonprofits do more with less and create impact at scale. We’re building a community of nonprofit leaders who use great technology to accomplish their work. By joining this community, you will have the opportunity&nbsp;to:
+                </p>
+                <dl class="mt-8 max-w-xl space-y-4 text-base leading-7 text-silver-700 lg:max-w-none">
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <!-- flask -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" class="absolute left-1 top-1 text-blue-300">
                                 <path fill-rule="evenodd" d="M1.5 7.125c0-1.036.84-1.875 1.875-1.875h6c1.036 0 1.875.84 1.875 1.875v3.75c0 1.036-.84 1.875-1.875 1.875h-6A1.875 1.875 0 0 1 1.5 10.875v-3.75Zm12 1.5c0-1.036.84-1.875 1.875-1.875h5.25c1.035 0 1.875.84 1.875 1.875v8.25c0 1.035-.84 1.875-1.875 1.875h-5.25a1.875 1.875 0 0 1-1.875-1.875v-8.25ZM3 16.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875v2.25c0 1.035-.84 1.875-1.875 1.875h-5.25A1.875 1.875 0 0 1 3 18.375v-2.25Z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                                Discover new software
-                            </p>
+                            </svg>
+                            Discover new software.
                         </dt>
-                        <dd class="mt-2 ml-16 text-base text-silver-700">
+                        <dd class="inline">
                             See how similar nonprofits use software to execute their mission.
                         </dd>
                     </div>
-                   <div class="relative">
-                        <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
-                                <!-- chat-bubble-left-right -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                    <path d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z" />
-                                    <path d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z" />
-                                </svg>
-                            </div>
-                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                                Hear stories
-                            </p>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <!-- chat-bubble-left-right -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" class="absolute left-1 top-1 text-blue-300">
+                                <path d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z" />
+                                <path d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z" />
+                            </svg>
+                            Hear stories.
                         </dt>
-                        <dd class="mt-2 ml-16 text-base text-silver-700">
+                        <dd class="inline">
                             Read case studies about nonprofits deploying technology in remarkable ways.
                         </dd>
                     </div>
-                    <div class="relative">
-                        <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
-                                <!-- magnifying-glass-circle -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                    <path d="M8.25 10.875a2.625 2.625 0 1 1 5.25 0 2.625 2.625 0 0 1-5.25 0Z" />
-                                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.125 4.5a4.125 4.125 0 1 0 2.338 7.524l2.007 2.006a.75.75 0 1 0 1.06-1.06l-2.006-2.007a4.125 4.125 0 0 0-3.399-6.463Z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                                See under the hood
-                            </p>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <!-- magnifying-glass-circle -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" class="absolute left-1 top-1 text-blue-300">
+                                <path d="M8.25 10.875a2.625 2.625 0 1 1 5.25 0 2.625 2.625 0 0 1-5.25 0Z" />
+                                <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.125 4.5a4.125 4.125 0 1 0 2.338 7.524l2.007 2.006a.75.75 0 1 0 1.06-1.06l-2.006-2.007a4.125 4.125 0 0 0-3.399-6.463Z" clip-rule="evenodd" />
+                            </svg>
+                            See under the hood.
                         </dt>
-                        <dd class="mt-2 ml-16 text-base text-silver-700">
+                        <dd class="inline">
                             Go “behind the scenes” to see how successful nonprofits set up their tech stack.
                         </dd>
                     </div>
-                </dl>
-            </div>
-            
-            <!-- Second column (duplicate of the first column) -->
-            <div class="relative">
-                <dl class="space-y-10 ">
-                    <div class="relative">
-                        <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                    <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd" />
-                                    <path d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
-                                </svg>
-                            </div>
-                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                                Build relationships
-                            </p>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" class="absolute left-1 top-1 text-blue-300">
+                                <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd" />
+                                <path d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
+                            </svg>
+                            Build relationships.
                         </dt>
-                        <dd class="mt-2 ml-16 text-base text-silver-700">
+                        <dd class="inline">
                             Connect with nonprofit leaders who embrace technology.
                         </dd>
                     </div>
-                    <div class="relative">
-                        <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
-                                <!-- academic cap -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                    <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
-                                    <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
-                                    <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
-                                </svg>
-                            </div>
-                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                                Meet with tech experts
-                            </p>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <!-- academic cap -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" class="absolute left-1 top-1 text-blue-300">
+                                <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                                <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                                <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+                            </svg>
+                            Meet with tech experts.
                         </dt>
-                        <dd class="mt-2 ml-16 text-base text-silver-700">
+                        <dd class="inline">
                             Participate in expert-led discussions tailored to nonprofit tech challenges.
                         </dd>
                     </div>
-                    <div class="relative">
-                        <dt>
-                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-onyx-500 text-blue-300">
-                                <!-- presentation-chart-bar -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                    <path fill-rule="evenodd" d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25Zm6.04 16.5.5-1.5h6.42l.5 1.5H8.29Zm7.46-12a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6Zm-3 2.25a.75.75 0 0 0-1.5 0v3.75a.75.75 0 0 0 1.5 0V9Zm-3 2.25a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0v-1.5Z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">
-                                Learn from peers
-                            </p>
+                    <div class="relative pl-9">
+                        <dt class="inline font-semibold text-white">
+                            <!-- presentation-chart-bar -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" class="absolute left-1 top-1 text-blue-300">
+                                <path fill-rule="evenodd" d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25Zm6.04 16.5.5-1.5h6.42l.5 1.5H8.29Zm7.46-12a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6Zm-3 2.25a.75.75 0 0 0-1.5 0v3.75a.75.75 0 0 0 1.5 0V9Zm-3 2.25a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0v-1.5Z" clip-rule="evenodd" />
+                            </svg>
+                            Learn from peers.
                         </dt>
-                        <dd class="mt-2 ml-16 text-base text-silver-700">
+                        <dd class="inline">
                             Learn from hands-on workshops with your peers
                         </dd>
                     </div>
                 </dl>
             </div>
+            <div>
+                <div class="py-8 px-6 sm:p-10 bg-onyx-500 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Apply to join</h2>
+                    <p class="mt-3 text-silver-700">Fill out the form and we'll reach out with next steps.</p>
+
+                    <form onsubmit="subscribe(event)" action="https://submit-form.com/125RDq7aq" method="post" class="mt-8">
+                        <input type="hidden" name="_feedback.dark" value="true" />
+                        <input type="hidden" name="_feedback.whitelabel" value="true" />
+                        <div class="space-y-6">
+                            <!-- Organization -->
+                            <div class="space-y-1">
+                                <label for="organization" class="block text-sm font-medium leading-6 text-silver-300">Organization</label>
+                                <input type="text" name="organization" id="organization" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                            </div>
+
+                            <!-- Website -->
+                            <div class="space-y-1">
+                                <label for="website" class="block text-sm font-medium leading-6 text-silver-300">Website</label>
+                                <input type="text" name="website" id="website" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                            </div>
+
+                            <!-- Name -->
+                            <div class="space-y-1">
+                                <label for="name" class="block text-sm font-medium leading-6 text-silver-300">Name</label>
+                                <input type="text" name="name" id="name" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                            </div>
+
+                            <!-- Email -->
+                            <div class="space-y-1">
+                                <label for="email" class="block text-sm font-medium leading-6 text-silver-300">Email</label>
+                                <input type="email" name="email" id="email" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                            </div>
+
+                            <!-- Role -->
+                            <div class="space-y-1">
+                                <label for="role" class="block text-sm font-medium leading-6 text-silver-300">Role</label>
+                                <input type="text" name="role" id="role" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                            </div>
+
+                            <!-- How would you like to engage with us? -->
+                            <fieldset>
+                                <legend class="block mb-2 text-sm font-medium leading-6 text-silver-300">How would you like to engage with this community?</legend>
+                                <div class="space-y-3">
+                                    <div class="flex gap-2">
+                                        <input type="checkbox" name="engagement[]" value="read_stories" id="read_stories" class="h-6 w-6 rounded bg-onyx-400 border-onyx-300 text-silver-300 focus:ring-offset-onyx-500 focus:ring-blue-600">
+                                        <label for="read_stories">Read stories about other nonprofits using technology</label>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <input type="checkbox" name="engagement[]" value="meet_innovators" id="meet_innovators" class="h-6 w-6 rounded bg-onyx-400 border-onyx-300 text-silver-300 focus:ring-offset-onyx-500 focus:ring-blue-600">
+                                        <label for="meet_innovators">Attend virtual meetups with other nonprofit innovators</label>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <input type="checkbox" name="engagement[]" value="chat" id="chat" class="h-6 w-6 rounded bg-onyx-400 border-onyx-300 text-silver-300 focus:ring-offset-onyx-500 focus:ring-blue-600">
+                                        <label for="chat">Chat with peers in a shared Discourse or Slack channel</label>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <input type="checkbox" name="engagement[]" value="workshops" id="workshops" class="h-6 w-6 rounded bg-onyx-400 border-onyx-300 text-silver-300 focus:ring-offset-onyx-500 focus:ring-blue-600">
+                                        <label for="workshops">Join tech workshops facilitated by software experts</label>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <input type="checkbox" name="engagement[]" value="one_on_one" id="one_on_one" class="h-6 w-6 rounded bg-onyx-400 border-onyx-300 text-silver-300 focus:ring-offset-onyx-500 focus:ring-blue-600">
+                                        <label for="one_on_one">Meet one-on-one with developers to get personalized tech advice</la </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <button class="mt-6" @color="green" type="submit">Send application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
-
-<div class="py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8 mb-36">
-    <div class="mx-auto max-w-7xl">
-        <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-            You believe technology can amplify your impact.
-        </h3>
-        <p class="mt-3 text-lg text-silver-700">
-            Learn and grow with people who feel the same way. 
-        </p>
-        <div class="mt-3 flex items-center gap-x-6">
-            <button @size="lg" @color="green" class="mt-8" href="/application">
-            Apply Today
-            </button>
-            <button @size="lg" @color="onyx" class="mt-8" href="#missions">
-            Learn More <span aria-hidden="true"> ↓</span>
-            </button>
-        </div>
-    </div>
-</div>
-
 
 <!-- standard footer CTA's -->
 <div id="missions">
