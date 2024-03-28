@@ -4,6 +4,8 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const { eleventyImagePlugin } = require('@11ty/eleventy-img')
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const postcss = require('postcss')
+const crypto = require('crypto')
+const fs = require('fs');
 
 module.exports = async function (eleventyConfig) {
     const { EleventyHtmlBasePlugin } = await import('@11ty/eleventy')
@@ -17,6 +19,22 @@ module.exports = async function (eleventyConfig) {
 
     eleventyConfig.addFilter('readableDate', dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: 'UTC' }).toLocaleString(DateTime.DATE_FULL);
+    })
+
+    let cache = {}
+
+    eleventyConfig.addFilter('nocache', str => {
+        if (cache[str]) {
+            return cache[str]
+        }
+
+        let id = crypto.createHash('sha1')
+            .update(fs.readFileSync(__dirname + str, 'utf8'))
+            .digest('hex')
+
+        cache[str] = str + '?id=' + id
+
+        return cache[str]
     })
 
     eleventyConfig.addFilter('hash', str => {

@@ -8,7 +8,7 @@
 
     <script webc:keep @raw="getBundle('js', 'head')"></script>
 
-    <link webc:keep rel="stylesheet" href="/css/main.css">
+    <link webc:keep rel="stylesheet" :href="nocache('/css/main.css')">
     <style>
         @font-face {
             font-family: 'Archivo';
