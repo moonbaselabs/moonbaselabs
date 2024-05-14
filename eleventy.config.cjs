@@ -3,7 +3,7 @@ const pluginWebc = require('@11ty/eleventy-plugin-webc')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const { eleventyImagePlugin } = require('@11ty/eleventy-img')
 const pluginRss = require("@11ty/eleventy-plugin-rss")
-const postcss = require('postcss')
+const pluginTailwind = require('./eleventy.config.tailwind.cjs')
 const crypto = require('crypto')
 const fs = require('fs');
 
@@ -57,30 +57,13 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin)
     eleventyConfig.addPlugin(pluginRss)
 
+    eleventyConfig.addPlugin(pluginTailwind);
+
     eleventyConfig.addPlugin(pluginSyntaxHighlight, {
         preAttributes: {
             'tabindex': '0'
         }
     })
-
-    eleventyConfig.addTemplateFormats('css')
-
-    eleventyConfig.addExtension('css', {
-        outputFileExtension: "css",
-
-        compile: async function (content, path) {
-            let result = await postcss([
-                require('autoprefixer'),
-                require('tailwindcss'),
-                require('cssnano'),
-            ]).process(content, { from: path })
-
-            // This is the render function, `data` is the full data cascade
-            return async (data) => {
-                return result.css;
-            }
-        }
-    });
 
     eleventyConfig.addPlugin(pluginWebc, {
         components: [
