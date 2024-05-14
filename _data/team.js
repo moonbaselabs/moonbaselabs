@@ -1,7 +1,7 @@
 export default {
   "Nic Wentling": {
     name: "Nic Wentling",
-    image: '/img/nic-wentling.jpg',
+    image: '/img/about/nic-wentling.jpg',
     title: "Principal Owner",
     role: "Strategy & Partnerships",
     description: "Software engineer with a passion for solving technical problems. Formerly a Material and Process Engineer at Textron Aviation.",
@@ -12,7 +12,7 @@ export default {
   },
   "Ted Kriwiel": {
     name: "Ted Kriwiel",
-    image: '/img/ted-kriwiel.jpg',
+    image: '/img/about/ted-kriwiel.jpg',
     title: "Partner",
     role: "Business Development & Data Analytics",
     description: "Data analyst who enjoys telling stories with numbers. Founder of <a href=\"https://www.8oaks.org/\">Eight Oaks.</a>",
@@ -23,7 +23,7 @@ export default {
   },
   "Christian Taylor": {
     name: "Christian Taylor",
-    image: '/img/christian-taylor.jpg',
+    image: '/img/about/christian-taylor.jpg',
     title: "Partner",
     role: "Web Development",
     description: "Visual artist and web developer. Passionate contributor to the tech and art communities of Wichita.",

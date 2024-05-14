@@ -4,20 +4,10 @@ title: Missions
 description: Nothing shows what we do better than missions we have completed with past and current partners.
 ---
 
-<page-head></page-head>
-<div class="relative overflow-hidden">
-    <div class="relative overflow-hidden bg-onyx-600 py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div class="hidden absolute inset-y-0 h-full w-full 2xl:block">
-            <div class="relative h-full text-lg max-w-prose mx-auto">
-                <decoration-star-dust class="absolute top-0 left-full transform translate-x-32"></decoration-star-dust>
-                <decoration-star-dust class="absolute bottom-0 right-full transform -translate-x-48"></decoration-star-dust>
-            </div>
-        </div>
-        <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-            <div class="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
-                <mission webc:for="mission of collections.missions.slice(0).reverse()" :mission="mission">
-            </div>
-        </div>
+<container>
+    <page-head class="py-8 mx-auto max-w-3xl sm:py-12 md:py-24 lg:mx-0"></page-head>
+    <div class="mx-auto max-w-3xl grid gap-6 sm:grid-cols-2 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+        <mission webc:for="mission of collections.missions.slice(0).reverse()" :mission="mission">
     </div>
-</div>
+</container>
 <cta-meeting @team="true"></cta-meeting>

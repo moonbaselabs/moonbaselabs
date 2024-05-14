@@ -1,46 +1,56 @@
 ---
 layout: layout.webc
-title: Meet the Crew
-description: We are explorers, tinkerers, painters, and poets. We have the Design, Analytics, and Engineering skills to build your vision.
+title: We’re Moonbase Labs
+description: A fun description should go here.
 ---
 
-<page-head></page-head>
-<div class="relative overflow-hidden">
-    <div class="hidden absolute inset-y-0 h-full w-full 2xl:block">
-        <div class="relative h-full text-lg max-w-prose mx-auto">
-            <decoration-star-dust class="absolute bottom-1/2 right-full transform -translate-x-32"></decoration-star-dust>
-            <decoration-star-dust class="absolute bottom-4 left-full transform"></decoration-star-dust>
+<container class="mt-8 sm:mt-12 md:mt-24 lg:flex">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+        <page-head class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8"></page-head>
+        <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+            <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+                <img src="/img/about/candid-1.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none bg-gray-50 object-cover">
+            </div>
+            <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
+                <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+                    <img src="/img/about/candid-2.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none bg-gray-50 object-cover">
+                </div>
+                <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+                    <img src="/img/about/candid-3.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none bg-gray-50 object-cover">
+                </div>
+                <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+                    <img src="/img/about/candid-4.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none bg-gray-50 object-cover">
+                </div>
+            </div>
         </div>
     </div>
-    <div class="bg-onyx-600 px-4 py-6 sm:py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-            <ul class="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
-                <li webc:for="(name, member) in team" class="py-10 px-6 bg-onyx-500 text-center rounded-lg xl:px-10 xl:text-left">
-                    <div class="space-y-6 xl:space-y-10">
-                        <img loading="lazy" class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" :src="member.image" alt="">
-                        <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
-                            <div class="font-medium text-lg space-y-1">
-                                <h2 class="text-white" @text="member.name"> <span class="text-gray-500" @text="member.title"></span></h2>
-                                <p class="text-gold-300" @text="member.role"></p>
-                            </div>
-                            <ul class="flex justify-center space-x-5">
-                                <!--- TODO: Cannot access parent loop scope (member.name) --->
-                                <!--- https://github.com/11ty/webc/issues/175 --->
-                                <script webc:type="js">
-                                    Object.entries(member.socials).map(([label, url]) => `<li>
-                                        <a href="${url}" class="text-gray-400 hover:text-gray-300">
-                                            <span class="sr-only">${member.name}’s ${label}</span>
-                                            <icon-${label.toLowerCase()} width="20" height="20"></icon-${label.toLowerCase()}>
-                                        </a>
-                                    </li>`).join('')
-                                </script>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="mt-5 xl:mt-8" @html="member.description"></p>
-                </li>
-            </ul>
-        </div>
+</container>
+<container class="mt-16 sm:mt-24 md:mt-48 grid grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
+    <div class="max-w-2xl xl:col-span-2">
+        <h2 class="text-2xl font-medium tracking-tight text-gray-800 sm:text-3xl">Meet the Crew</h2>
+        <p class="mt-6 text-lg text-gray-600">We are explorers, tinkerers, painters, and poets. We have the Design, Analytics, and Engineering skills to build your&nbsp;vision.</p>
     </div>
-</div>
+    <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-100 xl:col-span-3">
+        <li webc:for="(name, member) in team" class="flex flex-col gap-10 pt-12 sm:flex-row">
+            <img loading="lazy" class="aspect-[4/5] w-52 flex-none object-cover" :src="member.image" alt="">
+            <div class="max-w-xl flex-auto">
+                <h2 class="mt-6 text-lg leading-8 text-gray-600 font-medium" @text="member.name"></h2>
+                <p class="text-gold-700 font-serif" @text="member.role"></p>
+                <p class="mt-4" @html="member.description"></p>
+                <ul class="mt-6 flex space-x-6">
+                    <!--- TODO: Cannot access parent loop scope (member.name) --->
+                    <!--- https://github.com/11ty/webc/issues/175 --->
+                    <script webc:type="js">
+                        Object.entries(member.socials).map(([label, url]) => `<li>
+                            <a href="${url}" class="text-gray-200 hover:text-gray-300">
+                                <span class="sr-only text-gray-600">${member.name}’s ${label}</span>
+                                <icon-${label.toLowerCase()} width="20" height="20"></icon-${label.toLowerCase()}>
+                            </a>
+                        </li>`).join('')
+                    </script>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</container>
 <cta-meeting></cta-meeting>

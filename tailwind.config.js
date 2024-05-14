@@ -26,6 +26,7 @@ export default {
         400: '#DBC779',
         500: '#A9995D',
         600: '#8F814F',
+        700: '#7D7845',
       },
       orange: {
         300: '#FF925C',
@@ -60,6 +61,7 @@ export default {
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            color: theme('colors.gray.700'),
             blockquote: {
               borderColor: theme('colors.orange.500'),
             },

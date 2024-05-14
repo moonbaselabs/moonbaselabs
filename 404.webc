@@ -26,7 +26,7 @@ description: Lost in space?
         }
     }
 </style>
-<div class="relative overflow-hidden">
+<div class="bg-gray-900 relative overflow-hidden">
     <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div class="relative h-full text-lg max-w-prose mx-auto">
             <decoration-star-dust class="absolute top-0 right-full transform -translate-x-32"></decoration-star-dust>
@@ -35,6 +35,7 @@ description: Lost in space?
     </div>
     <div class="move-right absolute top-0 left-0 w-56 h-56">
         <svg viewBox="0 0 296 176">
+            <title>An lonely satellite floating through space</title>
             <path d="M175.714 97.359l-55.391-19.396-13.631 38.927 55.391 19.396 13.631-38.927zM122.924 72.383l54.237 18.992-.149-31.637-34.234-11.988-19.854 24.633z" fill="#fff" />
             <path d="M147.515 41.62l-4.737 6.13 34.234 11.988-.071-7.813-29.426-10.304z" fill="#A7AFB7" />
             <path d="M163.195 65.284l-13.271-4.647-4.656 13.297 13.271 4.647 4.656-13.297z" fill="#A9995D" />
@@ -47,10 +48,10 @@ description: Lost in space?
     <div class="relative w-screen h-[60vh] flex justify-center items-center">
         <div class="relative text-center px-4">
             <h1 class="text-3xl font-display font-bold text-white sm:text-4xl">Lost in space?</h1>
-            <p class="text-xl text-silver-500">Don't worry, our mission control team already has a recovery plan!</p>
-            <button href="/" @color="green" class="mt-6">
+            <p class="text-xl font-serif text-gold-500">Don't worry, our mission control team already has a recovery plan!</p>
+            <a href="/" class="btn mt-6">
                 Return Home
-            </button>
+            </a>
         </div>
     </div>
 </div>

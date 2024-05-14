@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center border border-transparent font-medium font-serif px-4 py-2 bg-gray-800 text-white;
+}
+
+.btn:hover {
+  @apply bg-gray-700
+}
+
+.btn-lg {
+  @apply px-6 py-3 text-base;
 }

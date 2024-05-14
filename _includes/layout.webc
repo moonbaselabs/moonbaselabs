@@ -8,14 +8,6 @@
     <link webc:keep rel="stylesheet" :href="nocache('/css/main.css')">
     <style>
         @font-face {
-            font-family: 'Archivo';
-            font-style: normal;
-            font-weight: 700;
-            font-display: swap;
-            src: url('/fonts/archivo/archivo-v7-latin-700.woff2') format('woff2');
-        }
-
-        @font-face {
             font-family: 'Barlow';
             font-style: normal;
             font-weight: 400;
@@ -96,6 +88,14 @@
 
 <body>
     <a href="#main" class="sr-only">Skip to content</a>
+    <svg aria-hidden="true" class="sr-only" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="star_gradient" x1="8.00001" y1="0.305176" x2="8.00001" y2="16.3052" gradientUnits="userSpaceOnUse">
+                <stop offset="0.238476" stop-color="#A9995D" />
+                <stop offset="0.801787" stop-color="#D9C393" />
+            </linearGradient>
+        </defs>
+    </svg>
     <header class="relative z-10 py-4">
         <container>
             <div class="lg:flex items-center justify-between">
@@ -109,9 +109,10 @@
                             <nav-link href="/missions/">Missions</nav-link>
                             <nav-link href="/blog/">Blog</nav-link>
                         </div>
-                        <button @size="md" @color="green" class="mt-2 ml-5 sm:ml-10" href="/contact/">
-                            <span>Get <em>Started</em></span>
-                        </button>
+                        <a href="/contact" class="mt-2 ml-5 sm:ml-10 btn btn-lg">
+                            <span>Get <em>started</em></span>
+                            <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
+                        </a>
                     </div>
                 </nav>
             </div>
@@ -127,7 +128,10 @@
                     <img class="h-14" width="192" height="56" src="/img/logo.svg" alt="Moonbase Labs">
                     <h2 class="mt-10 font-semibold text-4xl text-white">Ready for <span class="text-gold-500 font-medium font-serif">take off?</span></h2>
                     <p class="mt-4 text-gray-200 text-balance">Elevate your mission with specialized software development.</p>
-                    <button @size="lg" class="mt-10">Let’s go</button>
+                    <a href="/contact" class="mt-10 btn btn-lg bg-gray-600 text-white">
+                        Let’s go
+                        <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
+                    </a>
                 </div>
                 <div class="flex-1 w-full"></div>
                 <div class="flex flex-col items-start">
@@ -177,7 +181,7 @@
                             </a>
                         </div>
                     </div>
-                    <p class="mt-10 text-gray-500 lg:mt-auto">
+                    <p class="mt-10 text-gray-400 lg:mt-auto">
                         &copy; <span @text="`${(new Date()).getFullYear()}`"></span> Moonbase Labs. All rights reserved.
                     </p>
                 </div>

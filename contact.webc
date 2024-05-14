@@ -1,59 +1,49 @@
 ---
 layout: layout.webc
-title: Contact us
+title: Contact Us
 description: Fill out the form and we'll respond with a scheduling link to setup a meeting.
 ---
 
-<page-head></page-head>
-<div class="relative overflow-hidden">
-    <div class="bg-onyx-600 px-4 py-6 sm:py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div class="hidden absolute inset-y-0 h-full w-full 2xl:block">
-            <div class="relative h-full text-lg max-w-prose mx-auto">
-                <decoration-star-dust class="absolute bottom-1/2 right-full transform -translate-x-32"></decoration-star-dust>
-                <decoration-star-dust class="absolute bottom-4 left-full transform"></decoration-star-dust>
-            </div>
-        </div>
-        <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-            <div class="relative max-w-xl">
-                <div class="py-8 px-6 sm:p-10 bg-onyx-500 rounded-lg shadow-lg">
-                    <form action="https://submit-form.com/oQ8OVKV8y" method="POST">
-                        <input type="hidden" name="_feedback.dark" value="true" />
-                        <input type="hidden" name="_feedback.whitelabel" value="true" />
-                        <div class="space-y-6">
-                            <div class="space-y-1">
-                                <label for="organization" class="block text-sm font-medium leading-6 text-silver-300">Organization</label>
-                                <input type="text" name="organization" id="organization" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
-                            </div>
-                            <div class="space-y-1">
-                                <label for="website" class="block text-sm font-medium leading-6 text-silver-300">Website</label>
-                                <input type="text" name="website" id="website" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
-                            </div>
-                            <div class="space-y-1">
-                                <label for="name" class="block text-sm font-medium leading-6 text-silver-300">Name</label>
-                                <input type="text" name="name" id="name" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
-                            </div>
-                            <div class="space-y-1">
-                                <label for="email" class="block text-sm font-medium leading-6 text-silver-300">Email</label>
-                                <input type="email" name="email" id="email" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
-                            </div>
-                            <div class="space-y-1">
-                                <label for="role" class="block text-sm font-medium leading-6 text-silver-300">Role</label>
-                                <input type="text" name="role" id="role" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
-                            </div>
-                            <div class="space-y-1">
-                                <label for="idea" class="block text-sm font-medium leading-6 text-silver-300">What problem are you trying to solve?</label>
-                                <textarea name="idea" id="idea" rows="4" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"></textarea>
-                            </div>
-                            <div class="space-y-1">
-                                <div class="cf-turnstile" data-theme="dark" data-sitekey="0x4AAAAAAAYsna4jPW8hWA3p"></div>
-                                <script webc:keep src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-                            </div>
-                            <button @color="green" type="submit">Submit</button>
-                        </div>
-                    </form>
+<container>
+    <page-head class="py-8 mx-auto max-w-3xl sm:py-12 md:py-24 lg:mx-0"></page-head>
+    <div class="relative max-w-xl">
+        <div class="py-8 px-6 sm:p-10 bg-onyx-500 rounded-lg shadow-lg">
+            <form action="https://submit-form.com/oQ8OVKV8y" method="POST">
+                <input type="hidden" name="_feedback.dark" value="true" />
+                <input type="hidden" name="_feedback.whitelabel" value="true" />
+                <div class="space-y-6">
+                    <div class="space-y-1">
+                        <label for="organization" class="block text-sm font-medium leading-6 text-silver-300">Organization</label>
+                        <input type="text" name="organization" id="organization" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="website" class="block text-sm font-medium leading-6 text-silver-300">Website</label>
+                        <input type="text" name="website" id="website" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="name" class="block text-sm font-medium leading-6 text-silver-300">Name</label>
+                        <input type="text" name="name" id="name" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="email" class="block text-sm font-medium leading-6 text-silver-300">Email</label>
+                        <input type="email" name="email" id="email" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="role" class="block text-sm font-medium leading-6 text-silver-300">Role</label>
+                        <input type="text" name="role" id="role" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="idea" class="block text-sm font-medium leading-6 text-silver-300">What problem are you trying to solve?</label>
+                        <textarea name="idea" id="idea" rows="4" required class="block w-full rounded-md border-0 py-1.5 text-silver-300 bg-onyx-400 shadow-sm ring-1 ring-inset ring-onyx-300 placeholder:silver-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6"></textarea>
+                    </div>
+                    <div class="space-y-1">
+                        <div class="cf-turnstile" data-theme="dark" data-sitekey="0x4AAAAAAAYsna4jPW8hWA3p"></div>
+                        <script webc:keep src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                    </div>
+                    <button class="btn">Submit</button>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
-</div>
+</container>
 <cta-meeting></cta-meeting>

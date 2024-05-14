@@ -1,8 +1,4 @@
-<div class="py-6 sm:py-12 lg:py-24 px-4 sm:px-6 lg:px-8">
-    <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-        <div class="space-y-5 sm:space-y-4 max-w-lg">
-            <h1 class="text-3xl font-display font-bold text-white sm:text-4xl" @text="$data.title"></h1>
-            <p class="text-xl text-navy-300" @text="$data.description"></p>
-        </div>
-    </div>
-</div>
+<header @attributes>
+    <h1 class="text-3xl font-medium tracking-tight text-gray-600 sm:text-4xl" @text="$data.title"></h1>
+    <p class="mt-6 text-xl leading-8" @text="$data.description"></p>
+</header>

@@ -7,7 +7,7 @@
 <div class="group relative flex flex-col shadow-lg overflow-hidden">
     <div class="relative flex-shrink-0 bg-gold-600">
         <img loading="lazy" class="w-full" width="488" height="256" :src="mission.data.image.replace('.jpg', '-768.jpg')" alt="">
-        <svg class="absolute left-0 -bottom-px w-full text-gray-600" viewBox="0 0 100 10" fill="currentColor">
+        <svg aria-hidden="true" class="absolute left-0 -bottom-px w-full text-gray-600" viewBox="0 0 100 10" fill="currentColor">
             <path :d="`M 0 10 L ${r(16, 32)} ${r(0, 6)} L ${r(32, 48)} ${r(0, 6)} L ${r(48, 64)} ${r(0, 6)} L ${r(64, 84)} ${r(0, 6)} L 100 10 Z`"></path>
         </svg>
     </div>
