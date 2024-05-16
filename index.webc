@@ -7,7 +7,7 @@ title: Moonbase Labs
     <container>
         <div class="lg:flex">
             <div class="relative z-10 space-y-6 max-w-[30rem] mx-auto pt-16 lg:mx-0 lg:py-72">
-                <h1 class="font-medium text-5xl text-gray-600">We build software for<br><span class="font-serif font-normal text-gold-600 lg:text-gold-700">people on a mission</span>.</h1>
+                <h1 class="font-semibold text-5xl text-gray-600">We build software for<br><span class="font-serif font-normal text-gold-600 lg:text-gold-700">people on a mission</span>.</h1>
                 <p class="text-lg">With Moonbase Labs, you can improve how you work and accomplish more.</p>
                 <a href="/contact/" class="btn btn-lg">
                     <span>Get <em>started</em></span>
@@ -29,7 +29,7 @@ title: Moonbase Labs
 
 <container class="mt-16 sm:mt-24 lg:mt-2">
     <div class="grid gap-16 items-center md:grid-cols-2">
-        <div class="prose md:order-1">
+        <div class="prose sm:prose-lg md:prose-xl md:order-1">
             <h2 class="font-medium text-gray-600">People on a <strong class="font-medium text-gold-600">mission</strong> like...</h2>
             <ul class="font-serif">
                 <li>Nonprofit lenders so they can provide digital loan applications for rural entrepreneurs.</li>
@@ -47,7 +47,7 @@ title: Moonbase Labs
 
 <container class="mt-16 sm:mt-24 md:mt-48">
     <div class="grid gap-16 items-center md:grid-cols-2">
-        <div class="prose">
+        <div class="prose sm:prose-lg md:prose-xl">
             <h2 class="font-medium text-gray-600">What they all share in common</h2>
             <p><strong>Ambition.</strong> All of our clients are building something great. They’ve established credibility and built a novel way of delivering value to their stakeholders. We tend to meet our clients when they begin to stall.</p>
             <ul class="font-serif">
@@ -65,7 +65,7 @@ title: Moonbase Labs
 
 <container class="mt-16 sm:mt-24 md:mt-48">
     <div class="grid gap-16 items-center md:grid-cols-2">
-        <div class="prose md:order-1">
+        <div class="prose sm:prose-lg md:prose-xl md:order-1">
             <h2 class="font-medium text-gray-600">How we help</h2>
             <dl>
                 <div>

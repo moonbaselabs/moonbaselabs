@@ -5,7 +5,7 @@
     </div>
     <div class="pl-12 relative">
         <time class="text-gray-500" :datetime="post.date" @text="readableDate(post.date)"></time>
-        <h2 class="relative mt-3 text-2xl font-display font-semibold text-gray-600">
+        <h2 class="relative mt-3 text-2xl font-display font-medium text-gray-600">
             <a :href="post.url" class="underline hover:text-blue-600">
                 <span @text="post.data.title"></span>
                 <span class="absolute inset-0"></span>
