@@ -18,11 +18,11 @@ html {
   @apply px-6 py-3 text-base;
 }
 
-article>.prose>p:first-child {
+article .prose>p:first-child {
   font-size: 1.2em;
 }
 
-article>.prose :is(img, iframe) {
+article .prose :is(img, iframe) {
   margin-inline: -1.5rem;
   max-width: calc(100% + 3rem);
   width: calc(100% + 3rem);
