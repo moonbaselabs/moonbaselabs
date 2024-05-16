@@ -9,12 +9,11 @@ tags: []
 ---
 
 {% section 'feature' %}
-<figure>
-    <div style="padding:52.73% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/551739946?color=A9995D&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-    <figcaption class="text-center p-4 text-sm font-bold">Lion Graph was acquired by Moonbase Labs in 2019</figcaption>
-</figure>
+<iframe class="w-full h-auto aspect-video" src="https://player.vimeo.com/video/551739946?color=A9995D&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <script webc:keep src="https://player.vimeo.com/api/player.js"></script>
 {% endsection %}
+
+_[Lion Graph was acquired by Moonbase Labs in 2019]_
 
 ## The Vision
 

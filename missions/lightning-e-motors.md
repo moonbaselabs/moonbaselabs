@@ -10,9 +10,7 @@ tags: []
 ---
 
 {% section 'feature' %}
-<figure>
-    <div style="padding:52.73% 0 0 0;position:relative;"><iframe width="560" height="315" src="https://www.youtube.com/embed/1BrvtglhWfQ?si=tdb5xqdRINP_LNVL" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-</figure>
+<iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/1BrvtglhWfQ?si=tdb5xqdRINP_LNVL" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 {% endsection %}
 
 

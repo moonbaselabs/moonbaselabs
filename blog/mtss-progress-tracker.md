@@ -9,9 +9,7 @@ author: Ted Kriwiel
 
 An overview of transforming a spreadsheet process into a wireframe for Kansas MTSS.
 
-<figure>
-    <div style="position: relative; padding-bottom: 61.78960096735187%; height: 0;"><iframe src="https://www.loom.com/embed/f59e4c59e0e146f5a1a6d63b50fcc401?sid=8a058858-8718-46a4-8d69-cf26dba73668" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-</figure>
+<iframe class="w-full h-auto aspect-video" src="https://www.loom.com/embed/f59e4c59e0e146f5a1a6d63b50fcc401?sid=8a058858-8718-46a4-8d69-cf26dba73668" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 We recently started a project with our friends at Kansas MTSS to turn a spreadsheet process into software that improves how Kansas MTSS collaborates. The spreadsheet we used as inspiration for the software served as the framework for how Kansas MTSS engages with school districts. Content teams use dozens of questions across five domains to evaluate the health of a school district. With around twenty employees and thirty ongoing engagements with school districts, this process started to break down. They asked us to build a software version of their framework.
 

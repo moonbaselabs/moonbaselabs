@@ -1,4 +1,4 @@
-<a webc:if="$data.page.url === '/'" @attributes :href="href" :aria-current="$data.page.url === href ? 'page' : false" class="font-medium" :class="$data.page.url === href ? 'text-gold-300 hover:text-gold-400' : 'text-gray-300 hover:text-gold-300'">
+<a webc:if="$data.page.url === '/'" @attributes :href="href" :aria-current="$data.page.url === href ? 'page' : false" class="font-medium" :class="$data.page.url === href ? 'text-gold-700 hover:text-gold-600 lg:text-gold-300 lg:hover:text-gold-400' : 'text-gray-600 hover:text-gold-700 lg:text-gray-300 lg:hover:text-gold-300'">
     <slot></slot>
 </a>
 <a webc:else @attributes :href="href" :aria-current="$data.page.url === href ? 'page' : false" class="font-medium" :class="$data.page.url === href ? 'text-gold-700 hover:text-gold-600' : 'text-gray-600 hover:text-gold-700'">

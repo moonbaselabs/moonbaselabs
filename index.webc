@@ -7,9 +7,9 @@ title: Moonbase Labs
     <container>
         <div class="lg:flex">
             <div class="relative z-10 space-y-6 max-w-[30rem] mx-auto pt-16 lg:mx-0 lg:py-72">
-                <h1 class="font-medium text-5xl text-gray-600">We build software for<br><span class="font-serif font-normal text-gold-500 lg:text-[#96874F]">people on a mission</span>.</h1>
+                <h1 class="font-medium text-5xl text-gray-600">We build software for<br><span class="font-serif font-normal text-gold-600 lg:text-gold-700">people on a mission</span>.</h1>
                 <p class="text-lg">With Moonbase Labs, you can improve how you work and accomplish more.</p>
-                <a href="/contact" class="btn btn-lg">
+                <a href="/contact/" class="btn btn-lg">
                     <span>Get <em>started</em></span>
                     <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                 </a>
@@ -30,7 +30,7 @@ title: Moonbase Labs
 <container class="mt-16 sm:mt-24 lg:mt-2">
     <div class="grid gap-16 items-center md:grid-cols-2">
         <div class="prose md:order-1">
-            <h2 class="font-medium text-gray-600">People on a <strong class="font-medium text-gold-500">mission</strong> like...</h2>
+            <h2 class="font-medium text-gray-600">People on a <strong class="font-medium text-gold-600">mission</strong> like...</h2>
             <ul class="font-serif">
                 <li>Nonprofit lenders so they can provide digital loan applications for rural entrepreneurs.</li>
                 <li>Baby sleep experts so they can help millions of parents get a good night sleep.</li>

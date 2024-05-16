@@ -7,7 +7,7 @@ html {
 }
 
 .btn {
-  @apply inline-flex items-center justify-center border border-transparent font-medium font-serif px-4 py-2 bg-gray-800 text-white;
+  @apply inline-flex items-center justify-center border-0 font-medium font-serif px-4 py-2 bg-gray-800 text-white;
 }
 
 .btn:hover {
@@ -16,4 +16,20 @@ html {
 
 .btn-lg {
   @apply px-6 py-3 text-base;
+}
+
+article>.prose>p:first-child {
+  font-size: 1.2em;
+}
+
+article>.prose :is(img, iframe) {
+  margin-inline: -1.5rem;
+  max-width: calc(100% + 3rem);
+  width: calc(100% + 3rem);
+
+  @media (min-width: 930px) {
+    margin-inline: -6rem;
+    max-width: calc(100% + 12rem);
+    width: calc(100% + 12rem)
+  }
 }

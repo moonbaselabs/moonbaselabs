@@ -4,7 +4,7 @@
     <div class="mr-4 mb-4">
         <script webc:type="js">
             let previous = getPreviousCollectionItem(collection, $data.page)
-            previous ? `<a class="text-gold-300 hover:gold-400 flex justify-start items-center" href="${previous.url}" title="Previous: ${previous.data.title}">
+            previous ? `<a class="text-blue-600 font-medium hover:blue-500 flex justify-start items-center" href="${previous.url}" title="Previous: ${previous.data.title}">
                 <span class="flex-none mr-2">&LeftArrow;</span>
                 ${previous.data.title}
             </a>`: ''
@@ -13,7 +13,7 @@
     <div class="ml-4 mb-4">
         <script webc:type="js">
             let next = getNextCollectionItem(collection, $data.page)
-            next ? `<a class="text-gold-300 hover:gold-400 flex justify-start items-center" href="${next.url}" title="Next: ${next.data.title}">
+            next ? `<a class="text-blue-600 font-medium hover:blue-500 flex justify-start items-center" href="${next.url}" title="Next: ${next.data.title}">
                 ${next.data.title}
                 <span class="flex-none ml-2">&RightArrow;</span>
             </a>` : ''
