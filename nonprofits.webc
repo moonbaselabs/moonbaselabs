@@ -166,7 +166,7 @@ description: A six week course to become a tech-savvy nonprofit.
         </div>
 
         <!-- Doer Section -->
-        <div class="flex flex-wrap mt-12">
+        <div class="flex flex-wrap flex-col-reverse mt-12">
             <div class="w-full md:w-1/2">
                 <img src="/img/how_we_help.png" alt="The Doer" class="w-full h-auto">
             </div>
