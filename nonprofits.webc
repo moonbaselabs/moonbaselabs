@@ -1,105 +1,440 @@
 ---
 layout: layout.webc
-title: Nonprofits
-description: We build software that nonprofits use to change the world.
+title: Nonprofit Tech Cohort
+description: A six week course to become a tech-savvy nonprofit. 
 ---
-
-<div class="py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <div class="mx-auto max-w-7xl">
-        <div class="grid gap-12 md:gap:24 md:grid-cols-2 lg:gap-40">
-            <div class="lg:mt-0 md:order-2">
-                <img aria-hidden class="max-w-sm mx-auto md:max-w-full" src="/img/connections.svg" alt="">
-            </div>
-            <div class="md:max-w-2xl md:flex md:items-center">
-                <div>
-                    <a href="/nonprofit-community/" class="inline-flex items-center text-white bg-navy-600 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-silver-700">
-                        <span class="inline-flex items-center px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-500 rounded-full">
-                            We
-                            <!-- heart -->
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="inline-block mx-1 w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M20.205,4.791c-1.137-1.131-2.631-1.754-4.209-1.754c-1.483,0-2.892,0.552-3.996,1.558 c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412L12,21.414 l8.207-8.207C22.561,10.854,22.562,7.158,20.205,4.791z"></path>
-                            </svg>
-                            nonprofits
-                        </span>
-                        <span class="ml-4 text-sm">Join our community</span>
-                        <!-- chevron-right -->
-                        <svg class="ml-2 w-5 h-5 text-silver-700" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M10.707 17.707L16.414 12 10.707 6.293 9.293 7.707 13.586 12 9.293 16.293z"></path>
-                        </svg>
-                    </a>
-                    <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
-                        We build software that nonprofits use to <span class="text-orange-500">change the world</span>
-                    </h1>
-                    <p class="mt-3 text-base text-silver-700 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                        We want good to scale. Empowered teachers, diverse entrepreneurs, stronger leaders: those missions are now our&nbsp;mission.
-                    </p>
-                    <button @size="lg" @color="onyx" class="mt-8" href="#software-analytics">
-                        Learn more
-                        <!-- down-arrow -->
-                        <svg class="ml-3 -mr-1 w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+<div class="container mx-auto px-12 py-32 lg:px-12">
+    <!-- Header section with description and call-to-action -->
+    <div class="grid gap-12 mx-auto max-w-2xl lg:max-w-full lg:grid-cols-2 lg:gap-24 xl:gap-40 lg:items-center">
+        <div> 
+            <h1 class="text-4xl leading-tight tracking-tight font-extrabold text-white sm:text-4xl lg:text-6xl">
+                Become a tech-savvy nonprofit without writing a single line of code.
+            </h1>
+            <p class="mt-3 text-xl text-silver-700">
+                A virtual course for nonprofit leaders who want to get more from their software but aren’t sure where to start. 
+            </p>
+            <div class="mt-5">
+                <a href="#pricing" class="inline-flex items-center justify-center border border-transparent font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm text-white bg-green-600 hover:bg-green-700 focus:ring-green-500">
+                    Reserve Your Seat
+                </a>
+            </div>            
+        </div>
+        <div class="flex items-center justify-center">
+            <img src="/img/people_on_a_mission.png" alt="Descriptive Text" class="w-full h-auto">
         </div>
     </div>
 </div>
 
-<div id="software-analytics" class="py-6 sm:py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <div class="mx-auto max-w-7xl">
-        <div class="grid gap-24 md:grid-cols-2">
-            <div>
-                <div>
-                    <!-- monitor -->
-                    <svg aria-hidden width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8348 34.3323C8.01791 34.3323 3.37434 38.9759 3.37434 44.7928V75.1619C3.37434 80.9788 8.01792 85.6223 13.8348 85.6223H82.1652C87.9821 85.6223 92.6257 80.9788 92.6257 75.1619V44.7928C92.6257 38.9759 87.9821 34.3323 82.1652 34.3323H13.8348ZM0 44.7928C0 37.1123 6.15432 30.958 13.8348 30.958H82.1652C89.8457 30.958 96 37.1123 96 44.7928V75.1619C96 82.8424 89.8457 88.9967 82.1652 88.9967H13.8348C6.15432 88.9967 0 82.8424 0 75.1619V44.7928Z" fill="#4B5A6B" />
-                        <path d="M71.5357 75.1616C71.5357 78.1985 69.1737 80.5605 66.1368 80.5605H13.8345C10.7976 80.5605 8.43555 78.1985 8.43555 75.1616V44.7925C8.43555 41.7556 10.7976 39.3936 13.8345 39.3936H66.1368C69.1737 39.3936 71.5357 41.7556 71.5357 44.7925V75.1616Z" fill="#187BBC" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8274 53.2292L15.8423 48.3826L17.9004 46.2656L25.063 53.2292L17.9004 60.1928L15.8423 58.0758L20.8274 53.2292Z" fill="white" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M35.9372 60.6098H26.3203V57.6572H35.9372V60.6098Z" fill="white" />
-                        <path d="M83.3459 47.8294C85.6754 47.8294 87.5638 45.941 87.5638 43.6115C87.5638 41.282 85.6754 39.3936 83.3459 39.3936C81.0164 39.3936 79.1279 41.282 79.1279 43.6115C79.1279 45.941 81.0164 47.8294 83.3459 47.8294Z" fill="#658F61" />
-                        <path d="M83.3459 64.1966C85.6754 64.1966 87.5638 62.3082 87.5638 59.9787C87.5638 57.6492 85.6754 55.7607 83.3459 55.7607C81.0164 55.7607 79.1279 57.6492 79.1279 59.9787C79.1279 62.3082 81.0164 64.1966 83.3459 64.1966Z" fill="#E5743C" />
-                        <path d="M83.3459 80.5618C85.6754 80.5618 87.5638 78.6734 87.5638 76.3439C87.5638 74.0144 85.6754 72.126 83.3459 72.126C81.0164 72.126 79.1279 74.0144 79.1279 76.3439C79.1279 78.6734 81.0164 80.5618 83.3459 80.5618Z" fill="#A9995D" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M47.9198 30.4231L70.3429 8L72.729 10.386L49.1086 34.0064L46.7183 34.0021L23.2666 10.3817L25.6612 8.00428L47.9198 30.4231Z" fill="#4B5A6B" />
-                    </svg>
-                </div>
-                <div class="mt-6">
-                    <h2 class="text-3xl font-extrabold tracking-tight text-white">
-                        Software<span class="sr-only">:</span>
-                        <span class="mt-4 block text-2xl">Empowering the doers</span>
-                    </h2>
-                    <p class="mt-4 text-lg text-silver-700">
-                        Software helps deliver impact at scale. Generating impact doesn’t have to be complicated. Streamline communication, centralize information, and eliminate friction in your processes.
-                    </p>
-                </div>
+<div class="w-full bg-white py-32 px-8">
+    <div class="mx-auto max-w-4xl text-base leading-7 text-gray-700">
+        <h2 class="text-left text-3xl leading-9 font-extrabold tracking-tight text-onyx-700 sm:text-4xl">Does this sound familiar?</h2>
+        <ul class="mt-10 space-y-5 text-lg text-gray-500">
+            <li class="flex items-start gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 256 256"><path d="M80,48V152H32a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8Z" opacity="0.2"></path><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"></path></svg>
+                <span class="font-normal text-onyx-600">You have seven types of software and none of them integrate.</span>
+            </li>
+            <li class="flex items-start gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 256 256"><path d="M80,48V152H32a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8Z" opacity="0.2"></path><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"></path></svg>
+                <span class="font-normal text-onyx-600">You spend hours exporting data from one tool and importing it into another</span>
+            </li>
+            <li class="flex items-start gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 256 256"><path d="M80,48V152H32a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8Z" opacity="0.2"></path><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"></path></svg>
+                <span class="font-normal text-onyx-600">You groan at the end of every quarter when you prepare reports for board meetings.</span>
+            </li>
+            <li class="flex items-start gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 256 256"><path d="M80,48V152H32a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8Z" opacity="0.2"></path><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"></path></svg>
+                <span class="font-normal text-onyx-600">Your data is buried in spreadsheets throughout your organization.</span>
+            </li>
+            <li class="flex items-start gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 256 256"><path d="M80,48V152H32a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8Z" opacity="0.2"></path><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"></path></svg>
+                <span class="font-normal text-onyx-600">You worry your organization is falling behind in tech.</span>
+            </li>
+        </ul>
+        <p class="text-left text-2xl mt-10 mb-10 leading-9 font-normal tracking-tight text-onyx-700 sm:text-3xl">It doesn't have to be this way!</p>
+    </div>
+    <!--ted intro -->
+    <section class="isolate overflow-hidden bg-white px-6 lg:px-16">
+    <div class="relative mx-auto max-w-2xl py-24 sm:py-32 lg:max-w-4xl">
+        <div class="absolute left-1/2 top-0 -z-10 h-[50rem] w-[90rem] -translate-x-1/2 bg-[radial-gradient(50%_100%_at_top,theme(colors.blue.600),white)] opacity-50 lg:left-36"></div>
+        <div class="absolute inset-y-0 right-1/2 -z-10 mr-12 w-[150vw] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-onyx-600/10 ring-1 ring-onyx-300 sm:mr-20 md:mr-0 lg:right-full lg:-mr-36 lg:origin-center"></div>
+        <figure class="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10">
+        <div class="relative col-span-2 lg:col-start-1 lg:row-start-2">
+            <svg viewBox="0 0 162 128" fill="none" aria-hidden="true" class="absolute -top-12 left-0 -z-10 h-32 stroke-onyx-400/10">
+            <!-- SVG path -->
+            </svg>
+            <blockquote class="text-xl font-normal leading-8 text-onyx-500 sm:text-2xl sm:leading-9">
+            <p>Hi! 👋 I’m Ted. I’ve heard people say: “When it comes to tech, Nonprofits are a decade behind the private sector.”</p>
+            <p class="mt-5 font-semibold">I want that to change.</p>
+            </blockquote>
+        </div>
+        <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
+            <img class="rounded-xl bg-blue-300 lg:rounded-3xl" src="/img/ted_profile.jpg" alt="ted profile pic">
+        </div>
+        <figcaption class="text-base lg:col-start-1 lg:row-start-3">
+            <div class="font-semibold text-onyx-500">Ted Kriwiel</div>
+            <div class="mt-1 text-gray-700">Partner at Moonbase Labs</div>
+        </figcaption>
+        </figure>
+    </div>
+    </section>
+
+    <!--why I made this course -->
+
+    <div class="mx-auto max-w-4xl text-base leading-7 mt-20 text-gray-700">
+        <h2 class="text-left text-3xl leading-9 font-extrabold tracking-tight text-onyx-700 sm:text-4xl">Why I made this course</h2>
+        <p class="mt-6 text-xl leading-8">I’ve spent the last seven years helping nonprofits modernize their tech stack. Our team has built integrations, dashboards, and custom software for some of the coolest nonprofits in the land. Over that time, I’ve noticed a few themes emerge. Nonprofits aren’t using the best stuff and they don’t know what they're missing.</p>
+        <p class="mt-6 text-xl font-semibold leading-8">My hypothesis: If nonprofit leaders understood a few foundational principles of tech, they could get better software that truly fits their needs.
+        <p class="mt-6 text-xl leading-8">Software is my bread and butter! I use it every day. I have ten tabs open on my browser right now. In this course, I’ve distilled the last seven years of learning, and I’d love to share it with you.</p>     
+    </div>
+
+    <!--what you will learn-->
+    <div class="mx-auto max-w-4xl text-base leading-7 mt-20 text-gray-700">
+        <h2 class="text-left text-3xl font-extrabold tracking-tight text-onyx-700 sm:text-4xl">What you will learn in the process</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-8">
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 fill-current text-onyx-700" viewBox="0 0 256 256">
+                    <path d="M240,124a48,48,0,0,1-32,45.27h0V176a40,40,0,0,1-80,0,40,40,0,0,1-80,0v-6.73h0a48,48,0,0,1,0-90.54V72a40,40,0,0,1,80,0,40,40,0,0,1,80,0v6.73A48,48,0,0,1,240,124Z" opacity="0.2"></path><path d="M248,124a56.11,56.11,0,0,0-32-50.61V72a48,48,0,0,0-88-26.49A48,48,0,0,0,40,72v1.39a56,56,0,0,0,0,101.2V176a48,48,0,0,0,88,26.49A48,48,0,0,0,216,176v-1.41A56.09,56.09,0,0,0,248,124ZM88,208a32,32,0,0,1-31.81-28.56A55.87,55.87,0,0,0,64,180h8a8,8,0,0,0,0-16H64A40,40,0,0,1,50.67,86.27,8,8,0,0,0,56,78.73V72a32,32,0,0,1,64,0v68.26A47.8,47.8,0,0,0,88,128a8,8,0,0,0,0,16,32,32,0,0,1,0,64Zm104-44h-8a8,8,0,0,0,0,16h8a55.87,55.87,0,0,0,7.81-.56A32,32,0,1,1,168,144a8,8,0,0,0,0-16,47.8,47.8,0,0,0-32,12.26V72a32,32,0,0,1,64,0v6.73a8,8,0,0,0,5.33,7.54A40,40,0,0,1,192,164Zm16-52a8,8,0,0,1-8,8h-4a36,36,0,0,1-36-36V80a8,8,0,0,1,16,0v4a20,20,0,0,0,20,20h4A8,8,0,0,1,208,112ZM60,120H56a8,8,0,0,1,0-16h4A20,20,0,0,0,80,84V80a8,8,0,0,1,16,0v4A36,36,0,0,1,60,120Z"></path>
+                </svg>
+                <span class="ml-4 text-lg text-onyx-700">How to think about software like a developer</span>
             </div>
-            <div>
-                <div>
-                    <!-- analytics -->
-                    <svg width="96" height="91" viewBox="0 0 96 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M21.4433 0C9.56699 0 0 9.56699 0 21.4433C0 33.3195 9.56699 42.8865 21.4433 42.8865C33.3195 42.8865 42.8865 33.3195 42.8865 21.4433H21.4433V0Z" fill="#187BBC" />
-                        <path d="M21.4429 0V21.4433H42.8861C43.0511 9.56699 33.3191 0 21.4429 0Z" fill="white" />
-                        <path d="M65.9134 15.6709H56.0825V42.8873H65.9134V15.6709Z" fill="#E5743C" />
-                        <path d="M80.8246 0H70.9277V43.0515H80.8246V0Z" fill="#E5743C" />
-                        <path d="M95.6703 21.4434H85.7734V42.8866H95.6703V21.4434Z" fill="#E5743C" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M38.4815 56.5557L58.0794 83.2352L77.3293 63.6698H95.9998V66.9687H78.7115L57.7141 88.3104L38.0544 61.5468L21.1186 77.8553H0.824707V74.5563H19.7885L38.4815 56.5557Z" fill="#4B5A6B" />
-                        <path d="M20.2887 81.6496C23.1127 81.6496 25.4021 79.3603 25.4021 76.5362C25.4021 73.7122 23.1127 71.4229 20.2887 71.4229C17.4646 71.4229 15.1753 73.7122 15.1753 76.5362C15.1753 79.3603 17.4646 81.6496 20.2887 81.6496Z" fill="#A9995D" />
-                        <path d="M37.7731 64.1643C40.5971 64.1643 42.8865 61.8749 42.8865 59.0509C42.8865 56.2268 40.5971 53.9375 37.7731 53.9375C34.949 53.9375 32.6597 56.2268 32.6597 59.0509C32.6597 61.8749 34.949 64.1643 37.7731 64.1643Z" fill="#A9995D" />
-                        <path d="M57.0724 90.8869C59.8964 90.8869 62.1858 88.5976 62.1858 85.7735C62.1858 82.9495 59.8964 80.6602 57.0724 80.6602C54.2483 80.6602 51.959 82.9495 51.959 85.7735C51.959 88.5976 54.2483 90.8869 57.0724 90.8869Z" fill="#A9995D" />
-                        <path d="M77.3605 70.927C80.1845 70.927 82.4739 68.6376 82.4739 65.8136C82.4739 62.9895 80.1845 60.7002 77.3605 60.7002C74.5364 60.7002 72.2471 62.9895 72.2471 65.8136C72.2471 68.6376 74.5364 70.927 77.3605 70.927Z" fill="#A9995D" />
-                    </svg>
-                </div>
-                <div class="mt-6">
-                    <h2 class="text-3xl font-extrabold tracking-tight text-white">
-                        Data Analytics<span class="sr-only">:</span>
-                        <span class="mt-4 block text-2xl">Work that matters deserves to be measured</span>
-                    </h2>
-                    <p class="mt-4 text-lg text-silver-700">
-                        But how do you know your work is working? Abandon the spreadsheets. Create context, understand your stakeholders, and visualize your impact.
-                    </p>
-                </div>
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 fill-current text-onyx-700" viewBox="0 0 256 256">
+                    <path d="M240,80v64L80,224V160Z" opacity="0.2"></path><path d="M243.58,72.84,197.29,49.7C191.54,39.24,177.21,32,160,32c-22.43,0-40,12.3-40,28a20.77,20.77,0,0,0,1.06,6.53l-19.52,9.76A53.69,53.69,0,0,0,80,72c-22.43,0-40,12.3-40,28a20.77,20.77,0,0,0,1.06,6.53L12.42,120.84A8,8,0,0,0,8,128v64a8,8,0,0,0,4.42,7.16l64,32a8,8,0,0,0,7.16,0l160-80A8,8,0,0,0,248,144V80A8,8,0,0,0,243.58,72.84ZM80,151.06,33.89,128,51,119.45c7.24,5.29,17.48,8.55,29,8.55,22.43,0,40-12.3,40-28a21.77,21.77,0,0,0-4.35-12.88L131,79.45c7.24,5.29,17.48,8.55,29,8.55,18.38,0,33.49-8.26,38.35-19.88L222.11,80ZM160,48c13.74,0,24,6.34,24,12s-10.26,12-24,12-24-6.34-24-12S146.26,48,160,48ZM80,88c13.74,0,24,6.34,24,12s-10.26,12-24,12c-9.67,0-17.61-3.14-21.47-7a8.29,8.29,0,0,0-.84-.93A6.62,6.62,0,0,1,56,100C56,94.34,66.26,88,80,88ZM24,140.94l48,24v46.12l-48-24Zm64,70.12V164.94l144-72v46.12Z"></path>
+                </svg>
+                <span class="ml-4 text-lg text-onyx-700">Building blocks at the heart of all software</span>
+            </div>
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 fill-current text-onyx-700" viewBox="0 0 256 256">
+                    <path d="M216,48V152a8,8,0,0,1-8,8H168v48a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V104a8,8,0,0,1,8-8H88V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2"></path><path d="M224,48V152a16,16,0,0,1-16,16H99.31l10.35,10.34a8,8,0,0,1-11.32,11.32l-24-24a8,8,0,0,1,0-11.32l24-24a8,8,0,0,1,11.32,11.32L99.31,152H208V48H96v8a8,8,0,0,1-16,0V48A16,16,0,0,1,96,32H208A16,16,0,0,1,224,48ZM168,192a8,8,0,0,0-8,8v8H48V104H156.69l-10.35,10.34a8,8,0,0,0,11.32,11.32l24-24a8,8,0,0,0,0-11.32l-24-24a8,8,0,0,0-11.32,11.32L156.69,88H48a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16H160a16,16,0,0,0,16-16v-8A8,8,0,0,0,168,192Z"></path>
+                </svg>
+                <span class="ml-4 text-lg text-onyx-700">How to make tradeoffs when comparing tools</span>
+            </div>
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 fill-current text-onyx-700" viewBox="0 0 256 256">
+                    <path d="M240,64V192a8,8,0,0,1-3.47,6.6l-68.25-68.25a8,8,0,0,0-11.31,0L131.31,156,81.66,106.34a8,8,0,0,0-11.32,0L16,160.69V64a8,8,0,0,1,10.05-7.74C43.35,60.89,81.44,72,128,72S212.65,60.89,230,56.27A8,8,0,0,1,240,64Z" opacity="0.2"></path><path d="M241.75,51.32a15.88,15.88,0,0,0-13.86-2.77l-3.48.94C205.61,54.56,170.61,64,128,64S50.39,54.56,31.59,49.49l-3.48-.94A16,16,0,0,0,8,64V192a16,16,0,0,0,16,16,16.22,16.22,0,0,0,4.18-.55l3.18-.86C50.13,201.49,85.17,192,128,192s77.87,9.49,96.69,14.59l3.18.86A16,16,0,0,0,248,192V64A15.9,15.9,0,0,0,241.75,51.32ZM27.42,64.93C46.94,70.2,83.27,80,128,80s81.06-9.8,100.58-15.07L232,64V182.76l-58.07-58.07a16,16,0,0,0-22.63,0l-20,20-44-44a16,16,0,0,0-22.62,0L24,141.37V64ZM213.84,187.21a391.22,391.22,0,0,0-49-9L142.63,156l20-20ZM27.13,191.14,24,192V164l52-52,64.25,64.25q-6-.24-12.25-.25C83,176,45.28,186.23,27.13,191.14ZM192,108a12,12,0,1,1,12,12A12,12,0,0,1,192,108Z"></path>
+                </svg>
+                <span class="ml-4 text-lg text-onyx-700">Holistically understand software across an organization</span>
+            </div>
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 fill-current text-onyx-700" viewBox="0 0 256 256">
+                    <path d="M232,128c0,12.51-17.82,21.95-22.68,33.69-4.68,11.32,1.42,30.64-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68c-11.32-4.68-30.65,1.42-39.85-7.78s-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128Z" opacity="0.2"></path><path d="M225.86,102.82c-3.77-3.94-7.67-8-9.14-11.57-1.36-3.27-1.44-8.69-1.52-13.94-.15-9.76-.31-20.82-8-28.51s-18.75-7.85-28.51-8c-5.25-.08-10.67-.16-13.94-1.52-3.56-1.47-7.63-5.37-11.57-9.14C146.28,23.51,138.44,16,128,16s-18.27,7.51-25.18,14.14c-3.94,3.77-8,7.67-11.57,9.14C88,40.64,82.56,40.72,77.31,40.8c-9.76.15-20.82.31-28.51,8S41,67.55,40.8,77.31c-.08,5.25-.16,10.67-1.52,13.94-1.47,3.56-5.37,7.63-9.14,11.57C23.51,109.72,16,117.56,16,128s7.51,18.27,14.14,25.18c3.77,3.94,7.67,8,9.14,11.57,1.36,3.27,1.44,8.69,1.52,13.94.15,9.76.31,20.82,8,28.51s18.75,7.85,28.51,8c5.25.08,10.67.16,13.94,1.52,3.56,1.47,7.63,5.37,11.57,9.14C109.72,232.49,117.56,240,128,240s18.27-7.51,25.18-14.14c3.94-3.77,8-7.67,11.57-9.14,3.27-1.36,8.69-1.44,13.94-1.52,9.76-.15,20.82-.31,28.51-8s7.85-18.75,8-28.51c.08-5.25.16-10.67,1.52-13.94,1.47-3.56,5.37-7.63,9.14-11.57C232.49,146.28,240,138.44,240,128S232.49,109.73,225.86,102.82Zm-11.55,39.29c-4.79,5-9.75,10.17-12.38,16.52-2.52,6.1-2.63,13.07-2.73,19.82-.1,7-.21,14.33-3.32,17.43s-10.39,3.22-17.43,3.32c-6.75.1-13.72.21-19.82,2.73-6.35,2.63-11.52,7.59-16.52,12.38S132,224,128,224s-9.15-4.92-14.11-9.69-10.17-9.75-16.52-12.38c-6.1-2.52-13.07-2.63-19.82-2.73-7-.1-14.33-.21-17.43-3.32s-3.22-10.39-3.32-17.43c-.1-6.75-.21-13.72-2.73-19.82-2.63-6.35-7.59-11.52-12.38-16.52S32,132,32,128s4.92-9.15,9.69-14.11,9.75-10.17,12.38-16.52c2.52-6.1,2.63-13.07,2.73-19.82.1-7,.21-14.33,3.32-17.43S70.51,56.9,77.55,56.8c6.75-.1,13.72-.21,19.82-2.73,6.35-2.63,11.52-7.59,16.52-12.38S124,32,128,32s9.15,4.92,14.11,9.69,10.17,9.75,16.52,12.38c6.1,2.52,13.07,2.63,19.82,2.73,7,.1,14.33.21,17.43,3.32s3.22,10.39,3.32,17.43c.1,6.75.21,13.72,2.73,19.82,2.63,6.35,7.59,11.52,12.38,16.52S224,124,224,128,219.08,137.15,214.31,142.11ZM140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180Zm28-72c0,17.38-13.76,31.93-32,35.28V144a8,8,0,0,1-16,0v-8a8,8,0,0,1,8-8c13.23,0,24-9,24-20s-10.77-20-24-20-24,9-24,20v4a8,8,0,0,1-16,0v-4c0-19.85,17.94-36,40-36S168,88.15,168,108Z"></path>
+                </svg>
+                <span class="ml-4 text-lg text-onyx-700">Ask better questions of your data</span>
+            </div>
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 fill-current text-onyx-700" viewBox="0 0 256 256">
+                    <path d="M215.46,216H40.54C27.92,216,20,202.79,26.13,192.09L113.59,40.22c6.3-11,22.52-11,28.82,0l87.46,151.87C236,202.79,228.08,216,215.46,216Z" opacity="0.2"></path><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"></path>
+                </svg>
+                <span class="ml-4 text-lg text-onyx-700">Pitfalls to avoid when buying software</span>
             </div>
         </div>
+    </div>
+
+    <div class="mx-auto max-w-4xl text-base mt-20 text-onyx-700">
+        <h2 class="text-left text-3xl leading-9 font-extrabold tracking-tight text-onyx-700 sm:text-4xl">What you will create on your journey</h2>
+        <p class="mt-6 text-xl leading-8">
+            We don’t merely want to teach; we want you to learn by doing. During this course, you will create five tangible artifacts your organization can use for years. These tools will help you identify broken processes, ask better questions, coordinate software buying decisions, and align your team around a holistic technology strategy.
+        </p>
+        <p class="mt-6 mb-4 text-xl leading-8">By the end of this workshop, you will create:</p>
+        <ul style="list-style-type: disc; padding-left: 30px; margin-bottom: 20px;">
+            <li style="margin-bottom: 10px;">Software Inventory</li>
+            <li style="margin-bottom: 10px;">User Flow Diagram</li>
+            <li style="margin-bottom: 10px;">Data Model</li>
+            <li style="margin-bottom: 10px;">Dashboard Mockup</li>
+            <li style="margin-bottom: 10px;">Technology Roadmap</li>
+        </ul>
+        <p class="mt-6 mb-4 text-xl leading-8">Each module revolves around one of these artifacts. We’ll discuss why each tool is essential and how your team can use them.</p>
+    </div>
+
+    <div class="mx-auto max-w-4xl text-base mt-20 text-onyx-700">
+        <h2 class="text-left text-3xl leading-9 font-extrabold tracking-tight text-onyx-700 sm:text-4xl">Who gets the most out of this program?</h2>
+        <p class="mt-6 text-xl leading-8">
+            The ideal candidates for this program are established nonprofits with teams of ten or more. Organizations that send two or three people to participate together will see the most impact. We’d like to see two “archetypes” represented from each organization.
+        </p>
+
+        <!-- Visionary Section -->
+        <div class="flex flex-wrap mt-12">
+            <div class="w-full md:w-1/2 flex flex-col justify-center px-4">
+                <h3 class="text-2xl font-bold text-onyx-700">The Visionary</h3>
+                <p class="mt-4 text-lg text-onyx-600">
+                    Leads the organization, has the authority to make difficult tradeoffs, and can build consensus around a vision. (Might be a founder or CEO or COO.) <br/>
+                </p>
+            </div>
+            <div class="w-full md:w-1/2">
+                <img src="/img/what_they_have_in_common.png" alt="The Visionary" class="w-full h-auto">
+            </div>
+        </div>
+
+        <!-- Doer Section -->
+        <div class="flex flex-wrap mt-12">
+            <div class="w-full md:w-1/2">
+                <img src="/img/how_we_help.png" alt="The Doer" class="w-full h-auto">
+            </div>
+            <div class="w-full md:w-1/2 flex flex-col justify-center px-4">
+                <h3 class="text-2xl font-bold text-onyx-700">The Doer</h3>
+                <p class="mt-4 text-lg text-onyx-600">
+                    A detail-oriented systems builder. They make things happen! This person does most of the heavy lifting between sessions, such as building diagrams and finding answers. (Might be a chief of staff or director of operations)
+                </p>
+            </div>
+        </div>
+        
+        <p class="mt-10 text-xl leading-8">
+        For this work to be impactful, it requires buy-in at the very top of the organization. We know that CEOs are pulled in a thousand directions and we are sensitive to their time. <strong>As long as the visionary can attend the first and last sessions, they should have enough context for the cultural work required for this course to move the needle.</strong> They can also stay connected by reading the weekly email summaries following each session.
+        </p>
+    </div>
+
+    <div class="mx-auto max-w-4xl text-base mt-20 text-onyx-700">
+        <h2 class="text-left text-3xl leading-9 font-extrabold tracking-tight text-onyx-700 sm:text-4xl">Module Overview</h2>
+        <p class="mt-4 text-xl leading-8 mb-12">
+            Sessions will take place once a week on Zoom for six weeks. Once the cohort is established, we'll find a day and time that works for everyone. Sessions will occur on either a Tuesday, Wednesday or Thursday.
+        </p>
+        <div class="border-t border-b border-onyx-700/10 divide-y divide-onyx-700/10">
+            <div class="bg-white p-6">
+                <span class="text-blue-600 font-semibold">Module 1</span>
+                <h3 class="text-2xl font-bold text-gray-900">Kickoff</h3>
+                <p class="text-gray-700 mt-2">Meet the cohort. Set expectations for the course and articulate goals for the experience. We’ll Ensure the right people are in the room and set everyone up for success. Ask each organization to complete the software inventory, which we will review in the next session.</p>
+                <p class="text-sm text-gray-500 mt-2">60 min, Visionaries + Doer's</p>
+            </div>
+            <div class="bg-white p-6">
+                <span class="text-blue-600 font-semibold">Module 2</span>
+                <h3 class="text-2xl font-bold text-gray-900">Tech Stack Review</h3>
+                <p class="text-gray-700 mt-2">Review the software inventory results and compare tech stacks across the cohort. How much software does each organization have? How well do they integrate? Is there an overlap between other organizations in the cohort? We’ll observe each company’s software choices and explore pain points.</p>
+                <p class="text-sm text-gray-500 mt-2">75 min, Doer's</p>
+            </div>
+            <div class="bg-white p-6">
+                <span class="text-blue-600 font-semibold">Module 3</span>
+                <h3 class="text-2xl font-bold text-gray-900">Diagram User Journey</h3>
+                <p class="text-gray-700 mt-2">We’ll build a user journey diagram to help your team visualize how stakeholders navigate your organization through the lens of software. The diagram illustrates the steps required to receive services, attend events, join a marketing newsletter, or apply for a grant. In conjunction with the software inventory, this diagram will illuminate how software supports stakeholders along their journey.</p>
+                <p class="text-sm text-gray-500 mt-2">75 min, Doer's</p>
+            </div>
+            <div class="bg-white p-6">
+                <span class="text-blue-600 font-semibold">Module 4</span>
+                <h3 class="text-2xl font-bold text-gray-900">Create a Data Model</h3>
+                <p class="text-gray-700 mt-2">We’ll create a data model. Nonprofits do so much! Host events. Work with volunteers. Provide services. Send newsletters. All of these activities live in distinct data sources that rarely integrate. These data silos create choppy experiences for team members and the people you want to serve. By visualizing the data your organization generates holistically, you can begin building bridges from one source to another.</p>
+                <p class="text-sm text-gray-500 mt-2">75 min, Doer's</p>
+            </div>
+            <div class="bg-white p-6">
+                <span class="text-blue-600 font-semibold">Module 5</span>
+                <h3 class="text-2xl font-bold text-gray-900">Dashboard Mockup</h3>
+                <p class="text-gray-700 mt-2">We’ll create a dashboard mockup. Nonprofits need data to articulate their impact and hold their team accountable. Dashboards are a way to coordinate efforts around objective metrics that represent progress for an organization. This exercise will determine what essential questions the dashboard must answer. Once we establish the questions, we’ll explore common ways to answer them with data visualizations and provide examples of tools to make your communication about the data more impactful.</p>
+                <p class="text-sm text-gray-500 mt-2">75 min, Doer's</p>
+            </div>
+            <div class="bg-white p-6">
+                <span class="text-blue-600 font-semibold">Module 6</span>
+                <h3 class="text-2xl font-bold text-gray-900">Roadmap and Conclusion</h3>
+                <p class="text-gray-700 mt-2">We’ll build a roadmap. At this point in the journey, it's time to make tradeoffs. There are so many problems we want to solve in so little time. We’ll establish a backlog of everything we want to do ranked by priority. We’ll explore what makes a good backlog item (specific and outcome-based) and how to estimate complexity. We’ll end with tips for casting a vision around technology and explore a few common pitfalls to avoid.</p>
+                <p class="text-sm text-gray-500 mt-2">60 min, Visionaries + Doer's</p>
+            </div>
+            <div class="bg-white p-6">
+                <span class="text-blue-600 font-semibold">BONUS!</span>
+                <h3 class="text-2xl font-bold text-gray-900">Ongoing Coaching</h3>
+                <p class="text-gray-700 mt-2"> We won't leave you hanging! After the course, you’ll receive access to <strong>six monthly check-in calls.</strong> You’ll be able to bring problems and challenges, ask questions, and receive personalized feedback. We'll make sure everyone is making progress on their journey.</p>
+                <p class="text-sm text-gray-500 mt-2">60 min x 6, Visionaries + Doer's</p>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- Pricing Section -->
+    <div id="pricing" class="mx-auto max-w-4xl text-base leading-7 mt-20 text-onyx-700">
+        <h2 class="text-left text-3xl font-extrabold tracking-tight text-onyx-700 sm:text-4xl">Pricing</h2>
+        <p class="mt-6 text-xl leading-8">Each organization can bring up to three people. We believe this course is most effective when more than one person from each organization attends. We want our pricing to encourage this by charging the same whether you send one person, two people, or three.</p>
+    </div>
+    <div class="mx-auto max-w-4xl text-base leading-7 mt-10 text-gray-700">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="border border-gray-300 rounded-xl p-6">
+                <h3 class="text-2xl font-bold tracking-tight mb-1 text-onyx-700">Cohort I</h3>
+                <p class="text-md text-onyx-700 mb-4">Begins June 2024</p>
+                <p class="app-pricing__price text-5xl font-bold tracking-tight text-onyx-700">$1,500 </p>
+                <p class="text-md mt-2 font-semi-bold text-onyx-700">per organization</p>
+                <a class="app-button mt-8 block w-full rounded-md bg-green-500 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" href="https://buy.stripe.com/28o6s24IB6tz3jGcMM">Reserve Your Seat</a>
+                <ul class="app-icon-list mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-onyx-600">
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Six Zoom sessions of training
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Five artifacts for your organization
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Weekly email summaries
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Ongoing coaching
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Access to video recordings
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="border border-gray-300 rounded-xl p-6">
+                <h3 class="text-2xl font-bold tracking-tight mb-1 text-onyx-700">Cohort II</h3>
+                <p class="text-md text-onyx-700 mb-4">Begins July 2024</p>
+                <p class="app-pricing__price text-5xl font-bold tracking-tight text-onyx-700">$1,500 </p>
+                <p class="text-md mt-2 font-semi-bold text-onyx-700">per organization</p>
+                <a class="app-button mt-8 block w-full rounded-md bg-green-500 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" href="https://buy.stripe.com/28o6s24IB6tz3jGcMM">Reserve Your Seat</a>
+                <ul class="app-icon-list mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-onyx-600">
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Six Zoom sessions of training
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Five artifacts for your organization
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Weekly email summaries
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Ongoing coaching
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Access to video recordings
+                    </li>
+                </ul>
+            </div>
+              <!-- Card 3 -->
+            <div class="border border-gray-300 rounded-xl p-6">
+                <h3 class="text-2xl font-bold tracking-tight mb-1 text-onyx-700">Cohort III</h3>
+                <p class="text-md text-onyx-700 mb-4">Begins September 2024</p>
+                <p class="app-pricing__price text-5xl font-bold tracking-tight text-onyx-700">$1,500 </p>
+                <p class="text-md mt-2 font-semi-bold text-onyx-700">per organization</p>
+                <a class="app-button mt-8 block w-full rounded-md bg-green-500 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" href="https://buy.stripe.com/28o6s24IB6tz3jGcMM">Reserve Your Seat</a>
+                <ul class="app-icon-list mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-onyx-600">
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Six Zoom sessions of training
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Five artifacts for your organization
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Weekly email summaries
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Ongoing coaching
+                    </li>
+                    <li class="flex gap-x-3 items-center">
+                        <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                        </svg>
+                        Access to video recordings
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Section -->
+    <div class="mx-auto max-w-4xl divide-y divide-onyx-700/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+       <h2 class="text-left text-3xl font-extrabold tracking-tight text-onyx-700 sm:text-4xl">Frequently asked questions</h2>
+        <dl class="mt-10 space-y-8 divide-y divide-onyx-700/10">
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">I don’t know very much about software. Will this be over my head?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">NO! We made this specifically for you. The content is approachable, and you will receive plenty of personalized help.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">How many people will be in each cohort?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">8-12 people from 4-6 different organizations.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">When will the sessions take place?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">Once we confirm the cohort, we’ll find a day and time that works best for everyone. We’ll try to meet on the same day and time each week.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">What happens if the cohort session dates won't work for me?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">You can either join the next cohort with dates that work for you or we'll happily provide a refund.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">How much time will I need to complete the work between each session?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">We’d suggest blocking 2-4 hours each week to make progress on the artifacts outside of the sessions.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">What if I am the visionary and the doer in my organization?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">You are a legend! (And you are welcome to attend.)</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">Our organization uses Salesforce. Will this be relevant to us?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">Yes, this course is tool-agnostic, meaning it will be beneficial regardless of whether you are using a comprehensive ecosystem like Salesforce or Zoho, or assembling your software stack with a collection off-the-shelf tools.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">What happens if I miss a session?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">Please don’t! (But we get it.) We will provide a link to the meeting recording in the email summary following each session.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">Who is Moonbase Labs?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                <p class="text-base leading-7 text-onyx-600">Moonbase Labs is a three-person software development company that builds great tools for nonprofits. We have Midwest roots and like to have fun. You can <a href="https://moonbaselabs.com/about/" class="text-blue-500 underline">learn more about us</a>.</p>
+            </dd>
+        </div>
+        <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+            <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">Will you sell me services from Moonbase Labs in this course?</dt>
+            <dd class="mt-4 lg:col-span-7 lg:mt-0">
+            <p class="text-base leading-7 text-onyx-600">Nope.</p>
+            </dd>
+        </div>
+        </dl>
+    </div>
+    <div class="mx-auto max-w-4xl text-base text-onyx-700">
+        <h2 class="text-left text-3xl leading-9 font-extrabold tracking-tight text-onyx-700 sm:text-4xl">Do you have more questions that we didn't answer?</h2>
+        <p class="mt-6 text-xl leading-8">
+        <a data-savvycal-embed href="https://savvycal.com/tedkriwiel/meet" style="color: onyx-700; text-decoration: underline;">Schedule a meeting with Ted</a> and he'd be happy to talk more. 
+        </p>
     </div>
 </div>
 <cta-missions @label="Nonprofits" :@missions="collections.missions.filter(mission => mission.data.tags.includes('nonprofit')).slice(-3).reverse()"></cta-missions>
