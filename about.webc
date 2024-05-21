@@ -5,7 +5,7 @@ description: Meg Ryan (from You've Got Mail) was right. Business is personal. We
 ---
 
 <div class="overflow-hidden">
-    <container class="mt-8 sm:mt-12 md:mt-24 lg:flex">
+    <container class="mt-16 lg:mt-24 lg:flex">
         <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <page-head class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8"></page-head>
             <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -27,10 +27,10 @@ description: Meg Ryan (from You've Got Mail) was right. Business is personal. We
         </div>
     </container>
 </div>
-<container class="mt-16 sm:mt-24 md:mt-48 grid grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
+<container class="mt-32 lg:mt-48 grid grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
     <div class="max-w-2xl xl:col-span-2">
         <h2 class="text-2xl font-medium tracking-tight text-gray-800 sm:text-3xl">Meet the Crew</h2>
-        <p class="mt-6 text-lg text-gray-600">We are explorers, tinkerers, painters, and poets. We have the Design, Analytics, and Engineering skills to build your&nbsp;vision.</p>
+        <p class="mt-6 text-lg text-gray-600">We are explorers, tinkerers, painters, and poets. We have the design, analytics, and web skills to bring your ideas&nbsp;to&nbsp;life.</p>
     </div>
     <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-100 xl:col-span-3">
         <li webc:for="(name, member) in team" class="flex flex-col gap-10 pt-12 sm:flex-row">

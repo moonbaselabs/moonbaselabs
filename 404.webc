@@ -18,7 +18,7 @@ description: Lost in space?
 
     @keyframes move-right {
         from {
-            transform: translate(0, 50vh);
+            transform: translate(0, 70vh);
         }
 
         to {
@@ -26,13 +26,7 @@ description: Lost in space?
         }
     }
 </style>
-<div class="bg-gray-900 relative overflow-hidden">
-    <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-        <div class="relative h-full text-lg max-w-prose mx-auto">
-            <decoration-star-dust class="absolute top-0 right-full transform -translate-x-32"></decoration-star-dust>
-            <decoration-star-dust class="absolute bottom-0 left-full transform"></decoration-star-dust>
-        </div>
-    </div>
+<div class="h-[calc(100vh_-_5.5rem)] bg-gray-900 relative overflow-hidden">
     <div class="move-right absolute top-0 left-0 w-56 h-56">
         <svg viewBox="0 0 296 176">
             <title>An lonely satellite floating through space</title>
@@ -48,8 +42,8 @@ description: Lost in space?
     <div class="relative w-screen h-[60vh] flex justify-center items-center">
         <div class="relative text-center px-4">
             <h1 class="text-3xl font-display font-bold text-white sm:text-4xl">Lost in space?</h1>
-            <p class="text-xl font-serif text-gold-500">Don't worry, our mission control team already has a recovery plan!</p>
-            <a href="/" class="btn mt-6">
+            <p class="mt-4 text-xl font-serif text-gold-500">Don't worry, our mission control team already has a recovery plan!</p>
+            <a href="/" class="btn mt-8">
                 Return Home
             </a>
         </div>

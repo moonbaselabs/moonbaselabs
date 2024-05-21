@@ -45,12 +45,13 @@ export default {
         400: '#269CEA',
         500: '#188EDB',
         600: '#0F76B9',
+        700: '#0F71B3',
       },
       violet: {
         300: '#CFB8FF',
         400: '#B290F8',
         500: '#A27AF3',
-        600: '#885AE9',
+        600: '#8659E8',
       },
     },
     extend: {
@@ -62,6 +63,9 @@ export default {
         DEFAULT: {
           css: {
             color: theme('colors.gray.700'),
+            a: {
+              color: theme('colors.blue.600'),
+            },
             blockquote: {
               borderColor: theme('colors.orange.500'),
             },

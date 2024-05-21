@@ -1,13 +1,13 @@
 <div class="bg-gradient-to-t from-gray-900 to-gray-800">
     <div class="relative py-24" style="background: url(/img/grid.svg) bottom/1580px">
         <div class="relative">
-            <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+            <div class="text-center mx-auto max-w-md px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
                 <h2 class="text-base font-serif font-medium tracking-wider text-gold-300"><span @text="label || 'Organizations'"></span> we’ve sent</h2>
                 <p class="mt-2 text-3xl font-display font-medium text-white tracking-tight sm:text-4xl">
                     To the moon and beyond
                 </p>
             </div>
-            <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
+            <div class="mt-12 mx-auto max-w-md px-6 grid gap-8 sm:max-w-lg lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
                 <mission webc:for="mission of missions" :mission="mission"></mission>
             </div>
         </div>

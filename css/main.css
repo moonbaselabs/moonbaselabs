@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-}
-
 .btn {
   @apply inline-flex items-center justify-center border-0 font-medium font-serif px-4 py-2 bg-gray-800 text-white;
 }
@@ -16,6 +12,11 @@ html {
 
 .btn-lg {
   @apply px-6 py-3 text-base;
+}
+
+.fullbleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
 }
 
 article .prose>p:first-child {

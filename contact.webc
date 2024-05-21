@@ -6,7 +6,7 @@ description: Fill out the form and we'll respond with a scheduling link to setup
 
 <container class="pb-24">
     <div class="relative max-w-xl">
-        <page-head class="py-8 mx-auto max-w-3xl sm:py-12 md:py-24 lg:mx-0"></page-head>
+        <page-head class="mx-auto max-w-3xl py-16 lg:py-24 lg:mx-0"></page-head>
         <form action="https://submit-form.com/oQ8OVKV8y" method="POST">
             <input type="hidden" name="_feedback.dark" value="true" />
             <input type="hidden" name="_feedback.whitelabel" value="true" />
@@ -39,8 +39,8 @@ description: Fill out the form and we'll respond with a scheduling link to setup
                     <div class="cf-turnstile" data-sitekey="0x4AAAAAAAYsna4jPW8hWA3p"></div>
                     <script webc:keep src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
                 </div>
-                <button class="btn">Send Message</button>
             </div>
+            <button class="mt-10 btn">Send Message</button>
         </form>
     </div>
 </container>
