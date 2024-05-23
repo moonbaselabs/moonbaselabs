@@ -1,7 +1,7 @@
 ---
 layout: layout.webc
 title: Nonprofit Tech Cohort
-description: A six week course to become a tech-savvy nonprofit. 
+description: A six-week course to become a tech-savvy nonprofit. 
 ---
 <div class="container mx-auto px-12 py-32 lg:px-12">
     <!-- Header section with description and call-to-action -->
@@ -158,7 +158,7 @@ description: A six week course to become a tech-savvy nonprofit.
             <div class="w-full md:w-1/2 flex flex-col justify-center px-4">
                 <h3 class="text-2xl font-bold text-onyx-700">The Visionary</h3>
                 <p class="mt-4 text-lg mb-2 text-onyx-600">
-                    Leads the organization, has the authority to make difficult tradeoffs, and can build consensus around a vision. (Might be a founder or CEO or COO.) <br/>
+                    Leads the organization, has the authority to make difficult tradeoffs, and can build consensus around a vision. (Might be a founder, or CEO, or COO.) <br/>
                 </p>
             </div>
             <div class="w-full md:w-1/2">
@@ -192,7 +192,7 @@ description: A six week course to become a tech-savvy nonprofit.
             <div class="bg-white p-6">
                 <span class="text-blue-600 font-semibold">Module 1</span>
                 <h3 class="text-2xl font-bold text-gray-900">Kickoff</h3>
-                <p class="text-gray-700 mt-2">Meet the cohort. Set expectations for the course and articulate goals for the experience. We’ll Ensure the right people are in the room and set everyone up for success. Ask each organization to complete the software inventory, which we will review in the next session.</p>
+                <p class="text-gray-700 mt-2">Meet the cohort. Set expectations for the course and articulate goals for the experience. We’ll ensure the right people are in the room and set everyone up for success. Ask each organization to complete the software inventory, which we will review in the next session.</p>
                 <p class="text-sm text-gray-500 mt-2">60 min, Visionaries + Doer's</p>
             </div>
             <div class="bg-white p-6">
@@ -251,7 +251,7 @@ description: A six week course to become a tech-savvy nonprofit.
                     <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
                     </svg>
-                    Six Zoom sessions of training
+                    Six Zoom training sessions
                 </li>
                 <li class="flex gap-x-3 items-center">
                     <svg class="h-6 w-6 flex-none text-green-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -324,19 +324,19 @@ description: A six week course to become a tech-savvy nonprofit.
         <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
             <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">Our organization uses Salesforce. Will this be relevant to us?</dt>
             <dd class="mt-4 lg:col-span-7 lg:mt-0">
-            <p class="text-base leading-7 text-onyx-600">Yes, this course is tool-agnostic, meaning it will be beneficial regardless of whether you are using a comprehensive ecosystem like Salesforce or Zoho, or assembling your software stack with a collection off-the-shelf tools.</p>
+            <p class="text-base leading-7 text-onyx-600">Yes, this course is tool-agnostic, meaning it will be beneficial regardless of whether you are using a comprehensive ecosystem like Salesforce or Zoho, or assembling your software stack with a collection of off-the-shelf tools.</p>
             </dd>
         </div>
         <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
             <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">What happens if I miss a session?</dt>
             <dd class="mt-4 lg:col-span-7 lg:mt-0">
-            <p class="text-base leading-7 text-onyx-600">Please don’t! (But we get it.) We will provide a link to the meeting recording in the email summary following each session.</p>
+            <p class="text-base leading-7 text-onyx-600">Please don’t! (But we get it.) We will provide a link to the meeting recording in the email summary after each session.</p>
             </dd>
         </div>
         <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
             <dt class="text-base font-semibold leading-7 text-onyx-700 lg:col-span-5">Who is Moonbase Labs?</dt>
             <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-onyx-600">Moonbase Labs is a three-person software development company that builds great tools for nonprofits. We have Midwest roots and like to have fun. You can <a href="https://moonbaselabs.com/about/" class="text-blue-500 underline">learn more about us</a>.</p>
+                <p class="text-base leading-7 text-onyx-600">Moonbase Labs is a three-person software development company that builds great tools for nonprofits. We have Midwest roots and like to have fun. You can <a href="https://moonbaselabs.com/about/" class="text-blue-500 underline">learn more about us here</a>.</p>
             </dd>
         </div>
         <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
