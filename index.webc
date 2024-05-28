@@ -30,14 +30,14 @@ title: Moonbase Labs
 <container class="mt-32 lg:mt-2">
     <div class="grid gap-16 items-center md:grid-cols-2">
         <div class="prose sm:prose-lg md:prose-xl md:order-1">
-            <h2 class="font-medium text-gray-600">People on a <strong class="font-medium text-gold-600">mission</strong> like...</h2>
+            <h2 class="font-medium text-gray-600">People on a <strong class="font-medium text-gold-600">mission</strong> like these...</h2>
             <ul class="font-serif">
                 <li>Nonprofit lenders so they can provide digital loan applications for rural entrepreneurs.</li>
                 <li>Baby sleep experts so they can help millions of parents get a good night sleep.</li>
                 <li>Last mile delivery companies so they can find the perfect electric vehicles for their fleet.</li>
                 <li>Leadership organizations so they can build grassroots movements</li>
             </ul>
-            <p>And many more...</p>
+            <p>And many more.</p>
         </div>
         <div>
             <img src="/img/people.avif" alt="">
@@ -49,11 +49,11 @@ title: Moonbase Labs
     <div class="grid gap-16 items-center md:grid-cols-2">
         <div class="prose sm:prose-lg md:prose-xl">
             <h2 class="font-medium text-gray-600">What they all share in common</h2>
-            <p><strong>Ambition.</strong> All of our clients are building something great. They’ve established credibility and built a novel way of delivering value to their stakeholders. We tend to meet our clients when they begin to stall.</p>
+            <p><strong>Ambition.</strong> All of our clients are building something great. They’ve established credibility and built a novel way of delivering value to their stakeholders. In spite of their success, we tend to meet our clients when they feel stuck.</p>
             <ul class="font-serif">
                 <li>Managers spend most of their time putting out fires</li>
                 <li>Top talent becomes the duct tape for broken processes</li>
-                <li>Vision wanes as people lose focus on what’s coming next</li>
+                <li>Their software feels like its doing more harm than good</li>
             </ul>
             <p>Our clients are leaders in their industry. They are committed to evolution and reinvention. To remain leaders, they must innovate. That’s why they turn to Moonbase Labs.</p>
         </div>
