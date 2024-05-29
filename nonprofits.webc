@@ -18,7 +18,7 @@ description: A six-week course to become a tech-savvy nonprofit.
                 <a href="#pricing" class="mt-10 btn btn-lg">Reserve Your Seat</a>
             </div>
             <div class="flex items-center justify-center">
-                <img src="/img/people.avif" alt="" width="576" height="459" class="w-full h-auto">
+                <img loading="lazy" src="/img/people.avif" alt="" width="576" height="459" class="w-full h-auto">
             </div>
         </div>
     </container>
@@ -43,7 +43,7 @@ description: A six-week course to become a tech-savvy nonprofit.
             <container class="relative flex flex-col items-center gap-x-8 gap-y-10 sm:gap-y-8 lg:flex-row lg:items-stretch">
                 <div class="-mt-8 w-full max-w-2xl lg:-mb-8 lg:w-96 lg:flex-none">
                     <div class="relative aspect-[2/1.5] h-full md:-mx-8 lg:mx-0 lg:aspect-auto">
-                        <img class="absolute inset-0 h-full w-full bg-gray-800 object-cover shadow-none ring-1 ring-violet-300/25 lg:shadow-2xl lg:shadow-violet-500 lg:ring-1" src="/img/ted_profile.jpg" alt="">
+                        <img loading="lazy" class="absolute inset-0 h-full w-full bg-gray-800 object-cover shadow-none ring-1 ring-violet-300/25 lg:shadow-2xl lg:shadow-violet-500 lg:ring-1" src="/img/ted_profile.jpg" alt="">
                     </div>
                 </div>
                 <div class="w-full max-w-2xl lg:max-w-none lg:flex-auto lg:px-16 lg:py-24">
@@ -328,7 +328,7 @@ description: A six-week course to become a tech-savvy nonprofit.
                 <p class="text-xl"><a class="underline font-medium text-blue-700" href="https://savvycal.com/tedkriwiel/meet">Schedule a meeting with Ted</a> and he'd be happy to talk more.</p>
             </div>
             <div class="hidden absolute top-0 left-full w-screen h-full bg-[#E1E3E5] md:block"></div>
-            <img loading="lazy" class="relative left-6 md:mt-0 md:absolute md:left-full md:top-0 md:h-full md:max-w-none" src="/img/cta.avif" alt="">
+            <img loading="lazy" class="relative left-6 md:mt-0 md:absolute md:left-full md:top-0 md:h-full md:max-w-none" src="/img/cta.avif" width="871" height="427" alt="">
         </div>
     </container>
 </div>

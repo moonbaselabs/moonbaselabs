@@ -40,7 +40,7 @@ title: Moonbase Labs
             <p>And many more.</p>
         </div>
         <div>
-            <img src="/img/people.avif" alt="">
+            <img loading="lazy" src="/img/people.avif" width="576" height="459" alt="">
         </div>
     </div>
 </container>
@@ -58,7 +58,7 @@ title: Moonbase Labs
             <p>Our clients are leaders in their industry. They are committed to evolution and reinvention. To remain leaders, they must innovate. That’s why they turn to Moonbase Labs.</p>
         </div>
         <div>
-            <img loading="lazy" src="/img/info.avif" alt="">
+            <img loading="lazy" src="/img/info.avif" width="576" height="477" alt="">
         </div>
     </div>
 </container>
@@ -87,7 +87,7 @@ title: Moonbase Labs
             </dl>
         </div>
         <div>
-            <img loading="lazy" src="/img/help.avif" alt="">
+            <img loading="lazy" src="/img/help.avif" width="576" height="544" alt="">
         </div>
     </div>
 </container>
