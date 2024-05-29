@@ -7,7 +7,11 @@ title: Moonbase Labs
     <container>
         <div class="lg:flex">
             <div class="relative z-10 max-w-[30rem] mx-auto pt-16 lg:mx-0 lg:py-72">
-                <h1 class="text-4xl font-semibold sm:text-5xl text-gray-600">We build software for<br><span class="font-serif font-normal text-gold-600 lg:text-gold-700">people on a mission</span>.</h1>
+                <h1 class="text-4xl font-semibold sm:text-5xl text-gray-600">
+                    We build software for
+                    <br class="hidden sm:inline">
+                    <span class="font-serif font-normal text-gold-600 lg:text-gold-700">people on a mission</span>.
+                </h1>
                 <p class="text-lg mt-6">With Moonbase Labs, you can improve how you work and accomplish more.</p>
                 <a href="/contact/" class="mt-10 btn btn-lg">
                     <span>Get <em>started</em></span>
