@@ -204,7 +204,7 @@ description: A six-week course to become a tech-savvy nonprofit.
     <div class="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-violet-300 shadow-xl shadow-violet-400/25 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
         <div class="p-8 sm:p-10 lg:flex-auto">
             <h3 class="text-2xl font-bold tracking-tight text-gray-900">Cohort I</h3>
-            <p class="mt-6 font-medium font-serif text-lg text-violet-600">Begins June 2024</p>
+            <p class="mt-6 font-medium font-serif text-lg text-violet-600">Deadline to apply: June 20, 2024</p>
             <div class="mt-10 flex items-center gap-x-4">
                 <h4 class="flex-none text-sm font-semibold leading-6">What’s included</h4>
                 <div class="h-px flex-auto bg-gray-100"></div>
