@@ -1,5 +1,5 @@
 ---
-title: ARC+ Physical Therapy
+title: Data Marketing Automation
 description: Using analytics to enhance marketing efforts and deepen partnerships.
 date: 2021-07-16
 client: ARC+ Physical Therapy

@@ -1,5 +1,5 @@
 ---
-title: WorkReady
+title: Relation Management Portal
 description: "From spreadsheets to software: Using data to give work to those that need it most."
 date: 2021-04-09
 client: WorkReady
@@ -19,7 +19,7 @@ WorkReady’s remote team of 30 employees is spread across the state of Texas. T
 Through in-depth discussions with the WorkReady team, Moonbase Labs built a customized portal that solved three problems:
 
 **Centralized the workflow and created a single source of truth**<br>
-Because progress was dependent on emails and attachments, managing the paperwork and files for hundreds of clients was daunting. Creating a centralized repository of all of their client details, files, and benchmark deadlines. This critical upgrade meant that everyone was, for the first time, looking at the same data.  Increasing transparency immediately improved collaboration and communication at all levels of the organization.
+Because progress was dependent on emails and attachments, managing the paperwork and files for hundreds of clients was daunting. Creating a centralized repository of all of their client details, files, and benchmark deadlines. This critical upgrade meant that everyone was, for the first time, looking at the same data. Increasing transparency immediately improved collaboration and communication at all levels of the organization.
 
 **Fostered deeper engagement with employers**<br>
 In this work, developing relationships with employers is essential to creating placements for clients, but WorkReady was unable to organize and document these partnerships. By creating a few basic CRM (Customer Relationship Management) tools, the WorkReady team was able to track their calls and emails with potential employers. This shared, company-wide employer database allowed team members to explore past activity with potential employers and discover trends like which industries were most actively hiring.

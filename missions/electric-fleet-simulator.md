@@ -1,5 +1,5 @@
 ---
-title: Lightning eMotors
+title: Electric Fleet Simulator
 description: Creating tools for fleet managers converting to all-electric vehicles.
 date: 2023-11-01
 client: Lightning eMotors
