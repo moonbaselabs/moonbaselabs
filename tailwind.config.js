@@ -3,7 +3,7 @@ import typography from '@tailwindcss/typography'
 import forms from '@tailwindcss/forms'
 
 export default {
-  content: ["./**/*.{html,njk,webc,svg}"],
+  content: ["./**/*.{html,njk,webc,md,svg}"],
   theme: {
     colors: {
       transparent: 'transparent',
