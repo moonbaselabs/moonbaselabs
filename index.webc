@@ -39,7 +39,7 @@ title: Moonbase Labs
                 <li>Nonprofit lenders so they can provide digital loan applications for rural entrepreneurs.</li>
                 <li>Baby sleep experts so they can help millions of parents get a good night sleep.</li>
                 <li>Last mile delivery companies so they can find the perfect electric vehicles for their fleet.</li>
-                <li>Leadership organizations so they can build grassroots movements</li>
+                <li>Leadership organizations so they can build grassroots movements.</li>
             </ul>
             <p>And many more.</p>
         </div>
@@ -55,9 +55,9 @@ title: Moonbase Labs
             <h2 class="text-balance font-medium text-gray-600">What they all share in common</h2>
             <p><strong>Ambition.</strong> All of our clients are building something great. They’ve established credibility and built a novel way of delivering value to their stakeholders. In spite of their success, we tend to meet our clients when they feel stuck.</p>
             <ul class="font-serif">
-                <li>Managers spend most of their time putting out fires</li>
-                <li>Top talent becomes the duct tape for broken processes</li>
-                <li>Their software feels like its doing more harm than good</li>
+                <li>Managers spend most of their time putting out fires.</li>
+                <li>Top talent becomes the duct tape for broken processes.</li>
+                <li>Their software feels like its doing more harm than good.</li>
             </ul>
             <p>Our clients are leaders in their industry. They are committed to evolution and reinvention. To remain leaders, they must innovate. That’s why they turn to Moonbase Labs.</p>
         </div>
@@ -73,20 +73,16 @@ title: Moonbase Labs
             <h2 class="text-balance font-medium text-gray-600">How we help</h2>
             <dl>
                 <div>
-                    <dt>Articulate the problem. (This is harder than writing code.)</dt>
-                    <dd>Usually this includes diagrams, writing and some back and forth between our teams.</dd>
-                </div>
-                <div>
-                    <dt>Identify opportunities</dt>
-                    <dd>Can we streamline the system? Automate a review process? Replace bad software? All of these are opportunities for innovation. We help companies by moving top talent from low leverage work to high leverage work. If software can do it, people shouldn’t.</dd>
+                    <dt>Identify the problem space</dt>
+                    <dd>Usually this includes diagrams, writing, prototypes, and some back and forth between our teams.</dd>
                 </div>
                 <div>
                     <dt>Create a backlog</dt>
-                    <dd>We’ll work with you to rank the opportunities based on what you think will have the largest impact.</dd>
+                    <dd>Can we streamline the system? Automate a review process? Replace bad software? All of these are opportunities for innovation. We’ll work with you to rank the opportunities based on what you think will have the largest impact.</dd>
                 </div>
                 <div>
-                    <dt>Then we build solutions!</dt>
-                    <dd>(That’s our favorite part.)</dd>
+                    <dt>Build your solution</dt>
+                    <dd>We’ll equip your team members with handcrafted tools to boost what they do best. We focus on a fast turnaround so we can collect feedback and continue to refine our direction.</dd>
                 </div>
             </dl>
         </div>
