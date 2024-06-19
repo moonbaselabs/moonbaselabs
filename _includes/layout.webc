@@ -132,16 +132,13 @@
         <container>
             <div class="lg:flex items-center justify-between">
                 <nav-link href="/">
-                    <img class="block h-14 mx-auto" width="192" height="56" src="/img/logo.svg" alt="Moonbase Labs">
+                    <img class="block mx-auto" width="192" height="56" src="/img/logo.svg" alt="Moonbase Labs">
                 </nav-link>
-                <nav class="mt-2 sm:mt-0">
-                    <div class="flex flex-wrap items-center justify-center lg:-mt-5 -ml-5">
-                        <div class="flex items-center space-x-5 ml-5 mt-5 sm:space-x-10">
-                            <nav-link href="/about/">About</nav-link>
-                            <nav-link href="/missions/">Missions</nav-link>
-                            <nav-link href="/blog/">Blog</nav-link>
-                        </div>
-                        <a href="/contact/" class="mt-5 ml-5 sm:ml-10 btn btn-lg">
+                <nav class="mt-5 text-center overflow-x-auto overflow-y-hidden -mx-6 lg:mt-0">
+                    <div class="px-6 inline-flex align-middle flex items-center space-x-5 sm:space-x-10">
+                        <nav-link href="/missions/">Missions</nav-link>
+                        <nav-link href="/about/">About</nav-link>
+                        <a href="/contact/" class="ml-5 sm:ml-10 btn btn-lg whitespace-nowrap">
                             <span>Get <em>started</em></span>
                             <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                         </a>
@@ -154,7 +151,7 @@
     <main id="main" @raw="content"></main>
 
     <footer class="overflow-hidden bg-gray-900 pt-24 space-y-16 sm:space-y-0 sm:pb-96 relative">
-        <container class="relative z-10">
+        <container @fluid="true" class="relative z-10">
             <div class="relative grid gap-10 lg:gap-16 lg:grid-cols-3">
                 <div>
                     <img loading="lazy" class="h-14" width="192" height="56" src="/img/logo.svg" alt="Moonbase Labs">

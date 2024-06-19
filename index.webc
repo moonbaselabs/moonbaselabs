@@ -31,10 +31,10 @@ title: Moonbase Labs
     </container>
 </div>
 
-<container class="mt-32 lg:mt-2">
+<container @fluid="true" class="mt-32 lg:mt-2">
     <div class="grid gap-16 items-center md:grid-cols-2">
         <div class="prose sm:prose-lg md:prose-xl md:order-1">
-            <h2 class="font-medium text-gray-600">People on a <strong class="font-medium text-gold-600">mission</strong> like these...</h2>
+            <h2 class="text-balance font-medium text-gray-600">People on a <strong class="font-medium text-gold-600">mission</strong> like...</h2>
             <ul class="font-serif">
                 <li>Nonprofit lenders so they can provide digital loan applications for rural entrepreneurs.</li>
                 <li>Baby sleep experts so they can help millions of parents get a good night sleep.</li>
@@ -49,10 +49,10 @@ title: Moonbase Labs
     </div>
 </container>
 
-<container class="mt-32 lg:mt-48">
+<container @fluid="true" class="mt-32 lg:mt-48">
     <div class="grid gap-16 items-center md:grid-cols-2">
         <div class="prose sm:prose-lg md:prose-xl">
-            <h2 class="font-medium text-gray-600">What they all share in common</h2>
+            <h2 class="text-balance font-medium text-gray-600">What they all share in common</h2>
             <p><strong>Ambition.</strong> All of our clients are building something great. They’ve established credibility and built a novel way of delivering value to their stakeholders. In spite of their success, we tend to meet our clients when they feel stuck.</p>
             <ul class="font-serif">
                 <li>Managers spend most of their time putting out fires</li>
@@ -67,10 +67,10 @@ title: Moonbase Labs
     </div>
 </container>
 
-<container class="mt-32 lg:mt-48">
+<container @fluid="true" class="mt-32 lg:mt-48">
     <div class="grid gap-16 items-center md:grid-cols-2">
         <div class="prose sm:prose-lg md:prose-xl md:order-1">
-            <h2 class="font-medium text-gray-600">How we help</h2>
+            <h2 class="text-balance font-medium text-gray-600">How we help</h2>
             <dl>
                 <div>
                     <dt>Articulate the problem. (This is harder than writing code.)</dt>

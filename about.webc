@@ -1,19 +1,16 @@
 ---
 layout: layout.webc
-title: We’re Moonbase Labs
-description: Meg Ryan (from You've Got Mail) was right. Business is personal. We care about each other! We try to make work fun. We are occasionally silly.
+title: Meet the Crew
+description: We’ve been tackling digital problems together for over eight (earth) years.
 ---
 
-<container class="mt-32 lg:mt-48 grid grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
-    <div class="max-w-2xl xl:col-span-2">
-        <h2 class="text-2xl font-medium tracking-tight text-gray-800 sm:text-3xl">Meet the Crew</h2>
-        <p class="mt-6 text-lg text-gray-600">We are explorers, tinkerers, painters, and poets. We have the design, analytics, and web skills to bring your ideas&nbsp;to&nbsp;life.</p>
-    </div>
-    <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-100 xl:col-span-3">
-        <li webc:for="(name, member) in team" class="flex flex-col gap-10 pt-12 sm:flex-row">
+<container>
+    <page-head class="py-16 lg:py-24"></page-head>
+    <ul role="list" class="grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
+        <li webc:for="(name, member) in team" class="flex flex-col gap-6 xl:flex-row">
             <img loading="lazy" class="aspect-[4/5] w-52 flex-none object-cover" :src="member.image" alt="">
             <div class="max-w-xl flex-auto">
-                <h2 class="mt-6 text-lg leading-8 text-gray-600 font-medium" @text="member.name"></h2>
+                <h2 class="text-lg leading-8 text-gray-600 font-semibold" @text="member.name"></h2>
                 <p class="text-gold-700 font-serif" @text="member.role"></p>
                 <p class="mt-4" @html="member.description"></p>
                 <ul class="mt-6 flex space-x-6">

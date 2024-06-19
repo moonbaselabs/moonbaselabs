@@ -1,35 +1,22 @@
 export default {
+  "Christian Taylor": {
+    name: "Christian Taylor",
+    image: '/img/about/christian-taylor.jpg',
+    role: 'All things code',
+    description: "A Fine Arts major that's been writing code for over fifteen years, Christian can design your marketing page and database schema all in the same day. A passionate contributor to the music, art, and tech communities of Wichita.",
+    socials: {
+      Website: "https://imacrayon.com",
+      Twitter: "https://twitter.com/ima_crayon",
+    }
+  },
   "Nic Wentling": {
     name: "Nic Wentling",
     image: '/img/about/nic-wentling.jpg',
-    title: "Principal Owner",
-    role: "Strategy & Partnerships",
-    description: "Software engineer with a passion for solving technical problems. Formerly a Material and Process Engineer at Textron Aviation.",
+    role: 'Strategy & partnerships',
+    description: "Formerly a Material and Process Engineer at Textron Aviation, Nic loves to roll up his sleeves and dive head-first into the details. A connoisseur of fine video games and documentaries, he’ll take every opportunity to learn something new.",
     socials: {
       LinkedIn: "https://www.linkedin.com/in/nic-wentling/",
       Twitter: "https://twitter.com/nwentling5",
     }
   },
-  "Ted Kriwiel": {
-    name: "Ted Kriwiel",
-    image: '/img/about/ted-kriwiel.jpg',
-    title: "Partner",
-    role: "Business Development & Data Analytics",
-    description: "Data analyst who enjoys telling stories with numbers. Founder of <a href=\"https://www.8oaks.org/\">Eight Oaks.</a>",
-    socials: {
-      LinkedIn: "https://www.linkedin.com/in/ted-kriwiel/",
-      Twitter: "https://twitter.com/tedkriwiel",
-    }
-  },
-  "Christian Taylor": {
-    name: "Christian Taylor",
-    image: '/img/about/christian-taylor.jpg',
-    title: "Partner",
-    role: "Web Development",
-    description: "Visual artist and web developer. Passionate contributor to the tech and art communities of Wichita.",
-    socials: {
-      Website: "https://imacrayon.com",
-      Twitter: "https://twitter.com/ima_crayon",
-    }
-  }
 }

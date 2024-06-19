@@ -1,4 +1,4 @@
 <header @attributes>
     <h1 class="text-4xl font-semibold tracking-tight text-gray-600 sm:text-5xl" @text="$data.title"></h1>
-    <p class="mt-6 text-xl leading-8" @text="$data.description"></p>
+    <p class="mt-6 text-xl leading-8 text-balance" @text="$data.description"></p>
 </header>
