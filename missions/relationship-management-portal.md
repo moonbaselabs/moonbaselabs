@@ -1,7 +1,7 @@
 ---
 title: Relation Management Portal
 description: "From spreadsheets to software: Using data to give work to those that need it most."
-date: 2021-04-09
+date: 2016-04-09
 client: WorkReady
 industry: Social Service
 image: /img/missions/workready.jpg

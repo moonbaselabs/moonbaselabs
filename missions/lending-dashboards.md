@@ -1,7 +1,7 @@
 ---
 title: Community Lending Dashboards
 description: Giving tools to community leaders to support entrepreneurs.
-date: 2024-02-01
+date: 2016-02-01
 client: NetWork Kansas
 industry: Community Lending
 url: https://networkkansas.com
