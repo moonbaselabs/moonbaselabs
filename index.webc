@@ -49,6 +49,8 @@ title: Moonbase Labs
     </div>
 </container>
 
+<img src="https://tick.rs/c+/moonbaselabs.gif">
+
 <container @fluid="true" class="mt-32 lg:mt-48">
     <div class="grid gap-16 items-center md:grid-cols-2">
         <div class="prose sm:prose-lg md:prose-xl">
