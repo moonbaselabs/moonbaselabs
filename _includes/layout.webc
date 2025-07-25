@@ -171,9 +171,6 @@
                         <a href="/missions/" class="text-base text-gray-300 hover:text-white">
                             Missions
                         </a>
-                        <a href="/blog/" class="text-base text-gray-300 hover:text-white">
-                            Blog
-                        </a>
                     </nav>
                     <nav aria-label="Social" class="mt-6 flex items-center justify-center space-x-4">
                         <a rel="me" href="https://twitter.com/moonbaselabs" class="bg-gray-600 text-gray-100 rounded-full p-1.5 hover:text-white">
