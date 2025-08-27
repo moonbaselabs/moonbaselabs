@@ -66,13 +66,11 @@ description: Ready to start your mission? Give us a call or send us a message.
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Your name *</label>
                         <input type="text" name="name" id="name" required 
-                               placeholder="Neil Armstrong"
                                class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
                     </div>
                     <div>
                         <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email address *</label>
                         <input type="email" name="email" id="email" required 
-                               placeholder="houston@nasa.com"
                                class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
                     </div>
                     </div>
@@ -85,13 +83,11 @@ description: Ready to start your mission? Give us a call or send us a message.
                         <div>
                             <label for="organization" class="block text-sm font-medium text-gray-700 mb-2">Organization *</label>
                         <input type="text" name="organization" id="organization" required 
-                               placeholder="Apollo Enterprises"
                                class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
                     </div>
                     <div>
                         <label for="role" class="block text-sm font-medium text-gray-700 mb-2">Your role *</label>
                         <input type="text" name="role" id="role" required 
-                               placeholder="Mission Commander"
                                class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
                     </div>
                     </div>
@@ -100,13 +96,11 @@ description: Ready to start your mission? Give us a call or send us a message.
                         <div>
                             <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone number *</label>
                         <input type="tel" name="phone" id="phone" required 
-                               placeholder="(555) 555-2001"
                                class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
                     </div>
                     <div>
                         <label for="website" class="block text-sm font-medium text-gray-700 mb-2">Website (optional)</label>
                         <input type="url" name="website" id="website" 
-                               placeholder="https://nasa.com"
                                class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
                     </div>
                     </div>
@@ -117,7 +111,6 @@ description: Ready to start your mission? Give us a call or send us a message.
                     <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Your Mission</h3>
                     <label for="idea" class="block text-sm font-medium text-gray-700 mb-2">Tell us about your challenge *</label>
                     <textarea name="idea" id="idea" rows="5" required 
-                              placeholder="Describe the challenge you're facing and how we might help..."
                               class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors resize-none"></textarea>
                     <p class="mt-2 text-sm text-gray-500">The more details you share, the better we can prepare for our conversation.</p>
                     
@@ -133,46 +126,4 @@ description: Ready to start your mission? Give us a call or send us a message.
         </form>
         </div>
     </div>
-    
-    <script webc:keep>
-    // Phone number formatting
-    document.addEventListener('DOMContentLoaded', function() {
-        const phoneInput = document.getElementById('phone');
-        if (!phoneInput) return;
-        
-        phoneInput.addEventListener('input', function(e) {
-            // Remove all non-digit characters
-            let value = e.target.value.replace(/\D/g, '');
-            
-            // Limit to 10 digits
-            value = value.substring(0, 10);
-            
-            // Format the number
-            let formattedValue = '';
-            if (value.length > 0) {
-                if (value.length <= 3) {
-                    formattedValue = `(${value}`;
-                } else if (value.length <= 6) {
-                    formattedValue = `(${value.slice(0, 3)}) ${value.slice(3)}`;
-                } else {
-                    formattedValue = `(${value.slice(0, 3)}) ${value.slice(3, 6)}-${value.slice(6)}`;
-                }
-            }
-            
-            // Update the input value
-            e.target.value = formattedValue;
-        });
-        
-        // Handle backspace key for better UX
-        phoneInput.addEventListener('keydown', function(e) {
-            if (e.key === 'Backspace' && e.target.value.length > 0) {
-                const lastChar = e.target.value[e.target.value.length - 1];
-                if (lastChar === ' ' || lastChar === '-' || lastChar === ')') {
-                    e.preventDefault();
-                    e.target.value = e.target.value.slice(0, -1);
-                }
-            }
-        });
-    });
-    </script>
 </container>
