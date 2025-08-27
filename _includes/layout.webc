@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title @text="title ? (title + ' | ' + metadata.title) : metadata.title"></title>
+    <title @text="title && title !== metadata.title ? (title + ' | ' + metadata.title) : metadata.title"></title>
     <link webc:keep rel="stylesheet" :href="nocache('/css/main.css')">
     <style>
         @font-face {
