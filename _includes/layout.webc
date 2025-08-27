@@ -192,8 +192,20 @@
                             </svg>
                         </a>
                     </nav>
-                    <address class="mt-4 text-gray-300 not-italic font-serif text-balance lg:text-center">
-                        Locations in <strong class="text-gray-200 font-normal">Wichita, KS</strong> and <strong class="text-gray-200 font-normal">Kansas City, MO</strong>. Give us a call at <a rel="me" href="tel:+13162028539" class="text-gray-200 leading-none underline underline-offset-4 decoration-gray-300 hover:text-white">(316) 202-8539</a>.
+                    <address class="mt-6 text-gray-300 not-italic font-serif lg:text-center space-y-3">
+                        <div>
+                            <span class="block text-sm text-gray-400 mb-1">Located at</span>
+                            <a href="https://maps.google.com/?q=150+N+Main+STE+11+Wichita+KS+67202" target="_blank" class="text-gray-200 leading-relaxed underline underline-offset-4 decoration-gray-400 hover:text-white hover:decoration-gray-200 transition-colors">
+                                150 N Main, STE #11<br>
+                                Wichita, KS 67202
+                            </a>
+                        </div>
+                        <div>
+                            <span class="block text-sm text-gray-400 mb-1">Give us a call at</span>
+                            <a rel="me" href="tel:+13162028539" class="text-gray-200 text-lg leading-none underline underline-offset-4 decoration-gray-400 hover:text-white hover:decoration-gray-200 transition-colors">
+                                (316) 202-8539
+                            </a>
+                        </div>
                     </address>
                     <p class="mt-4 text-gray-300 lg:mt-auto">
                         &copy; <span @text="`${(new Date()).getFullYear()}`"></span> Moonbase Labs. All rights reserved.
