@@ -135,11 +135,13 @@
                     <img class="block mx-auto" width="192" height="56" src="/img/logo.svg" alt="Moonbase Labs">
                 </nav-link>
                 <nav class="mt-5 text-center overflow-x-auto overflow-y-hidden -mx-6 lg:mt-0">
-                    <div class="px-6 inline-flex align-middle flex items-center space-x-5 sm:space-x-10">
+                    <div class="px-6 inline-flex align-middle flex items-center space-x-3 sm:space-x-5 lg:space-x-10">
                         <nav-link href="/missions/">Missions</nav-link>
                         <nav-link href="/about/">About</nav-link>
-                        <a href="/contact/" class="ml-5 sm:ml-10 btn btn-lg whitespace-nowrap">
-                            <span>Get <em>started</em></span>
+                        <nav-link href="/contact/">Contact</nav-link>
+                        <a href="tel:+13162028539" class="ml-3 sm:ml-5 lg:ml-10 btn btn-lg whitespace-nowrap">
+                            <span class="hidden sm:inline">Call <em>(316) 202-8539</em></span>
+                            <span class="sm:hidden">Call</span>
                             <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                         </a>
                     </div>
@@ -170,6 +172,9 @@
                         </a>
                         <a href="/missions/" class="text-base text-gray-300 hover:text-white">
                             Missions
+                        </a>
+                        <a href="/contact/" class="text-base text-gray-300 hover:text-white">
+                            Contact
                         </a>
                     </nav>
                     <nav aria-label="Social" class="mt-6 flex items-center justify-center space-x-4">
