@@ -193,7 +193,7 @@
                         </a>
                     </nav>
                     <address class="mt-4 text-gray-300 not-italic font-serif text-balance lg:text-center">
-                        Locations in <strong class="text-gray-200 font-normal">Wichita, KS</strong> and <strong class="text-gray-200 font-normal">Kansas City, MO</strong>. Give us a call at <a rel="me" href="tel:+13166803070" class="text-gray-200 leading-none underline underline-offset-4 decoration-gray-300 hover:text-white">(316) 680-3070</a>.
+                        Locations in <strong class="text-gray-200 font-normal">Wichita, KS</strong> and <strong class="text-gray-200 font-normal">Kansas City, MO</strong>. Give us a call at <a rel="me" href="tel:+13162028539" class="text-gray-200 leading-none underline underline-offset-4 decoration-gray-300 hover:text-white">(316) 202-8539</a>.
                     </address>
                     <p class="mt-4 text-gray-300 lg:mt-auto">
                         &copy; <span @text="`${(new Date()).getFullYear()}`"></span> Moonbase Labs. All rights reserved.
