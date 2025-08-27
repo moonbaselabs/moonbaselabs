@@ -1,0 +1,64 @@
+---
+layout: layout.webc
+title: Message Received
+description: Thank you for reaching out to Moonbase Labs.
+---
+
+<container class="pb-24">
+    <div class="py-16 lg:py-24 max-w-2xl mx-auto text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 mb-8">
+            <div class="relative w-full h-full">
+                <div class="absolute -inset-2 bg-gold-400 rounded-full opacity-20 animate-pulse"></div>
+                <div class="absolute -inset-1 bg-gold-500 rounded-full opacity-15 animate-pulse" style="animation-delay: 0.5s"></div>
+                <div class="relative w-full h-full bg-gradient-to-br from-gold-400 to-gold-600 rounded-full shadow-lg flex items-center justify-center">
+                    <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 12l5 5L20 7"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        
+        <h1 class="text-3xl font-semibold text-gray-600 sm:text-4xl">
+            <span class="font-serif font-normal text-gold-600">Message received.</span>
+        </h1>
+        
+        <p class="mt-6 text-lg text-gray-600 text-balance">
+            Thank you for reaching out. We are excited to learn more about your project!
+        </p>
+        
+        <p class="mt-4 text-lg text-gray-600 text-balance">
+            One of our team members will be in touch within <strong class="font-medium">24 hours</strong> to schedule a conversation.
+        </p>
+        
+        <div class="mt-12 p-6 bg-gray-50 rounded-lg">
+            <h2 class="text-sm font-medium text-gray-600 uppercase tracking-wider mb-3">What happens next?</h2>
+            <ol class="text-left space-y-3 max-w-md mx-auto">
+                <li class="flex items-start">
+                    <span class="flex-shrink-0 inline-flex items-center justify-center w-6 h-6 bg-gold-100 text-gold-700 rounded-full text-xs font-medium mr-3">1</span>
+                    <span class="text-gray-600">We'll review your submission and prepare for our conversation</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="flex-shrink-0 inline-flex items-center justify-center w-6 h-6 bg-gold-100 text-gold-700 rounded-full text-xs font-medium mr-3">2</span>
+                    <span class="text-gray-600">You'll receive an email with scheduling options</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="flex-shrink-0 inline-flex items-center justify-center w-6 h-6 bg-gold-100 text-gold-700 rounded-full text-xs font-medium mr-3">3</span>
+                    <span class="text-gray-600">We'll discuss how Moonbase Labs can help you accomplish more</span>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="mt-10 space-y-4">
+            <p class="text-sm text-gray-500">
+                Need to reach us sooner? Give us a call at <a href="tel:+13162028539" class="text-gray-600 underline underline-offset-2 hover:text-gray-800">(316) 202-8539</a>
+            </p>
+            
+            <a href="/" class="inline-flex items-center text-gray-600 hover:text-gray-800">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Return to homepage
+            </a>
+        </div>
+    </div>
+</container>

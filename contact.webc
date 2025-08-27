@@ -1,46 +1,178 @@
 ---
 layout: layout.webc
-title: Contact Us
-description: Fill out the form and we'll respond with a scheduling link to setup a meeting.
+title: Let's Talk
+description: Ready to start your mission? Give us a call or send us a message.
 ---
 
-<container class="pb-24">
-    <page-head class="py-16 lg:py-24"></page-head>
-    <div class="relative max-w-xl">
-        <form action="https://submit-form.com/oQ8OVKV8y" method="POST">
-            <input type="hidden" name="_feedback.dark" value="true" />
-            <input type="hidden" name="_feedback.whitelabel" value="true" />
-            <div class="space-y-6">
-                <div class="space-y-1">
-                    <label for="organization" class="block text-sm font-medium leading-6 text-gray-600">Organization</label>
-                    <input type="text" name="organization" id="organization" required class="block w-full border-0 py-2 text-gray-700 bg-gray-50 ring-1 ring-inset ring-gray-100 placeholder:color-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6">
+<container class="pb-12">
+    <div class="py-16 lg:py-24 max-w-3xl mx-auto">
+        <h1 class="text-3xl font-semibold text-gray-600 sm:text-4xl">
+            Ready to <span class="font-serif font-normal text-gold-600">launch your mission?</span>
+        </h1>
+        
+        <div class="mt-8 prose prose-lg text-gray-600 max-w-xl">
+            <p>We're here to help you accomplish more. The fastest way to connect is a quick phone call.</p>
+        </div>
+        
+        <div class="mt-10 p-6 bg-gradient-to-br from-gold-50 to-white border border-gold-200 rounded-xl max-w-xl shadow-sm">
+            <div class="flex items-center space-x-4">
+                <div class="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-500 to-gold-600 rounded-full flex items-center justify-center shadow-lg">
+                    <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
                 </div>
-                <div class="space-y-1">
-                    <label for="website" class="block text-sm font-medium leading-6 text-gray-600">Website</label>
-                    <input type="text" name="website" id="website" required class="block w-full border-0 py-2 text-gray-700 bg-gray-50 ring-1 ring-inset ring-gray-100 placeholder:color-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6">
-                </div>
-                <div class="space-y-1">
-                    <label for="name" class="block text-sm font-medium leading-6 text-gray-600">Name</label>
-                    <input type="text" name="name" id="name" required class="block w-full border-0 py-2 text-gray-700 bg-gray-50 ring-1 ring-inset ring-gray-100 placeholder:color-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6">
-                </div>
-                <div class="space-y-1">
-                    <label for="email" class="block text-sm font-medium leading-6 text-gray-600">Email</label>
-                    <input type="email" name="email" id="email" required class="block w-full border-0 py-2 text-gray-700 bg-gray-50 ring-1 ring-inset ring-gray-100 placeholder:color-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6">
-                </div>
-                <div class="space-y-1">
-                    <label for="role" class="block text-sm font-medium leading-6 text-gray-600">Role</label>
-                    <input type="text" name="role" id="role" required class="block w-full border-0 py-2 text-gray-700 bg-gray-50 ring-1 ring-inset ring-gray-100 placeholder:color-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6">
-                </div>
-                <div class="space-y-1">
-                    <label for="idea" class="block text-sm font-medium leading-6 text-gray-600">What problem are you trying to solve?</label>
-                    <textarea name="idea" id="idea" rows="4" required class="block w-full border-0 py-2 text-gray-700 bg-gray-50 ring-1 ring-inset ring-gray-100 placeholder:color-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-300 sm:text-sm sm:leading-6"></textarea>
-                </div>
-                <div class="space-y-1">
-                    <div class="cf-turnstile" data-sitekey="0x4AAAAAAAYsna4jPW8hWA3p"></div>
-                    <script webc:keep src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                <div class="flex-1">
+                    <p class="text-xs font-medium text-gold-700 uppercase tracking-wider mb-1">Give us a call</p>
+                    <a href="tel:+13162028539" class="text-2xl font-bold text-gray-900 hover:text-gold-600 transition-colors">
+                        (316) 202-8539
+                    </a>
+                    <p class="text-sm text-gray-600 mt-1">Available Monday-Friday, 8am-5pm Central Time</p>
                 </div>
             </div>
-            <button class="mt-10 btn">Send Message</button>
+        </div>
+        
+        <div class="mt-12 max-w-xl">
+            <div class="flex items-center mb-8">
+                <div class="flex-grow border-t border-gray-300"></div>
+                <div class="px-3">
+                    <span class="block w-12 h-12 bg-white border-2 border-gold-300 rounded-full flex items-center justify-center text-sm font-medium text-gold-600 uppercase tracking-wider shadow-sm">or</span>
+                </div>
+                <div class="flex-grow border-t border-gray-300"></div>
+            </div>
+            
+            <h2 class="text-lg font-medium text-gray-600 mb-3">Send us your mission details</h2>
+            <p class="text-gray-500 mb-8">Fill out the form below and we'll respond within 24 hours with a scheduling link.</p>
+        </div>
+        
+        <div class="relative max-w-xl bg-white border border-gray-200 rounded-xl p-6 sm:p-8 shadow-sm">
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <!-- Web3Forms access key -->
+            <input type="hidden" name="access_key" value="a2b58d7a-a17b-409d-ba93-e7e513f174bb">
+            
+            <!-- Honeypot field for spam protection (hidden from users) -->
+            <input type="hidden" name="botcheck" class="hidden" style="display: none;">
+            
+            <!-- Redirect after submission (optional) -->
+            <input type="hidden" name="redirect" value="https://moonbaselabs.com/contact-success">
+            
+            <!-- Email subject line -->
+            <input type="hidden" name="subject" value="New Contact Form Submission from Moonbase Labs">
+            
+            <div class="space-y-8">
+                <!-- Contact Information -->
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Contact Information</h3>
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Your name *</label>
+                        <input type="text" name="name" id="name" required 
+                               placeholder="Neil Armstrong"
+                               class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email address *</label>
+                        <input type="email" name="email" id="email" required 
+                               placeholder="houston@nasa.com"
+                               class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Organization Details -->
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Organization Details</h3>
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                        <div>
+                            <label for="organization" class="block text-sm font-medium text-gray-700 mb-2">Organization *</label>
+                        <input type="text" name="organization" id="organization" required 
+                               placeholder="Apollo Enterprises"
+                               class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                    </div>
+                    <div>
+                        <label for="role" class="block text-sm font-medium text-gray-700 mb-2">Your role *</label>
+                        <input type="text" name="role" id="role" required 
+                               placeholder="Mission Commander"
+                               class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                    </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 mt-6">
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone number *</label>
+                        <input type="tel" name="phone" id="phone" required 
+                               placeholder="(555) 555-2001"
+                               class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                    </div>
+                    <div>
+                        <label for="website" class="block text-sm font-medium text-gray-700 mb-2">Website (optional)</label>
+                        <input type="url" name="website" id="website" 
+                               placeholder="https://nasa.com"
+                               class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Mission Details -->
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Your Mission</h3>
+                    <label for="idea" class="block text-sm font-medium text-gray-700 mb-2">Tell us about your challenge *</label>
+                    <textarea name="idea" id="idea" rows="5" required 
+                              placeholder="Describe the challenge you're facing and how we might help..."
+                              class="block w-full px-4 py-3 border border-gray-200 rounded-lg text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors resize-none"></textarea>
+                    <p class="mt-2 text-sm text-gray-500">The more details you share, the better we can prepare for our conversation.</p>
+                    
+                    <div class="mt-8 flex justify-end">
+                        <button type="submit" class="btn btn-lg bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black">
+                            <span>Launch <em>mission</em></span>
+                            <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
         </form>
+        </div>
     </div>
+    
+    <script webc:keep>
+    // Phone number formatting
+    document.addEventListener('DOMContentLoaded', function() {
+        const phoneInput = document.getElementById('phone');
+        if (!phoneInput) return;
+        
+        phoneInput.addEventListener('input', function(e) {
+            // Remove all non-digit characters
+            let value = e.target.value.replace(/\D/g, '');
+            
+            // Limit to 10 digits
+            value = value.substring(0, 10);
+            
+            // Format the number
+            let formattedValue = '';
+            if (value.length > 0) {
+                if (value.length <= 3) {
+                    formattedValue = `(${value}`;
+                } else if (value.length <= 6) {
+                    formattedValue = `(${value.slice(0, 3)}) ${value.slice(3)}`;
+                } else {
+                    formattedValue = `(${value.slice(0, 3)}) ${value.slice(3, 6)}-${value.slice(6)}`;
+                }
+            }
+            
+            // Update the input value
+            e.target.value = formattedValue;
+        });
+        
+        // Handle backspace key for better UX
+        phoneInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Backspace' && e.target.value.length > 0) {
+                const lastChar = e.target.value[e.target.value.length - 1];
+                if (lastChar === ' ' || lastChar === '-' || lastChar === ')') {
+                    e.preventDefault();
+                    e.target.value = e.target.value.slice(0, -1);
+                }
+            }
+        });
+    });
+    </script>
 </container>
