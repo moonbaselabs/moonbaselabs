@@ -64,11 +64,11 @@ description: Ready to start your mission? Give us a call or send us a message.
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Your name *</label>
-                            <input type="text" name="name" id="name" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                            <input type="text" name="name" id="name" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white">
                         </div>
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email address *</label>
-                            <input type="email" name="email" id="email" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                            <input type="email" name="email" id="email" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white">
                         </div>
                     </div>
                 </div>
@@ -79,22 +79,22 @@ description: Ready to start your mission? Give us a call or send us a message.
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         <div>
                             <label for="organization" class="block text-sm font-medium text-gray-700 mb-2">Organization *</label>
-                            <input type="text" name="organization" id="organization" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                            <input type="text" name="organization" id="organization" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white">
                         </div>
                         <div>
                             <label for="role" class="block text-sm font-medium text-gray-700 mb-2">Your role *</label>
-                            <input type="text" name="role" id="role" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                            <input type="text" name="role" id="role" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white">
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 mt-6">
                         <div>
                             <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone number *</label>
-                            <input type="tel" name="phone" id="phone" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                            <input type="tel" name="phone" id="phone" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white">
                         </div>
                         <div>
                             <label for="website" class="block text-sm font-medium text-gray-700 mb-2">Website (optional)</label>
-                            <input type="url" name="website" id="website" class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors">
+                            <input type="url" name="website" id="website" class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white">
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ description: Ready to start your mission? Give us a call or send us a message.
                 <div>
                     <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Your Mission</h3>
                     <label for="idea" class="block text-sm font-medium text-gray-700 mb-2">Tell us about your challenge *</label>
-                    <textarea name="idea" id="idea" rows="5" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white placeholder:text-gray-400 focus:outline-none focus:border-gold-400 focus:ring-1 focus:ring-gold-400 transition-colors resize-none"></textarea>
+                    <textarea name="idea" id="idea" rows="5" required class="block w-full px-4 py-3 border border-gray-200 text-gray-700 bg-white resize-none"></textarea>
                     <p class="mt-2 text-sm text-gray-500">The more details you share, the better we can prepare for our conversation.</p>
 
                     <div class="mt-8 flex justify-end">
