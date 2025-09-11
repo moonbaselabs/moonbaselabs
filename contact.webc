@@ -1,7 +1,7 @@
 ---
 layout: layout.webc
-title: Let's Talk
-description: Ready to start your mission? Give us a call or send us a message.
+title: Contact
+description: Ready to launch your mission? Give us a call or send us a message.
 ---
 
 <container class="py-16 lg:py-24">
