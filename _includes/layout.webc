@@ -160,7 +160,7 @@
                     <h2 class="mt-10 font-semibold text-4xl text-white">Ready for <span class="text-gold-500 font-medium font-serif">take off?</span></h2>
                     <p class="mt-4 text-gray-200 text-balance">Elevate your mission with specialized software development.</p>
                     <a href="/contact/" class="mt-10 btn btn-lg bg-gray-600 text-white">
-                        Let’s go
+                        Launch Your Project
                         <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                     </a>
                 </div>
