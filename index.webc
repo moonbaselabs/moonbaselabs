@@ -14,7 +14,7 @@ title: Moonbase Labs
                 </h1>
                 <p class="text-lg mt-6">With Moonbase Labs, you can improve how you work and accomplish more.</p>
                 <a href="/contact/" class="mt-10 btn btn-lg">
-                    <span>Get <em>started</em></span>
+                    <span>Launch <em>Your Project</em></span>
                     <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                 </a>
             </div>

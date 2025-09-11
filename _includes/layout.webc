@@ -134,12 +134,14 @@
                 <nav-link href="/">
                     <img class="block mx-auto" width="192" height="56" src="/img/logo.svg" alt="Moonbase Labs">
                 </nav-link>
-                <nav class="mt-5 text-center overflow-x-auto overflow-y-hidden -mx-6 lg:mt-0">
-                    <div class="px-6 inline-flex align-middle flex items-center space-x-5 sm:space-x-10">
+                <nav class="mt-5 text-center -mx-6 lg:mt-0">
+                    <div class="px-6 inline-flex align-middle flex items-center space-x-3 sm:space-x-5 lg:space-x-10">
                         <nav-link href="/missions/">Missions</nav-link>
                         <nav-link href="/about/">About</nav-link>
-                        <a href="/contact/" class="ml-5 sm:ml-10 btn btn-lg whitespace-nowrap">
-                            <span>Get <em>started</em></span>
+                        <nav-link href="/contact/">Contact</nav-link>
+                        <a href="tel:+13162028539" class="ml-3 sm:ml-5 lg:ml-10 btn btn-lg whitespace-nowrap">
+                            <span class="hidden sm:inline">Call <em>(316) 202-8539</em></span>
+                            <span class="sm:hidden">Call</span>
                             <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                         </a>
                     </div>
@@ -158,7 +160,7 @@
                     <h2 class="mt-10 font-semibold text-4xl text-white">Ready for <span class="text-gold-500 font-medium font-serif">take off?</span></h2>
                     <p class="mt-4 text-gray-200 text-balance">Elevate your mission with specialized software development.</p>
                     <a href="/contact/" class="mt-10 btn btn-lg bg-gray-600 text-white">
-                        Let’s go
+                        Launch Your Project
                         <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                     </a>
                 </div>
@@ -170,6 +172,9 @@
                         </a>
                         <a href="/missions/" class="text-base text-gray-300 hover:text-white">
                             Missions
+                        </a>
+                        <a href="/contact/" class="text-base text-gray-300 hover:text-white">
+                            Contact
                         </a>
                     </nav>
                     <nav aria-label="Social" class="mt-6 flex items-center justify-center space-x-4">
@@ -195,9 +200,7 @@
                     <address class="mt-6 text-gray-300 not-italic font-serif lg:text-center space-y-3">
                         <div>
                             <span class="block text-sm text-gray-400 mb-1">Located at</span>
-                            <a href="https://www.google.com/maps/search/?api=1&query=150+N+Main+St+STE+11+Wichita+KS+67202" 
-                               target="_blank" 
-                               class="text-gray-200 leading-relaxed underline underline-offset-4 decoration-gray-400 hover:text-white hover:decoration-gray-200 transition-colors">
+                            <a href="https://www.google.com/maps/search/?api=1&query=150+N+Main+St+STE+11+Wichita+KS+67202" target="_blank" class="text-gray-200 leading-relaxed underline underline-offset-4 decoration-gray-400 hover:text-white hover:decoration-gray-200 transition-colors">
                                 150 N Main, STE #11<br>
                                 Wichita, KS 67202
                             </a>
