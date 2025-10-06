@@ -5,8 +5,8 @@ export default {
     role: 'CTO (Code & Design)',
     description: "A Fine Arts major that's been writing code for over fifteen years, Christian can design your marketing page and database schema all in the same day. A passionate contributor to the music, art, and tech communities of Wichita.",
     socials: {
+      LinkedIn: "https://www.linkedin.com/in/imacrayon/",
       Website: "https://imacrayon.com",
-      Twitter: "https://twitter.com/ima_crayon",
     }
   },
   "Nic Wentling": {
