@@ -8,9 +8,9 @@ description: We’ve been tackling digital problems together for over twelve (ea
     <page-head class="py-16 lg:py-24"></page-head>
     <ul role="list" class="grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
         <li webc:for="(name, member) in team" class="flex flex-col gap-6 xl:flex-row">
-            <img loading="lazy" class="aspect-[4/5] w-52 flex-none object-cover" :src="member.image" alt="">
+            <img loading="lazy" class="aspect-4/5 w-52 flex-none object-cover" :src="member.image" alt="">
             <div class="max-w-xl flex-auto">
-                <h2 class="text-lg leading-8 text-gray-600 font-semibold" @text="member.name"></h2>
+                <h2 class="text-lg text-gray-600 font-semibold" @text="member.name"></h2>
                 <p class="text-gold-700 font-serif" @text="member.role"></p>
                 <p class="mt-4" @html="member.description"></p>
                 <ul class="mt-6 flex space-x-6">

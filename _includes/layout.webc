@@ -139,7 +139,7 @@
                         <nav-link href="/missions/">Missions</nav-link>
                         <nav-link href="/about/">About</nav-link>
                         <nav-link href="/contact/">Contact</nav-link>
-                        <a href="tel:+13162028539" class="ml-3 sm:ml-5 lg:ml-10 btn btn-lg whitespace-nowrap">
+                        <a href="tel:+13162028539" class="btn btn-lg whitespace-nowrap">
                             <span class="hidden sm:inline">Call <em>(316) 202-8539</em></span>
                             <span class="sm:hidden">Call</span>
                             <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>

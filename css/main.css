@@ -1,6 +1,48 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import './typography.css' layer(components);
+
+@theme {
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Alegreya", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-gray-50: #EDEFF1;
+  --color-gray-100: #D5D7D9;
+  --color-gray-200: #BCBEBF;
+  --color-gray-300: #8A8B8C;
+  --color-gray-400: #6F859E;
+  --color-gray-500: #5D7085;
+  --color-gray-600: #4B5A6B;
+  --color-gray-700: #344151;
+  --color-gray-800: #1F2833;
+  --color-gray-900: #0F141A;
+
+  --color-gold-300: #D9C393;
+  --color-gold-400: #DBC779;
+  --color-gold-500: #A9995D;
+  --color-gold-600: #8F814F;
+  --color-gold-700: #786C3F;
+
+  --color-orange-300: #FF925C;
+  --color-orange-400: #FC8144;
+  --color-orange-500: #E5743C;
+  --color-orange-600: #F66335;
+
+  --color-green-300: #90E6BD;
+  --color-green-400: #72C69E;
+  --color-green-500: #56AC83;
+  --color-green-600: #349A69;
+
+  --color-blue-300: #3AB1FF;
+  --color-blue-400: #269CEA;
+  --color-blue-500: #188EDB;
+  --color-blue-600: #0F76B9;
+  --color-blue-700: #0F71B3;
+
+  --color-violet-300: #CFB8FF;
+  --color-violet-400: #B290F8;
+  --color-violet-500: #A27AF3;
+  --color-violet-600: #8659E8;
+}
 
 .btn {
   @apply inline-flex items-center justify-center border-0 font-medium font-serif px-4 py-2 bg-gray-800 text-white;
@@ -18,11 +60,6 @@
   @apply px-6 py-3 text-base;
 }
 
-.fullbleed {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-}
-
 article .prose>p:first-child {
   font-size: 1.2em;
 }
@@ -35,6 +72,6 @@ article .prose :is(img, iframe) {
   @media (min-width: 930px) {
     margin-inline: -6rem;
     max-width: calc(100% + 12rem);
-    width: calc(100% + 12rem)
+    width: calc(100% + 12rem);
   }
 }
