@@ -135,13 +135,12 @@
                     <img class="block mx-auto" width="192" height="56" src="/img/logo.svg" alt="Moonbase Labs">
                 </nav-link>
                 <nav class="mt-5 text-center -mx-6 lg:mt-0">
-                    <div class="px-6 inline-flex align-middle flex items-center space-x-3 sm:space-x-5 lg:space-x-10">
+                    <div class="px-6 inline-flex align-middle flex flex-wrap gap-6 justify-center items-center sm:gap-x-7.5">
                         <nav-link href="/missions/">Missions</nav-link>
+                        <nav-link href="https://moonbaselabs.mailcoach.app/archive">Newsletter</nav-link>
                         <nav-link href="/about/">About</nav-link>
-                        <nav-link href="/contact/">Contact</nav-link>
-                        <a href="tel:+13162028539" class="btn btn-lg whitespace-nowrap">
-                            <span class="hidden sm:inline">Call <em>(316) 202-8539</em></span>
-                            <span class="sm:hidden">Call</span>
+                        <a href="/contact/" class="btn btn-lg italic whitespace-nowrap">
+                            Contact Us
                             <icon-star width="16" height="16" class="text-gold-400 ml-2 -mr-1"></icon-star>
                         </a>
                     </div>
@@ -166,12 +165,15 @@
                 </div>
                 <div class="flex-1 w-full"></div>
                 <div class="flex flex-col items-start max-w-md lg:items-center">
-                    <nav class="flex gap-10 justify-center">
-                        <a href="/about/" class="text-base text-gray-300 hover:text-white">
-                            About
-                        </a>
+                    <nav class="flex flex-wrap gap-y-2 gap-x-6 justify-center lg:gap-x-7.4">
                         <a href="/missions/" class="text-base text-gray-300 hover:text-white">
                             Missions
+                        </a>
+                        <a href="https://moonbaselabs.mailcoach.app/archive" class="text-base text-gray-300 hover:text-white">
+                            Newsletter
+                        </a>
+                        <a href="/about/" class="text-base text-gray-300 hover:text-white">
+                            About
                         </a>
                         <a href="/contact/" class="text-base text-gray-300 hover:text-white">
                             Contact
@@ -212,7 +214,7 @@
                             </a>
                         </div>
                     </address>
-                    <p class="mt-4 text-gray-300 lg:mt-auto">
+                    <p class="mt-4 text-gray-300 text-center">
                         &copy; <span @text="`${(new Date()).getFullYear()}`"></span> Moonbase Labs. All rights reserved.
                     </p>
                 </div>
